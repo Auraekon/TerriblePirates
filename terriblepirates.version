@@ -1,5 +1,5 @@
 {
-  "masterVersionFile": "tbd",
+  "masterVersionFile": "https://github.com/Auraekon/TerriblePirates/blob/main/terriblepirates.version",
   "modName": "TerriblePirates",
   "modVersion":
     {
@@ -8,5 +8,4 @@
       "patch": 0 # Can be a number, character or string (1, 2, a, b, "-RC2", etc)
     },
   "modThreadId": 0,
-  "directDownloadURL": "tbd",
 }
