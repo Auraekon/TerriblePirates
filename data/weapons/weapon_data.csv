@@ -1,0 +1,22 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number,numOfBeams
+Phase Hullcutter,tp_phase_hullcutter,1,,200,300,175,,,0,100,7,,,,ENERGY,,175,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,Nightwatch,,General,,,,Perfect,,,,,,,
+Tachyon TPC,ffs_tachyon_tpc,3,0.5,8000,1000,1500,,1000,0,7,25,,,,ENERGY,,2000,0.5,1,1,4,,,,,10000,,,,,,,FIRE_WHEN_INEFFICIENT,,,,,Suppression,,,,,"Hits on hull or armor frequently arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",,,,,,
+Overclocked Heavy Mortar,tp_overclockedheavymortar,0,,600,450,,110,,12,30,8,,,,HIGH_EXPLOSIVE,90,,0,0.23,1,0.1,0,30,5,5,,500,,,30,,,,,,Pirate,,Anti Armor,,,,,,,,,,,
+Pusher Plate (thick),tp_pusher_plate_large_thick,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SYSTEM,pusherplate,,,,,,,,,,,,,,,
+Red Lance,tp_red_lance,3,0.5,8000,900,1500,,1000,0,7,0,,,,ENERGY,,0,0.5,1,1,4,,,,,10000,,,,,,,SYSTEM,,,,,Suppression,,,,,"Hits on hull or armor frequently arc to weapons and engines, dealing extra EMP and energy damage. Hits on shields have a chance to generate a shield-penetrating arc based on the target's hard flux level.",,,,,,
+Canister Flak,tp_canister_flak,,,,200,,200,,,,,,0,,FRAGMENTATION,0,0,0,0.1,5,0.5,150,150,0,0,,50,200,2,100,,,SYSTEM,,,,,,,,,,,,,,,,
+Drake (faster),tp_drake_faster,1,,600,800,330,,,0,40,6,,,,FRAGMENTATION,,150,1.7,0,0.2,0.1,,,,,10000,,,,,,,ANTI_FTR,,,,,Suppression,,,,,,,,,,,
+Drake,tp_drake,1,,600,800,550,,,0,40,8,,,,HIGH_EXPLOSIVE,,650,0.1,0.2,0.6,1.1,,,,,10000,,,,,,,ANTI_FTR,,,,,Suppression,,,,,,,,,,,
+Drake (long fade) (1.9s),tp_drake_fxdrone,1,,600,800,70,,,0,40,1,,,,HIGH_EXPLOSIVE,,150,0.1,1.6,0.2,0.1,,,,,10000,,,,,,,ANTI_FTR,,,,,Suppression,,,,,,,,,,,
+Drake Battery,tp_drake_battery,1,,600,900,1650,,,0,40,24,,,,HIGH_EXPLOSIVE,,1815,0.1,0.2,0.6,1.1,,,,,10000,,,,,,,ANTI_FTR,,,,,Suppression,,,,,,,,,,,3
+Drake (long fade) (1.9s),tp_drake_battery_fxdrone,1,,600,900,70,,,0,40,1,,,,HIGH_EXPLOSIVE,,150,0.1,1.6,0.2,0.1,,,,,10000,,,,,,,ANTI_FTR,,,,,Suppression,,,,,,,,,,,
+Tackhammer (frag),tp_tackhammer,1,,200,1000,,1000,30,15,30,4,5,0.5,1,ENERGY,250,,0,0.5,1,,0,0,0,0,,500,500,4,500,,,ANTI_FTR,,,,,Suppression,Fast,Excellent,,,"Submunition hits on hull or armor have a %s chance to arc to weapons and engines, dealing %s EMP damage.",,,,TRUE,,
+Tackhammer (submunition),tp_tackhammer_sabot,1,,200,1000,,400,30,15,30,4,5,0.5,1,FRAGMENTATION,250,,0,1.5,1,,0,0,0,0,,500,500,4,500,,,PD,,,,,Point Defense (Area),Slow,Excellent,,,"Submunition hits on hull or armor have a %s chance to arc to weapons and engines, dealing %s EMP damage.",,,,TRUE,,
+Tackhammer (grenade),tp_tackhammer_grenade,1,,200,1000,,400,,15,30,4,,,,HIGH_EXPLOSIVE,250,,0,1.5,1,,0,0,0,0,,300,300,4,350,,,FIRE_WHEN_INEFFICIENT,,,,,Suppression,Fast,,,,"Submunition hits on hull or armor have a %s chance to arc to weapons and engines, dealing %s EMP damage.",,,,TRUE,,
+Mining Laser (OC),tp_mining_laser_oc,1,,200,450,75,,,1,100,3,,,,HIGH_EXPLOSIVE,,50,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,Pirate,,Point Defense,,,,Perfect,,,,,,,
+Double Mining Laser,tp_double_mining_laser,0,,200,600,60,,,0,60,2,,,,ENERGY,,20,0,0.25,,,,,,,2400,,,,,,,PD,,,,,Point Defense,,,,,,,,,,,2
+Double Mining Laser (OC),tp_double_mining_laser_oc,1,,200,450,150,,,2,100,6,,,,HIGH_EXPLOSIVE,,100,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,Pirate,,Point Defense,,,,Perfect,,,,,,,2
+Triple Mining Laser,tp_triple_mining_laser,0,,200,600,90,,,0,60,3,,,,ENERGY,,30,0,0.25,,,,,,,2400,,,,,,,PD,,,,,Point Defense,,,,,,,,,,,3
+Triple Mining Laser (OC),tp_triple_mining_laser_oc,1,,200,450,225,,,3,100,9,,,,HIGH_EXPLOSIVE,,150,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,Pirate,,Point Defense,,,,Perfect,,,,,,,3
+Emp autocannon,tp_emp_autocannon,1,,1000,500,,200,,10,40,8,,,,FRAGMENTATION,50,,0.5,0.5,1,,,,,,,10000,,,30,,,PD,,,,,Point Defense (Area),,,,,,,,,,,
+Carronade,tp_carronade,1,,1000,450,,100,,10,50,6,,,,KINETIC,50,,0,0.50,1,,0,10,2,5,,800,,,30,,,,,,,,Anti Shield,,,,,,,,,,,

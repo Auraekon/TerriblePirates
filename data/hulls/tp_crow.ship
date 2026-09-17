@@ -1,0 +1,188 @@
+{
+    "bounds": [
+        52,
+        5,
+        52,
+        -5,
+        -10.28,
+        -48.11,
+        -40.24,
+        -37.99,
+        -39.85,
+        -25.49,
+        -53,
+        -25,
+        -53,
+        25,
+        -39.85,
+        25.49,
+        -40.24,
+        37.99,
+        -10.28,
+        48.11
+    ],
+    "builtInMods": [
+        "turretgyros"
+    ],
+    "builtInWings": [],
+    "center": [
+        50,
+        56
+    ],
+    "collisionRadius": 59,
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 20,
+            "location": [
+                -32.73,
+                -42.06
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 20,
+            "location": [
+                -32.73,
+                42.06
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 20,
+            "location": [
+                -41.07,
+                32.45
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 20,
+            "location": [
+                -41.07,
+                -32.45
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 20,
+            "location": [
+                -53.83,
+                19.18
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 20,
+            "location": [
+                -53.83,
+                -19.18
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        }
+    ],
+    "height": 111,
+    "hullId": "tp_crow",
+    "hullName": "Crow",
+    "hullSize": "DESTROYER",
+    "shieldCenter": [
+        8.63,
+        -2.03
+    ],
+    "shieldRadius": 100,
+    "spriteName": "graphics/ships/tp_crow/tp_crow.png",
+    "style": "LOW_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 270,
+            "id": "WS 001",
+            "locations": [
+                26.78,
+                -0.08
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 360,
+            "id": "WS 002",
+            "locations": [
+                -10.65,
+                0.06
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 90,
+            "arc": 270,
+            "id": "WS 003",
+            "locations": [
+                -10.52,
+                34.53
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -90,
+            "arc": 270,
+            "id": "WS 004",
+            "locations": [
+                -10.52,
+                -34.53
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 180,
+            "arc": 180,
+            "id": "WS 005",
+            "locations": [
+                -35.38,
+                10.26
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "LAUNCH_BAY"
+        },
+        {
+            "angle": 180,
+            "arc": 180,
+            "id": "WS 006",
+            "locations": [
+                -35.38,
+                -10.26
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "LAUNCH_BAY"
+        }
+    ],
+    "width": 100
+}

@@ -1,0 +1,238 @@
+{
+    "bounds": [
+        91.79,
+        0.46,
+        64,
+        -66,
+        42,
+        -79,
+        14,
+        -79,
+        -9,
+        -57,
+        -46,
+        -53,
+        -30,
+        -46,
+        -41.33,
+        -35.28,
+        -61,
+        -24,
+        -61,
+        -14,
+        -94,
+        -0.23,
+        -61,
+        14,
+        -61,
+        24,
+        -41.33,
+        35.28,
+        -46,
+        53,
+        -9,
+        57,
+        14,
+        79,
+        42,
+        79,
+        64,
+        66
+    ],
+    "center": [
+        82,
+        97
+    ],
+    "collisionRadius": 95,
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 20,
+            "location": [
+                -41.74,
+                34.21
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 20,
+            "location": [
+                -41.74,
+                -34.21
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 20,
+            "location": [
+                -61.25,
+                20.6
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 20,
+            "location": [
+                -61.25,
+                -20.6
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 20,
+            "location": [
+                -87.49,
+                5.6
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 20,
+            "location": [
+                -87.49,
+                -5.6
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        }
+    ],
+    "height": 194,
+    "hullId": "nw_nudge",
+    "hullName": "Nudge",
+    "hullSize": "CRUISER",
+    "shieldCenter": [
+        2.64,
+        0.01
+    ],
+    "shieldRadius": 100,
+    "spriteName": "graphics/ships/nudge/nudge.png",
+    "style": "LOW_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 15,
+            "id": "WS 001",
+            "locations": [
+                66.1,
+                13.45
+            ],
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL"
+        },
+        {
+            "angle": 0,
+            "arc": 15,
+            "id": "WS 002",
+            "locations": [
+                66.1,
+                -13.45
+            ],
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL"
+        },
+        {
+            "angle": -45,
+            "arc": 180,
+            "id": "WS 003",
+            "locations": [
+                45.76,
+                -35.5
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "UNIVERSAL"
+        },
+        {
+            "angle": 45,
+            "arc": 180,
+            "id": "WS 004",
+            "locations": [
+                45.76,
+                35.5
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "UNIVERSAL"
+        },
+        {
+            "angle": 90,
+            "arc": 270,
+            "id": "WS 005",
+            "locations": [
+                24.09,
+                55.32
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL"
+        },
+        {
+            "angle": -90,
+            "arc": 270,
+            "id": "WS 006",
+            "locations": [
+                24.09,
+                -55.32
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL"
+        },
+        {
+            "angle": 0,
+            "arc": 270,
+            "id": "WS 007",
+            "locations": [
+                29.12,
+                0.18
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "UNIVERSAL"
+        },
+        {
+            "angle": -125,
+            "arc": 180,
+            "id": "WS 008",
+            "locations": [
+                0.06,
+                -31.25
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "UNIVERSAL"
+        },
+        {
+            "angle": 125,
+            "arc": 180,
+            "id": "WS 009",
+            "locations": [
+                0.06,
+                31.25
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "UNIVERSAL"
+        }
+    ],
+    "width": 164
+}

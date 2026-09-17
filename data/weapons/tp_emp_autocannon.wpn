@@ -1,0 +1,38 @@
+{
+	"id":"tp_emp_autocannon",  # this id must match what's in the spreadsheet
+	"specClass":"projectile", 
+	"type":"BALLISTIC",
+	"mountTypeOverride":"HYBRID",
+	"size":"MEDIUM",
+	"displayArcRadius":400,
+	"turretSprite":"graphics/weapons/emp_autocannon/tp_emp_autocannon_turret_base.png",
+	"turretGunSprite":"graphics/weapons/emp_autocannon/tp_emp_autocannon_turret_recoil.png",
+	"hardpointSprite":"graphics/weapons/emp_autocannon/tp_emp_autocannon_hardpoint_base.png",
+	"hardpointGunSprite":"graphics/weapons/emp_autocannon/tp_emp_autocannon_hardpoint_recoil.png",
+	"turretGlowSprite":"graphics/weapons/emp_autocannon/tp_emp_autocannon_turret_glow.png",
+	"hardpointGlowSprite":"graphics/weapons/emp_autocannon/tp_emp_autocannon_hardpoint_glow.png",
+	"visualRecoil":7.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"turretOffsets":[20, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[30, 0],
+	"fringeColor":[36,174,200,100],
+	"coreColor": [255,255,255,20],
+	"glowColor":[36,174,200,255],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"muzzleFlashSpec":{"length":40.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":30.0,
+					   "particleSizeMin":16.0,
+					   "particleSizeRange":18.0,
+					   "particleDuration":0.3,
+					   "particleCount":46,
+					   "particleColor":[61,182,205,225]},
+	#"fireSoundTwo":"shockrepeater_shot",
+	#"fireSoundOne":"tp_drake_fire",
+	"fireSoundTwo":"flak_fire",
+	#"projectileSpecId":"flak_shot",  # projectile that will be fired	
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"shockrepeater_shot",  # projectile that will be fired
+}
