@@ -1,7 +1,3 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
-Desynchronized Phase Coils,tp_desynchronized_phase_coils,1,,Nightwatch,"defenses, special, standard, persean, ind, hegemony, luddic_church, no_build_in",Special,7000,,TRUE,,2,4,6,8,data.hullmods.tp_desynchronized_phase_coils,,,graphics/hullmods/tp_desynchronized_phase_coils.png
-Nightwatch Engineering,tp_nightwatch_engineering,1,,Nightwatch,"defenses, special, standard, persean, ind, hegemony, luddic_church, no_build_in",Special,7000,,TRUE,,2,4,6,8,data.hullmods.tp_nightwatch_engineering,,,graphics/hullmods/tp_nightwatch_engineering.png
-Medium Ballistics Integration,tp_medium_ballistics_integration,1,,Nightwatch,,,,,TRUE,,0,0,0,0,data.hullmods.tp_medium_ballistics_integration,Reduces the ordnance point cost of weapons on medium hardpoints by %s.,Reduces ordnance point cost of weapons mounted on medium hardpoints.,graphics/hullmods/tp_mediumballisticsintegration.png
 Auxiliary Engine Core,tp_auxiliary_engine_core,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_auxiliary_engine_core,,,graphics/hullmods/tp_overdriven_flux_core.png
-Missile Stowage,tp_missile_stowage,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_missile_stowage,,,graphics/hullmods/expanded_missile_racks.png
 Accelerated Turrets,tp_accelerated_turret,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_accelerated_turret,,,graphics/hullmods/tp_mediumballisticsintegration.png

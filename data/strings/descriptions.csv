@@ -1,30 +1,5 @@
 id,type,text1,text2,text3,text4,text5,notes
-falcon_p_hero_jollyroger,SHIP,Pirate patch-job of a falcon that uses salvaged tri-tachyon remnant AI fleet technologies.,,,,,
-ffs_mongol,SHIP,"A pirate battlecarrier design based on the ubiquitous Falcon light cruiser. Mongol is especially mobile and is able to fire in any direction, including behind itself.",,,,,
-fss_atlas_bob,SHIP,Atlas superfreighter that has gone through a conversion process to fit a armored quad fighter autofactory and flight deck assembly. Extremely ponderous.,,,,,
-ffs_goliath,SHIP,"An attempt by the Hegemony to stretch its fighting forges by converting an Atlas into a fleet carrier. Functions well enough when flying in a mass of other ships in a huge convoy but given a small or independent run or being ambushed in a battle, it will not survive for long. The logistics capacity of Goliath is minimal, which typically causes it to be fitted with production templates for talons or other minimal craft to form its complement.",,,,,
-ffs_goliath_p,SHIP,Yarrr!,,,,,
-tp_revengeanne,SHIP,"Design precursor to the Rapacious. I ended up stripping a lot of the mounts to reduce on the visual noise and ended up on missiles over the broadsider guns due to a better gameplay result with them.
-
-With the fury of Manticore, aggression of Retribution, panache of Eradicator, bullishness of Mule and contriteness of Buffalo, these powers unite to make a pirate battleship! A fast, fragile platform for delivering a withering rain of shells.",,,,,
-tp_revengeanne_orion,SHIP,"Design precursor to the Rapacious. I ended up stripping a lot of the mounts to reduce on the visual noise and ended up on missiles over the broadsider guns due to a better gameplay result with them.
-
-With the fury of Manticore, aggression of Retribution, panache of Eradicator, bullishness of Mule and contriteness of Buffalo, these powers unite to make a pirate battleship! A fast, fragile platform for delivering a withering rain of shells.",,,,,
-tp_ghoul,SHIP,Later test on spriting with me combining drawing and bashing. ,,,,,
-tp_phase_hullcutter,WEAPON,A prototype phase beam weapon produced with a pre-collapse Tri-Tachyon black tech production template and adapted to a mount by pirates. This weapon has terrible range and efficiency but its damage output is nearly unparalleled for its size.,,,,,
-tp_overclockedheavymortar,WEAPON,"An antiquated weapon that fires larger anti-armor rounds at a somewhat higher rate of fire than its smaller cousin. Projectile speed is low and effective range is short. Low flux buildup is the lone saving grace. 
-
-This version has been overclocked by pirates without any other upgrades. The already questionable accuracy has become more a rough area estimate and long range fires are simply out.
-
-The Heavy Mortar was originally designed for use in planetary surface combat. Ostensibly intended for cracking military fortifications, it saw far more use in urban bombardment. The robust internal mechanisms permit installation and use outside an atmospheric environment with only minor adjustments, notably replacement of the automatic rangefinder/targeting module. When employed against large, unshielded, and slow-moving targets, the heavy mortar can prove most effective.",,,,,
-tp_phagel,SHIP,"I tested out if I could make a sprite with AI. Yes, apparently you can. Feel free to ignore this one. Mainly a platform for testing small ballistic mount gore in a circular mount pattern.",,,,,
-nw_nudge,SHIP,Checked if I could make a sprite from scratch by hand. A throwaway piece.,,,,,
-tp_rotflower,SHIP,"Orion device using, always time accelerating, damper field ""protected"" madlad. A early run into making ships for this game. I like it.",,,,,
-ffs_mora_phlanx,SHIP,Early kitbash experiment.,,,,,
-tp_crow,SHIP,A test on a small all ballistics ship with good firing arcs. Was meant to have a number of assisting fighters like the terminator drones of The Tempest but I abandoned this ship in favor of others.,,,,,
-ffs_nudibranch,SHIP,An older kitbash. Phase orion device capital that I will probably never finish but also do not want to remove during the testing phase of the mod as I have already put it into testing and do not want to crash people loading their saves.,,,,,
-tp_barebones,SHIP,Rapacious before it got its rename and a lot of playtesting and adjustments.,,,,,
-tp_rapacious,SHIP,"A AI designed, pirate manufactured battlecruiser built from pieces of several Colossus, Eradicator and one Manticore, wrapped around an AM catalyzed fusion torch maneuver jet originally from an gate hauler. Built for extreme speed, Rapacious utilizes an elaborate internal load structure that takes up much of its internal volume, built from trusses manufactured by pirates and laid out in AI design.  Same pattern repeats throughout its design; subpar technology being used to deliver an AI superior result. The Rapacious class is optimized to an extreme degree to a combat role and consequently suffers logistically, requiring dedicated support craft to supply and maintain it, while in a fight it screams ahead and takes the limelight.",,,,,
+tp_rapacious,SHIP,"With the fury of Manticore, aggression of Retribution, panache of Eradicator, bullishness of Mule and contriteness of Buffalo, these powers unite to make a pirate battleship! A fast, fragile platform for delivering a withering rain of dakka.",,,,,
 tp_infernium_burner,SHIP_SYSTEM,Provides a massive boost to forward mobility with a long fade-out period.,,,,,
 tp_drake,WEAPON,"An overcharged mining laser stacked with a series of focusing lenses and loaded with sacrificial lasing mediums that burn out in use, fed in from a magazine. The weapon is infamous for being difficult to maintain due to its internals occasionally outright melting in use. The cooling system, if not stripped for parts by an enterprising newbie, eats almost as much energy as powering the laser.",,,,,
 tp_drake_battery,WEAPON,"An overcharged mining laser stacked with a series of focusing lenses and loaded with sacrificial lasing mediums that burn out in use, fed in from a magazine. The weapon is infamous for being difficult to maintain due to its internals occasionally outright melting in use. The cooling system, if not stripped for parts by an enterprising newbie, eats almost as much energy as powering the laser.

@@ -2,15 +2,6 @@
     "tp_drake_fire":[
             {"file":"sounds/tp_drake_fire.ogg","pitch":1,"volume":1}
     ],
-    "tp_canister_fire":[
-            {"file":"sounds/tp_canister_fire.ogg","pitch":1,"volume":0.5}
-    ],
-    "tp_canister_explosion":[
-            {"file":"sounds/explosion_03_fighter.ogg","pitch":1,"volume":1}
-    ],
-    "tp_canister_frag_sandblast":[
-            {"file":"sounds/tp_canister_frag_sandblast.ogg","pitch":1,"volume":1}
-    ],
     "tp_carronade_fire":[
             {"file":"sounds/tp_carronade_fire.ogg","pitch":1,"volume":0.55}
     ]
