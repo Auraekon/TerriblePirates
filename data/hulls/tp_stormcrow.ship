@@ -1,0 +1,129 @@
+{
+    "bounds": [
+        68.22,
+        17.45,
+        68.22,
+        -17.45,
+        35.89,
+        -22.89,
+        27.49,
+        -44.08,
+        11.55,
+        -44.44,
+        3,
+        -35,
+        -16,
+        -33,
+        -16,
+        -21,
+        -35,
+        -18,
+        -35,
+        18,
+        -16,
+        21,
+        -16,
+        33,
+        3,
+        35,
+        11.55,
+        44.44,
+        27.49,
+        44.08,
+        35.89,
+        22.89
+    ],
+    "builtInMods": [],
+    "center": [
+        47,
+        38
+    ],
+    "collisionRadius": 72,
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 70,
+            "location": [
+                -16.64,
+                27.35
+            ],
+            "style": "TP_OVERDRIVEN_ENGINE",
+            "width": 22
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 70,
+            "location": [
+                -16.64,
+                -27.35
+            ],
+            "style": "TP_OVERDRIVEN_ENGINE",
+            "width": 22
+        }
+    ],
+    "height": 110,
+    "hullId": "tp_stormcrow",
+    "hullName": "Stormcrow",
+    "hullSize": "FRIGATE",
+    "shieldCenter": [
+        10.05,
+        -0.22
+    ],
+    "shieldRadius": 81,
+    "spriteName": "graphics/ships/tp_stormcrow/tp_stormcrow.png",
+    "style": "LOW_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 0,
+            "id": "WS 001",
+            "locations": [
+                21.95,
+                30.06
+            ],
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
+            "type": "COMPOSITE"
+        },
+        {
+            "angle": 0,
+            "arc": 0,
+            "id": "WS 002",
+            "locations": [
+                21.95,
+                -30.06
+            ],
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
+            "type": "COMPOSITE"
+        },
+        {
+            "angle": 0,
+            "arc": 360,
+            "id": "WS 003",
+            "locations": [
+                23.98,
+                -0.06
+            ],
+            "mount": "HIDDEN",
+            "size": "SMALL",
+            "type": "SYSTEM"
+        },
+        {
+            "angle": 0,
+            "arc": 15,
+            "id": "WS 004",
+            "locations": [
+                54.16,
+                -0.04
+            ],
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
+            "type": "COMPOSITE"
+        }
+    ],
+    "width": 94
+}
