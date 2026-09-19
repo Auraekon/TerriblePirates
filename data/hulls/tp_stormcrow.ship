@@ -1,37 +1,39 @@
 {
     "bounds": [
-        68.22,
-        17.45,
-        68.22,
-        -17.45,
-        35.89,
-        -22.89,
-        27.49,
-        -44.08,
-        11.55,
-        -44.44,
-        3,
-        -35,
-        -16,
-        -33,
-        -16,
-        -21,
-        -35,
-        -18,
-        -35,
-        18,
-        -16,
-        21,
-        -16,
-        33,
-        3,
-        35,
-        11.55,
-        44.44,
-        27.49,
-        44.08,
-        35.89,
-        22.89
+        71.24,
+        17.58,
+        71.24,
+        -17.58,
+        38.14,
+        -22.11,
+        34.7,
+        -34.73,
+        32.07,
+        -44.39,
+        13.64,
+        -44.75,
+        5.56,
+        -34.53,
+        -13.05,
+        -32.53,
+        -13.06,
+        -19.87,
+        -30.66,
+        -17.53,
+        -30.66,
+        17.53,
+        -13.06,
+        19.87,
+        -13.05,
+        32.53,
+        5.56,
+        34.53,
+        13.64,
+        44.75,
+        32.07,
+        44.39,
+        38.14,
+        22.11
     ],
     "builtInMods": [],
     "center": [
@@ -45,8 +47,8 @@
             "contrailSize": 20,
             "length": 70,
             "location": [
-                -16.64,
-                27.35
+                -13.59,
+                26.9
             ],
             "style": "TP_OVERDRIVEN_ENGINE",
             "width": 22
@@ -56,20 +58,20 @@
             "contrailSize": 20,
             "length": 70,
             "location": [
-                -16.64,
-                -27.35
+                -13.59,
+                -26.9
             ],
             "style": "TP_OVERDRIVEN_ENGINE",
             "width": 22
         }
     ],
-    "height": 110,
+    "height": 113,
     "hullId": "tp_stormcrow",
     "hullName": "Stormcrow",
     "hullSize": "FRIGATE",
     "shieldCenter": [
-        10.05,
-        -0.22
+        16.29,
+        0.11
     ],
     "shieldRadius": 81,
     "spriteName": "graphics/ships/tp_stormcrow/tp_stormcrow.png",
@@ -77,12 +79,24 @@
     "viewOffset": 0,
     "weaponSlots": [
         {
-            "angle": 0,
-            "arc": 0,
+            "angle": -1,
+            "arc": 20,
             "id": "WS 001",
             "locations": [
-                21.95,
-                30.06
+                27.72,
+                31.66
+            ],
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
+            "type": "COMPOSITE"
+        },
+        {
+            "angle": 1,
+            "arc": 20,
+            "id": "WS 002",
+            "locations": [
+                27.72,
+                -31.66
             ],
             "mount": "HARDPOINT",
             "size": "MEDIUM",
@@ -90,11 +104,11 @@
         },
         {
             "angle": 0,
-            "arc": 0,
-            "id": "WS 002",
+            "arc": 15,
+            "id": "WS 004",
             "locations": [
-                21.95,
-                -30.06
+                62.98,
+                0.02
             ],
             "mount": "HARDPOINT",
             "size": "MEDIUM",
@@ -103,26 +117,26 @@
         {
             "angle": 0,
             "arc": 360,
-            "id": "WS 003",
+            "id": "WS 006",
             "locations": [
-                23.98,
-                -0.06
+                -28.83,
+                0
             ],
-            "mount": "HIDDEN",
+            "mount": "TURRET",
             "size": "SMALL",
             "type": "SYSTEM"
         },
         {
             "angle": 0,
-            "arc": 15,
-            "id": "WS 004",
+            "arc": 270,
+            "id": "WS 007",
             "locations": [
-                54.16,
-                -0.04
+                23.94,
+                -0.03
             ],
-            "mount": "HARDPOINT",
-            "size": "MEDIUM",
-            "type": "COMPOSITE"
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "ENERGY"
         }
     ],
     "width": 94
