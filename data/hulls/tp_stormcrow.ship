@@ -1,79 +1,103 @@
 {
     "bounds": [
-        71.24,
-        17.58,
-        71.24,
-        -17.58,
-        38.14,
-        -22.11,
-        34.7,
-        -34.73,
-        32.07,
-        -44.39,
-        13.64,
-        -44.75,
-        5.56,
-        -34.53,
-        -13.05,
-        -32.53,
-        -13.06,
-        -19.87,
-        -30.66,
-        -17.53,
-        -30.66,
-        17.53,
-        -13.06,
-        19.87,
-        -13.05,
-        32.53,
-        5.56,
-        34.53,
-        13.64,
-        44.75,
-        32.07,
-        44.39,
-        38.14,
-        22.11
+        83,
+        -16,
+        32,
+        -23,
+        29,
+        -42,
+        5,
+        -43,
+        -1,
+        -35,
+        -27,
+        -31,
+        -27,
+        -19,
+        -35,
+        -19,
+        -35,
+        19,
+        -27,
+        19,
+        -27,
+        31,
+        -1,
+        35,
+        6,
+        43,
+        27,
+        43,
+        32,
+        23,
+        83,
+        16,
+        83,
+        -0.77
     ],
-    "builtInMods": [],
+    "builtInMods": [
+        "safetyoverrides"
+    ],
     "center": [
-        47,
+        46,
         38
     ],
-    "collisionRadius": 72,
+    "collisionRadius": 85,
     "engineSlots": [
         {
             "angle": 180,
             "contrailSize": 20,
-            "length": 70,
+            "length": 115,
             "location": [
-                -13.59,
-                26.9
+                -27.5,
+                25.49
             ],
             "style": "TP_OVERDRIVEN_ENGINE",
-            "width": 22
+            "width": 18
         },
         {
             "angle": 180,
             "contrailSize": 20,
-            "length": 70,
+            "length": 115,
             "location": [
-                -13.59,
-                -26.9
+                -27.5,
+                -25.49
             ],
             "style": "TP_OVERDRIVEN_ENGINE",
-            "width": 22
+            "width": 18
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 115,
+            "location": [
+                -36.43,
+                13.55
+            ],
+            "style": "TP_OVERDRIVEN_ENGINE",
+            "width": 18
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 115,
+            "location": [
+                -36.43,
+                -13.55
+            ],
+            "style": "TP_OVERDRIVEN_ENGINE",
+            "width": 18
         }
     ],
-    "height": 113,
+    "height": 125,
     "hullId": "tp_stormcrow",
     "hullName": "Stormcrow",
     "hullSize": "FRIGATE",
     "shieldCenter": [
-        16.29,
-        0.11
+        26.34,
+        0.07
     ],
-    "shieldRadius": 81,
+    "shieldRadius": 90,
     "spriteName": "graphics/ships/tp_stormcrow/tp_stormcrow.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
@@ -83,11 +107,11 @@
             "arc": 20,
             "id": "WS 001",
             "locations": [
-                27.72,
-                31.66
+                21.45,
+                29.96
             ],
             "mount": "HARDPOINT",
-            "size": "MEDIUM",
+            "size": "SMALL",
             "type": "COMPOSITE"
         },
         {
@@ -95,11 +119,11 @@
             "arc": 20,
             "id": "WS 002",
             "locations": [
-                27.72,
-                -31.66
+                21.45,
+                -29.96
             ],
             "mount": "HARDPOINT",
-            "size": "MEDIUM",
+            "size": "SMALL",
             "type": "COMPOSITE"
         },
         {
@@ -107,19 +131,19 @@
             "arc": 15,
             "id": "WS 004",
             "locations": [
-                62.98,
-                0.02
+                71.02,
+                0.03
             ],
             "mount": "HARDPOINT",
             "size": "MEDIUM",
-            "type": "COMPOSITE"
+            "type": "ENERGY"
         },
         {
             "angle": 0,
             "arc": 360,
             "id": "WS 006",
             "locations": [
-                -28.83,
+                45.2,
                 0
             ],
             "mount": "TURRET",
@@ -128,16 +152,16 @@
         },
         {
             "angle": 0,
-            "arc": 270,
+            "arc": 120,
             "id": "WS 007",
             "locations": [
-                23.94,
-                -0.03
+                15.91,
+                0.08
             ],
             "mount": "TURRET",
             "size": "SMALL",
-            "type": "ENERGY"
+            "type": "HYBRID"
         }
     ],
-    "width": 94
+    "width": 92
 }
