@@ -140,18 +140,6 @@
         },
         {
             "angle": 0,
-            "arc": 360,
-            "id": "WS 006",
-            "locations": [
-                45.2,
-                0
-            ],
-            "mount": "TURRET",
-            "size": "SMALL",
-            "type": "SYSTEM"
-        },
-        {
-            "angle": 0,
             "arc": 120,
             "id": "WS 007",
             "locations": [
@@ -161,6 +149,18 @@
             "mount": "TURRET",
             "size": "SMALL",
             "type": "HYBRID"
+        },
+        {
+            "angle": 0,
+            "arc": 360,
+            "id": "WS 008",
+            "locations": [
+                42.77,
+                0
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "SYSTEM"
         }
     ],
     "width": 92
