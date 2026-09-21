@@ -1,3 +1,8 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
 Auxiliary Engine Core,tp_auxiliary_engine_core,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_auxiliary_engine_core,,,graphics/hullmods/tp_overdriven_flux_core.png
 Accelerated Turrets,tp_accelerated_turret,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_accelerated_turret,,,graphics/hullmods/tp_mediumballisticsintegration.png
+Pirate Tuning,tp_pirate_tuning,0,,,,"Special, Engines",2500,TRUE,,,5,10,15,23,data.hullmods.tp_pirate_tuning,"""Tuning past"" the safety protocols increases the ship's top speed in combat by %s/%s/%s (depending on ship size, with a corresponding increase in acceleration) and allows the zero-flux engine boost to take effect below one third flux max. The flux dissipation rate, including that of additional vents, is increased by a factor of %s.
+
+Multiplies the peak performance time by a factor of %s, slows down active venting by a factor of %s, and drastically reduces weapon ranges past %s units.
+
+Can not be installed on civilian or capital ships.","Some improvement in performance, somewhat lower peak time.",graphics/hullmods/tp_overdriven_flux_core.png

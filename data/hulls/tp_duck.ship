@@ -1,0 +1,300 @@
+{
+    "bounds": [
+        64.5,
+        -22,
+        47.5,
+        -22,
+        43.5,
+        -40,
+        37.5,
+        -40,
+        34.5,
+        -60,
+        5.5,
+        -60,
+        -33.5,
+        -76,
+        -50.5,
+        -57,
+        -64.5,
+        -55,
+        -64.5,
+        -17,
+        -46.06,
+        -11.96,
+        -44.48,
+        -6.26,
+        -32.71,
+        -6.15,
+        -32.71,
+        6.15,
+        -44.48,
+        6.26,
+        -46.06,
+        11.96,
+        -64.5,
+        17,
+        -64.5,
+        55,
+        -50.5,
+        57,
+        -33.5,
+        76,
+        5.5,
+        60,
+        34.5,
+        60,
+        37.5,
+        40,
+        43.5,
+        40,
+        47.5,
+        22,
+        64.5,
+        22
+    ],
+    "builtInMods": [
+        "tp_pirate_tuning"
+    ],
+    "center": [
+        79,
+        67.5
+    ],
+    "collisionRadius": 85,
+    "coversColor": "255,188,175,255",
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 46,
+            "location": [
+                -65.73,
+                28.8
+            ],
+            "style": "LOW_TECH",
+            "width": 20
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 46,
+            "location": [
+                -65.73,
+                -28.8
+            ],
+            "style": "LOW_TECH",
+            "width": 20
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 32,
+            "location": [
+                -66.1,
+                37.47
+            ],
+            "style": "LOW_TECH",
+            "width": 13
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 39,
+            "location": [
+                -65.06,
+                20.04
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 39,
+            "location": [
+                -65.06,
+                -20.04
+            ],
+            "style": "LOW_TECH",
+            "width": 8
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 32,
+            "location": [
+                -66.1,
+                -37.47
+            ],
+            "style": "LOW_TECH",
+            "width": 13
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 67,
+            "location": [
+                -64.64,
+                -49.94
+            ],
+            "style": "MIDLINE",
+            "width": 18
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 67,
+            "location": [
+                -64.64,
+                49.94
+            ],
+            "style": "MIDLINE",
+            "width": 18
+        },
+        {
+            "angle": 140,
+            "contrailSize": 128,
+            "length": 80,
+            "location": [
+                -36.28,
+                72.9
+            ],
+            "style": "TP_OVERDRIVEN_ENGINE",
+            "width": 22
+        },
+        {
+            "angle": -140,
+            "contrailSize": 128,
+            "length": 80,
+            "location": [
+                -36.28,
+                -72.9
+            ],
+            "style": "TP_OVERDRIVEN_ENGINE",
+            "width": 22
+        }
+    ],
+    "height": 139,
+    "hullId": "tp_duck",
+    "hullName": "Duck",
+    "hullSize": "DESTROYER",
+    "shieldCenter": [
+        -6.5,
+        0
+    ],
+    "shieldRadius": 96,
+    "spriteName": "graphics/ships/tp_duck/tp_duck.png",
+    "style": "LOW_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 90,
+            "arc": 210,
+            "id": "WS 001",
+            "locations": [
+                -15,
+                44
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "HYBRID"
+        },
+        {
+            "angle": 30,
+            "arc": 125,
+            "id": "WS 002",
+            "locations": [
+                12,
+                29
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 125,
+            "id": "WS 003",
+            "locations": [
+                19,
+                0
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -30,
+            "arc": 125,
+            "id": "WS 004",
+            "locations": [
+                12,
+                -29
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -90,
+            "arc": 210,
+            "id": "WS 005",
+            "locations": [
+                -15,
+                -44
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "HYBRID"
+        },
+        {
+            "angle": 0,
+            "arc": 5,
+            "id": "WS 006",
+            "locations": [
+                29,
+                49
+            ],
+            "mount": "HARDPOINT",
+            "size": "SMALL",
+            "type": "MISSILE"
+        },
+        {
+            "angle": 0,
+            "arc": 5,
+            "id": "WS 007",
+            "locations": [
+                38,
+                30
+            ],
+            "mount": "HARDPOINT",
+            "size": "SMALL",
+            "type": "MISSILE"
+        },
+        {
+            "angle": 0,
+            "arc": 5,
+            "id": "WS 008",
+            "locations": [
+                38,
+                -30
+            ],
+            "mount": "HARDPOINT",
+            "size": "SMALL",
+            "type": "MISSILE"
+        },
+        {
+            "angle": 0,
+            "arc": 5,
+            "id": "WS 009",
+            "locations": [
+                29,
+                -49
+            ],
+            "mount": "HARDPOINT",
+            "size": "SMALL",
+            "type": "MISSILE"
+        }
+    ],
+    "width": 158
+}
