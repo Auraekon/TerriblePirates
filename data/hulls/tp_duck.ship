@@ -71,7 +71,7 @@
                 -65.73,
                 28.8
             ],
-            "style": "LOW_TECH",
+            "style": "MIDLINE",
             "width": 20
         },
         {
@@ -82,7 +82,7 @@
                 -65.73,
                 -28.8
             ],
-            "style": "LOW_TECH",
+            "style": "MIDLINE",
             "width": 20
         },
         {
@@ -104,7 +104,7 @@
                 -65.06,
                 20.04
             ],
-            "style": "LOW_TECH",
+            "style": "HIGH_TECH",
             "width": 8
         },
         {
@@ -115,7 +115,7 @@
                 -65.06,
                 -20.04
             ],
-            "style": "LOW_TECH",
+            "style": "HIGH_TECH",
             "width": 8
         },
         {
@@ -137,7 +137,7 @@
                 -64.64,
                 -49.94
             ],
-            "style": "MIDLINE",
+            "style": "TP_OVERDRIVEN_ENGINE",
             "width": 18
         },
         {
@@ -148,7 +148,7 @@
                 -64.64,
                 49.94
             ],
-            "style": "MIDLINE",
+            "style": "TP_OVERDRIVEN_ENGINE",
             "width": 18
         },
         {
@@ -184,7 +184,7 @@
     ],
     "shieldRadius": 96,
     "spriteName": "graphics/ships/tp_duck/tp_duck.png",
-    "style": "LOW_TECH",
+    "style": "TP_PIRATE_HOMEBREW",
     "viewOffset": 0,
     "weaponSlots": [
         {

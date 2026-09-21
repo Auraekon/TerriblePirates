@@ -28,5 +28,5 @@
 		"contrailCampaignColor":[200,90,70,75],
 		#"contrailCampaignColor":[120,50,50,50],
 		"type":"SMOKE" # GLOW or SMOKE
-	},
+	}
 }

@@ -115,7 +115,7 @@
     ],
     "shieldRadius": 90,
     "spriteName": "graphics/ships/tp_stormcrow/tp_stormcrow.png",
-    "style": "LOW_TECH",
+    "style": "TP_PIRATE_HOMEBREW_ELITE",
     "viewOffset": 0,
     "weaponSlots": [
         {
