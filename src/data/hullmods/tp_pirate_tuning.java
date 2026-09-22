@@ -47,7 +47,7 @@ public class tp_pirate_tuning extends BaseHullMod {
 		stats.getMaxSpeed().modifyFlat(id, (Float) speed.get(hullSize));
 		stats.getAcceleration().modifyFlat(id, (Float) speed.get(hullSize) * 1.33f);
 		stats.getDeceleration().modifyFlat(id, (Float) speed.get(hullSize) * 1.33f);
-        stats.getZeroFluxMinimumFluxLevel().modifyFlat(id, ZERO_FLUX_MULT * 0.02f);
+        stats.getZeroFluxMinimumFluxLevel().modifyFlat(id, ZERO_FLUX_MULT * 0.01f);
 		
 		stats.getFluxDissipation().modifyMult(id, FLUX_DISSIPATION_MULT);
 		

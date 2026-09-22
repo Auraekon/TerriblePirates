@@ -231,7 +231,7 @@
             ],
             "mount": "HARDPOINT",
             "size": "LARGE",
-            "type": "BALLISTIC"
+            "type": "MISSILE"
         },
         {
             "angle": -30,
@@ -278,8 +278,8 @@
                 30
             ],
             "mount": "HARDPOINT",
-            "size": "SMALL",
-            "type": "MISSILE"
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
         },
         {
             "angle": 0,
@@ -290,8 +290,8 @@
                 -30
             ],
             "mount": "HARDPOINT",
-            "size": "SMALL",
-            "type": "MISSILE"
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
         },
         {
             "angle": 0,
