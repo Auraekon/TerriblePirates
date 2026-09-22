@@ -9,4 +9,4 @@ echo "Folder name will be $MOD_FOLDER_NAME"
 
 
 chmod +x ./zipMod.sh
-sh ./zipMod.sh "./../.." "$MOD_FOLDER_NAME"
+sh ./zipMod.sh "./../../.." "$MOD_FOLDER_NAME"
