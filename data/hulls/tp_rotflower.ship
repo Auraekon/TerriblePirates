@@ -185,15 +185,15 @@
         }
     ],
     "height": 124,
-    "hullId": "tp_duck",
-    "hullName": "Duck",
+    "hullId": "tp_rotflower",
+    "hullName": "Rotflower",
     "hullSize": "DESTROYER",
     "shieldCenter": [
         -12,
         0
     ],
     "shieldRadius": 95.5,
-    "spriteName": "graphics/ships/tp_duck/tp_duck.png",
+    "spriteName": "graphics/ships/tp_rotflower/tp_rotflower.png",
     "style": "TP_PIRATE_HOMEBREW",
     "viewOffset": 0,
     "weaponSlots": [
