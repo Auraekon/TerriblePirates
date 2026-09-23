@@ -137,15 +137,15 @@
         }
     ],
     "height": 143,
-    "hullId": "tp_rotflower",
-    "hullName": "Rotflower",
+    "hullId": "tp_charger",
+    "hullName": "Charger",
     "hullSize": "DESTROYER",
     "shieldCenter": [
         -10.65,
         0.11
     ],
     "shieldRadius": 95.5,
-    "spriteName": "graphics/ships/tp_rotflower/tp_rotflower.png",
+    "spriteName": "graphics/ships/tp_charger/tp_charger.png",
     "style": "MIDLINE",
     "viewOffset": 0,
     "weaponSlots": [
