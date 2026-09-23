@@ -1,76 +1,72 @@
 {
     "bounds": [
-        58.5,
-        13,
-        58.5,
-        -13,
-        37.5,
-        -13,
-        31.5,
+        60.5,
+        10,
+        60.5,
+        -10,
+        43.5,
+        -17,
+        32.24,
+        -42.84,
+        48.5,
         -43,
-        44.5,
-        -44,
-        43.5,
-        -61,
-        24.5,
-        -61,
-        21.5,
-        -71,
-        -4.5,
-        -69,
-        -35.5,
-        -78,
+        48.5,
+        -63,
+        29.5,
+        -63,
+        19.5,
+        -73,
+        0.23,
+        -73.26,
+        -18.99,
+        -81.75,
+        -48.5,
+        -85,
+        -56.5,
+        -70,
         -53.5,
-        -58,
+        -56,
+        -70.5,
+        -51,
+        -76.5,
+        -20,
+        -47.5,
+        -8,
+        -47.5,
+        8,
+        -76.5,
+        20,
+        -70.5,
+        51,
         -53.5,
-        -48,
-        -64.5,
-        -47,
-        -64.5,
-        -19,
-        -54.69,
-        -19.34,
-        -46.25,
-        -6.12,
-        -32.39,
-        -4,
-        -32.39,
-        4,
-        -46.25,
-        6.12,
-        -54.69,
-        19.34,
-        -64.5,
-        19,
-        -64.5,
-        47,
-        -53.5,
-        48,
-        -53.5,
-        58,
-        -35.5,
-        78,
-        -4.5,
-        69,
-        21.5,
+        56,
+        -56.5,
         71,
-        24.5,
-        61,
-        43.5,
-        61,
-        44.5,
-        44,
-        31.5,
+        -48.5,
+        85,
+        -18.99,
+        81.75,
+        0.23,
+        73.26,
+        19.5,
+        73,
+        29.5,
+        63,
+        48.5,
+        63,
+        48.5,
         43,
-        37.5,
-        13
+        32.24,
+        42.84,
+        43.5,
+        17
     ],
     "builtInMods": [],
     "center": [
-        81,
-        67.5
+        88,
+        79.5
     ],
-    "collisionRadius": 86,
+    "collisionRadius": 98,
     "coversColor": "255,188,175,255",
     "engineSlots": [
         {
@@ -78,8 +74,8 @@
             "contrailSize": 64,
             "length": 46,
             "location": [
-                -65.34,
-                26.99
+                -77.88,
+                25.52
             ],
             "style": "MIDLINE",
             "width": 20
@@ -89,8 +85,8 @@
             "contrailSize": 64,
             "length": 46,
             "location": [
-                -65.34,
-                -26.99
+                -77.88,
+                -25.52
             ],
             "style": "MIDLINE",
             "width": 20
@@ -100,8 +96,8 @@
             "contrailSize": 64,
             "length": 32,
             "location": [
-                -66.36,
-                40.32
+                -71.81,
+                39.61
             ],
             "style": "LOW_TECH",
             "width": 13
@@ -111,41 +107,19 @@
             "contrailSize": 64,
             "length": 32,
             "location": [
-                -66.36,
-                -40.32
+                -71.81,
+                -39.61
             ],
             "style": "LOW_TECH",
             "width": 13
-        },
-        {
-            "angle": 180,
-            "contrailSize": 20,
-            "length": 67,
-            "location": [
-                -54.53,
-                -52.92
-            ],
-            "style": "TP_OVERDRIVEN_ENGINE",
-            "width": 18
-        },
-        {
-            "angle": 180,
-            "contrailSize": 20,
-            "length": 67,
-            "location": [
-                -54.53,
-                52.92
-            ],
-            "style": "TP_OVERDRIVEN_ENGINE",
-            "width": 18
         },
         {
             "angle": 140,
             "contrailSize": 128,
             "length": 35,
             "location": [
-                -38.48,
-                74.58
+                -51.93,
+                79.23
             ],
             "style": "TP_OVERDRIVEN_ENGINE",
             "width": 22
@@ -155,14 +129,14 @@
             "contrailSize": 128,
             "length": 35,
             "location": [
-                -38.48,
-                -74.58
+                -51.93,
+                -79.23
             ],
             "style": "TP_OVERDRIVEN_ENGINE",
             "width": 22
         }
     ],
-    "height": 129,
+    "height": 143,
     "hullId": "tp_rotflower",
     "hullName": "Rotflower",
     "hullSize": "DESTROYER",
@@ -180,8 +154,8 @@
             "arc": 210,
             "id": "WS 001",
             "locations": [
-                -16.6,
-                44.16
+                -16.58,
+                44.13
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
@@ -192,8 +166,8 @@
             "arc": 125,
             "id": "WS 002",
             "locations": [
-                19.48,
-                34
+                20.48,
+                34.12
             ],
             "mount": "TURRET",
             "size": "SMALL",
@@ -204,8 +178,8 @@
             "arc": 90,
             "id": "WS 003",
             "locations": [
-                17.6,
-                -0.11
+                15.35,
+                -0.04
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
@@ -216,8 +190,8 @@
             "arc": 125,
             "id": "WS 004",
             "locations": [
-                19.48,
-                -34
+                20.48,
+                -34.12
             ],
             "mount": "TURRET",
             "size": "SMALL",
@@ -228,8 +202,8 @@
             "arc": 210,
             "id": "WS 005",
             "locations": [
-                -16.6,
-                -44.16
+                -16.58,
+                -44.13
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
@@ -240,8 +214,8 @@
             "arc": 180,
             "id": "WS 006",
             "locations": [
-                4.34,
-                57.15
+                5.39,
+                56.05
             ],
             "mount": "TURRET",
             "size": "SMALL",
@@ -252,8 +226,8 @@
             "arc": 15,
             "id": "WS 007",
             "locations": [
-                34.62,
-                52.11
+                37.47,
+                52.93
             ],
             "mount": "HARDPOINT",
             "size": "SMALL",
@@ -264,8 +238,8 @@
             "arc": 15,
             "id": "WS 008",
             "locations": [
-                34.62,
-                -52.11
+                37.47,
+                -52.93
             ],
             "mount": "HARDPOINT",
             "size": "SMALL",
@@ -276,8 +250,8 @@
             "arc": 180,
             "id": "WS 009",
             "locations": [
-                4.34,
-                -57.15
+                5.39,
+                -56.05
             ],
             "mount": "TURRET",
             "size": "SMALL",
@@ -288,13 +262,13 @@
             "arc": 15,
             "id": "WS 010",
             "locations": [
-                46.65,
-                0.21
+                47.55,
+                0.01
             ],
             "mount": "HARDPOINT",
             "size": "MEDIUM",
             "type": "MISSILE"
         }
     ],
-    "width": 162
+    "width": 176
 }
