@@ -1,76 +1,76 @@
 {
     "bounds": [
-        30.87,
-        -20.85,
-        43.62,
-        -21.86,
+        58.5,
+        13,
+        58.5,
+        -13,
+        37.5,
+        -13,
+        31.5,
+        -43,
+        44.5,
+        -44,
         43.5,
-        -40,
-        35.84,
-        -39.72,
-        34.5,
-        -60,
-        5.5,
-        -60,
-        -33.5,
-        -76,
-        -50.5,
-        -57,
+        -61,
+        24.5,
+        -61,
+        21.5,
+        -71,
+        -4.5,
+        -69,
+        -35.5,
+        -78,
+        -53.5,
+        -58,
+        -53.5,
+        -48,
         -64.5,
-        -55,
+        -47,
         -64.5,
-        -17,
-        -48.97,
-        -15.56,
-        -44.48,
-        -6.26,
-        -32.71,
-        -6.15,
-        -32.71,
-        6.15,
-        -44.48,
-        6.26,
-        -48.97,
-        15.56,
+        -19,
+        -54.69,
+        -19.34,
+        -46.25,
+        -6.12,
+        -32.39,
+        -4,
+        -32.39,
+        4,
+        -46.25,
+        6.12,
+        -54.69,
+        19.34,
         -64.5,
-        17,
+        19,
         -64.5,
-        55,
-        -50.5,
-        57,
-        -33.5,
-        76,
-        5.5,
-        60,
-        34.5,
-        60,
-        35.84,
-        39.72,
+        47,
+        -53.5,
+        48,
+        -53.5,
+        58,
+        -35.5,
+        78,
+        -4.5,
+        69,
+        21.5,
+        71,
+        24.5,
+        61,
         43.5,
-        40,
-        43.57,
-        29.65,
-        43.57,
-        29.02,
-        43.62,
-        21.86,
-        30.87,
-        20.85,
-        33.75,
-        16.25,
-        51.68,
-        15.46,
-        51.68,
-        -15.46,
-        33.79,
-        -16.41
+        61,
+        44.5,
+        44,
+        31.5,
+        43,
+        37.5,
+        13
     ],
     "builtInMods": [],
     "center": [
-        78,
+        81,
         67.5
     ],
-    "collisionRadius": 85,
+    "collisionRadius": 86,
     "coversColor": "255,188,175,255",
     "engineSlots": [
         {
@@ -78,8 +78,8 @@
             "contrailSize": 64,
             "length": 46,
             "location": [
-                -65.73,
-                28.8
+                -65.34,
+                26.99
             ],
             "style": "MIDLINE",
             "width": 20
@@ -89,8 +89,8 @@
             "contrailSize": 64,
             "length": 46,
             "location": [
-                -65.73,
-                -28.8
+                -65.34,
+                -26.99
             ],
             "style": "MIDLINE",
             "width": 20
@@ -100,8 +100,8 @@
             "contrailSize": 64,
             "length": 32,
             "location": [
-                -66.1,
-                37.47
+                -66.36,
+                40.32
             ],
             "style": "LOW_TECH",
             "width": 13
@@ -109,32 +109,10 @@
         {
             "angle": 180,
             "contrailSize": 64,
-            "length": 39,
-            "location": [
-                -65.06,
-                20.04
-            ],
-            "style": "HIGH_TECH",
-            "width": 8
-        },
-        {
-            "angle": 180,
-            "contrailSize": 64,
-            "length": 39,
-            "location": [
-                -65.06,
-                -20.04
-            ],
-            "style": "HIGH_TECH",
-            "width": 8
-        },
-        {
-            "angle": 180,
-            "contrailSize": 64,
             "length": 32,
             "location": [
-                -66.1,
-                -37.47
+                -66.36,
+                -40.32
             ],
             "style": "LOW_TECH",
             "width": 13
@@ -144,8 +122,8 @@
             "contrailSize": 20,
             "length": 67,
             "location": [
-                -64.64,
-                -49.94
+                -54.53,
+                -52.92
             ],
             "style": "TP_OVERDRIVEN_ENGINE",
             "width": 18
@@ -155,8 +133,8 @@
             "contrailSize": 20,
             "length": 67,
             "location": [
-                -64.64,
-                49.94
+                -54.53,
+                52.92
             ],
             "style": "TP_OVERDRIVEN_ENGINE",
             "width": 18
@@ -164,10 +142,10 @@
         {
             "angle": 140,
             "contrailSize": 128,
-            "length": 80,
+            "length": 35,
             "location": [
-                -36.28,
-                72.9
+                -38.48,
+                74.58
             ],
             "style": "TP_OVERDRIVEN_ENGINE",
             "width": 22
@@ -175,22 +153,22 @@
         {
             "angle": -140,
             "contrailSize": 128,
-            "length": 80,
+            "length": 35,
             "location": [
-                -36.28,
-                -72.9
+                -38.48,
+                -74.58
             ],
             "style": "TP_OVERDRIVEN_ENGINE",
             "width": 22
         }
     ],
-    "height": 124,
+    "height": 129,
     "hullId": "tp_rotflower",
     "hullName": "Rotflower",
     "hullSize": "DESTROYER",
     "shieldCenter": [
-        -12,
-        0
+        -10.65,
+        0.11
     ],
     "shieldRadius": 95.5,
     "spriteName": "graphics/ships/tp_rotflower/tp_rotflower.png",
@@ -202,47 +180,47 @@
             "arc": 210,
             "id": "WS 001",
             "locations": [
-                -14.47,
-                44.1
+                -16.6,
+                44.16
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
             "type": "BALLISTIC"
         },
         {
-            "angle": 30,
+            "angle": 45,
             "arc": 125,
             "id": "WS 002",
             "locations": [
-                12.5,
-                29.05
+                19.48,
+                34
             ],
             "mount": "TURRET",
-            "size": "MEDIUM",
+            "size": "SMALL",
             "type": "BALLISTIC"
         },
         {
             "angle": 0,
-            "arc": 5,
+            "arc": 90,
             "id": "WS 003",
             "locations": [
-                35.72,
-                0.02
-            ],
-            "mount": "HARDPOINT",
-            "size": "LARGE",
-            "type": "MISSILE"
-        },
-        {
-            "angle": -30,
-            "arc": 125,
-            "id": "WS 004",
-            "locations": [
-                12.5,
-                -29.05
+                17.6,
+                -0.11
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -45,
+            "arc": 125,
+            "id": "WS 004",
+            "locations": [
+                19.48,
+                -34
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
             "type": "BALLISTIC"
         },
         {
@@ -250,61 +228,73 @@
             "arc": 210,
             "id": "WS 005",
             "locations": [
-                -14.47,
-                -44.1
+                -16.6,
+                -44.16
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
             "type": "BALLISTIC"
         },
         {
-            "angle": 0,
-            "arc": 5,
+            "angle": 80,
+            "arc": 180,
             "id": "WS 006",
             "locations": [
-                29,
-                49
+                4.34,
+                57.15
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -1,
+            "arc": 15,
+            "id": "WS 007",
+            "locations": [
+                34.62,
+                52.11
             ],
             "mount": "HARDPOINT",
             "size": "SMALL",
             "type": "MISSILE"
         },
         {
-            "angle": 0,
-            "arc": 5,
-            "id": "WS 007",
-            "locations": [
-                38,
-                30
-            ],
-            "mount": "HARDPOINT",
-            "size": "MEDIUM",
-            "type": "BALLISTIC"
-        },
-        {
-            "angle": 0,
-            "arc": 5,
+            "angle": 1,
+            "arc": 15,
             "id": "WS 008",
             "locations": [
-                38,
-                -30
-            ],
-            "mount": "HARDPOINT",
-            "size": "MEDIUM",
-            "type": "BALLISTIC"
-        },
-        {
-            "angle": 0,
-            "arc": 5,
-            "id": "WS 009",
-            "locations": [
-                29,
-                -49
+                34.62,
+                -52.11
             ],
             "mount": "HARDPOINT",
             "size": "SMALL",
+            "type": "MISSILE"
+        },
+        {
+            "angle": -80,
+            "arc": 180,
+            "id": "WS 009",
+            "locations": [
+                4.34,
+                -57.15
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 15,
+            "id": "WS 010",
+            "locations": [
+                46.65,
+                0.21
+            ],
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
             "type": "MISSILE"
         }
     ],
-    "width": 156
+    "width": 162
 }
