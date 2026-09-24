@@ -262,12 +262,12 @@
             "arc": 15,
             "id": "WS 010",
             "locations": [
-                47.55,
-                0.01
+                48.49,
+                0
             ],
             "mount": "HARDPOINT",
             "size": "MEDIUM",
-            "type": "MISSILE"
+            "type": "COMPOSITE"
         }
     ],
     "width": 176
