@@ -6,5 +6,5 @@ tp_drake_battery,WEAPON,"An overcharged mining laser stacked with a series of fo
 
 A pirate capital ship armament that became popular not long after the collapse. A battery of three drake weapons, combined into a single mount and sharing a cooling jacket ripped from the reactor housing of an Atlas. Due to lack of individual elevation and traverse within the turret housing, the lasers emitted by a drake battery travel adjacent to each other and fail to concentrate their damage on target.",,,,,
 tp_mining_laser_oc,WEAPON,A overclocked mining laser.,,,,,
-tp_charger,SHIP,A midline ship that specializes in charging.,,,,,
-tp_attack_burn,SHIP_SYSTEM,"Provides a strong boost in forward movement and strafe speed, while reducing turn rate.",,,,,
+tp_charger,SHIP,Description pending further playtesting.,,,,,
+tp_attack_burn,SHIP_SYSTEM,Provides a strong boost in forward movement and strafe speed while reducing turn rate.,,,,,
