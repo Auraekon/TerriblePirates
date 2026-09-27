@@ -1,0 +1,44 @@
+{
+	"specClass":"projectile",
+	"id":"tp_drake_battery_decorative",
+	"type":"ENERGY",
+	"size":"LARGE",
+	"collisionClass":"RAY_FIGHTER",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"turretSprite":"graphics/weapons/drake/decorative/tp_drake_battery_turret_base.png",
+	"turretGlowSprite":"graphics/weapons/drake/decorative/tp_drake_battery_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/drake/decorative/tp_drake_battery_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/weapons/drake/decorative/tp_drake_battery_hardpoint_glow.png",
+	"turretGunSprite":"graphics/weapons/drake/decorative/tp_drake_battery_turret_recoil.png",
+	"hardpointGunSprite":"graphics/weapons/drake/decorative/tp_drake_battery_hardpoint_recoil.png",
+	"turretOffsets":[27, -8, 27, 0, 27, 8],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[27, -8, 27, 0, 27, 8],
+	"hardpointAngleOffsets":[0],
+	"fringeColor":[253,29,0,205],
+	"coreColor": [255,255,255,255],
+	"glowColor":[254,90,0,75],
+	"visualRecoil":6.0,  # the gun sprites are only used if this is non-0
+	"renderHints":[RENDER_BARREL_BELOW],
+	"forceShowBeamGlow": true,
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW",
+	"muzzleFlashSpec":{
+		"length":7.0,   # only used if animationType = MUZZLE_FLASH
+		"spread":30.0,
+		"particleSizeMin":6.0,
+		"particleSizeRange":8.0,
+		"particleDuration":0.15,
+		"particleCount":7,
+		"particleColor":[255,210,210,200]
+		},
+	"projectileSpecId":"tp_drake_shot",  # projectile that will be fired
+	"hitGlowBrightenDuration":0.25,
+	"width":11.0,
+	"textureType":ROUGH,
+	"textureScrollSpeed":292.0,
+	"pixelsPerTexel":5.0,
+	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
+	#"fireSoundOne":"tp_drake_fire",
+	#"fireSoundTwo":"burst_pd_loop",
+}

@@ -15,7 +15,7 @@
 	#],
 	
     # This section is where we can define images that can be referenced ingame using Global.getSettings().getSpriteName("category", "name");
-	#"graphics":{
-	#	"category":{ "name":"graphics/ui/sector_age_young.png", }
-	#}
+	"graphics":{
+		"fx":{ "laser_splash_flash":"graphics/fx/laser_splash_flash.png", }
+	}
 }

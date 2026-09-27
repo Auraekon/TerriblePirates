@@ -1,0 +1,49 @@
+{
+    "bounds": [],
+    "center": [
+        2,
+        2
+    ],
+    "collisionRadius": 2,
+    "coversColor": "",
+    "engineSlots": [],
+    "height": 4,
+    "hullId": "dem_drone_hardpoint",
+    "hullName": "DEM Drone Hardpoint",
+    "hullSize": "FIGHTER",
+    "shieldCenter": [
+        0,
+        0
+    ],
+    "shieldRadius": 2,
+    "spriteName": "graphics/fx/empty.png",
+    "style": "LOW_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 0,
+            "id": "WS 000",
+            "locations": [
+                -0.07,
+                0.01
+            ],
+            "mount": "HARDPOINT",
+            "size": "SMALL",
+            "type": "UNIVERSAL"
+        },
+        {
+            "angle": 0,
+            "arc": 0,
+            "id": "WS 001",
+            "locations": [
+                -0.03,
+                -0.01
+            ],
+            "mount": "HARDPOINT",
+            "size": "SMALL",
+            "type": "UNIVERSAL"
+        }
+    ],
+    "width": 4
+}
