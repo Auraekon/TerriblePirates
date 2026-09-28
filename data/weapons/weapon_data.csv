@@ -1,10 +1,9 @@
 name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number,numOfBeams
 Drake,tp_drake,1,,600,800,480,,,0,40,10,,,,ENERGY,,528,0.1,0.2,0.6,1.45,,,,,10000,,,,,,,ANTI_FTR,,,,,Suppression,,,,,,,,,,,
-Drake (Decoration),tp_drake_decorative,1,,600,800,,,,0,40,10,,,,ENERGY,1,,0.1,1.9,1,,,,,,,10000,,,,,,ANTI_FTR,,,,,Suppression,,,,,,,,,,,
+Drake (Decoration),tp_drake_decorative,1,,600,800,,,,0,40,10,,,,ENERGY,1,,0.1,1.9,1,,,,,,,10000,,,,,,"ANTI_FTR,SYSTEM",,,,,Suppression,,,,,,,,,,,
 Drake (for fx drone use),tp_drake_fxdrone,1,,600,800,70,,,0,40,1,,,,HIGH_EXPLOSIVE,,1,0.1,1.6,0.2,0.45,,,,,10000,,,,,,,"ANTI_FTR,SYSTEM",,,,,Suppression,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Drake Battery,tp_drake_battery,1,,600,900,1440,,,0,10,24,,,,ENERGY,,1296,0.1,0.2,0.6,1.45,,,,,10000,,,,,,,ANTI_FTR,,,,,Suppression,,,,,,,,,,,
-Drake Battery (Decoration),tp_drake_battery_decorative,1,,600,900,,,,0,40,10,,,,ENERGY,1,,0.1,1.9,1,,,,,,,10000,,,,,,ANTI_FTR,,,,,Suppression,,,,,,,,,,,
+Drake Battery (Decoration),tp_drake_battery_decorative,1,,600,900,,,,0,40,10,,,,ENERGY,1,,0.1,1.9,1,,,,,,,10000,,,,,,"ANTI_FTR,SYSTEM",,,,,Suppression,,,,,,,,,,,
 Drake Battery (for fx drone use),tp_drake_battery_fxdrone,1,,600,900,70,,,0,40,1,,,,HIGH_EXPLOSIVE,,1,0.1,1.6,0.2,0.45,,,,,10000,,,,,,,"ANTI_FTR,SYSTEM",,,,,Suppression,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Mining Laser (OC),tp_mining_laser_oc,1,,200,450,75,,,1,100,3,,,,HIGH_EXPLOSIVE,,50,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,Pirate,,Point Defense,,,,Perfect,,,,,,,
@@ -12,4 +11,7 @@ Double Mining Laser,tp_double_mining_laser,0,,200,600,60,,,0,60,2,,,,ENERGY,,20,
 Double Mining Laser (OC),tp_double_mining_laser_oc,1,,200,450,150,,,2,100,6,,,,HIGH_EXPLOSIVE,,100,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,Pirate,,Point Defense,,,,Perfect,,,,,,,2
 Triple Mining Laser,tp_triple_mining_laser,0,,200,600,90,,,0,60,3,,,,ENERGY,,30,0,0.25,,,,,,,2400,,,,,,,PD,,,,,Point Defense,,,,,,,,,,,3
 Triple Mining Laser (OC),tp_triple_mining_laser_oc,1,,200,450,225,,,3,100,9,,,,HIGH_EXPLOSIVE,,150,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,Pirate,,Point Defense,,,,Perfect,,,,,,,3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Carronade,tp_carronade,1,,1000,450,,100,,10,50,6,,,,KINETIC,50,,0,0.50,1,,0,10,2,5,,800,,,30,,,,,,,,Anti Shield,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Mining Charge Launcher,tp_mining_charge_launcher,2,,1500,1000,,500,,25,30,12,100,,,FRAGMENTATION,0,,0,1.5,1,,20,20,0,0,,105,420,4,300,,,ANTI_FTR,,,,,Pressure / Anti Fighter,Very Slow,None,,,"Not affected by missile speed, acceleration, and flight time modifiers.",,,,TRUE,,

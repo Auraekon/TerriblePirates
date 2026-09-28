@@ -4,6 +4,14 @@
     ],
     "tp_carronade_fire":[
             {"file":"sounds/tp_carronade_fire.ogg","pitch":1,"volume":0.55}
+    ],
+    "tp_mining_charge_explosion":[
+            {"file":"sounds/tp_mining_charge_explosion.ogg","pitch":1,"volume":0.82}
+    ],
+    "tp_canister_fire":[
+            {"file":"sounds/tp_canister_fire.ogg","pitch":1,"volume":0.3}
+    ],
+    "tp_canister_frag_sandblast":[
+            {"file":"sounds/tp_canister_frag_sandblast.ogg","pitch":1,"volume":1}
     ]
 }
-
