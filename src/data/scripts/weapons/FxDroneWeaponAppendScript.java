@@ -40,7 +40,7 @@ public class FxDroneWeaponAppendScript implements EveryFrameWeaponEffectPlugin {
                 v.addWeaponGroup(g);
                 v.addWeapon("WS 000", weapon.getSpec().getWeaponId() + "_fxdrone");
                 demDrones[i] = Global.getCombatEngine().createFXDrone(v);
-                demDrones[i].setLayer(CombatEngineLayers.ABOVE_SHIPS_AND_MISSILES_LAYER);
+                demDrones[i].setLayer(CombatEngineLayers.STATION_WEAPONS_LAYER);
                 demDrones[i].setOwner(ship.getOriginalOwner());
                 demDrones[i].getMutableStats().getHullDamageTakenMult().modifyMult("dem", 0f); // so it's non-targetable
                 demDrones[i].setDrone(true);

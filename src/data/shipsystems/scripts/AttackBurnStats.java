@@ -15,6 +15,7 @@ public class AttackBurnStats extends BaseShipSystemScript {
 			stats.getAcceleration().modifyPercent(id, 200f * effectLevel);
 			stats.getTurnAcceleration().modifyPercent(id, -66f);
 			stats.getMaxTurnRate().modifyPercent(id, -66f);
+			//stats.getMaxTurnRate().modifyPercent(id, -66f);
 		}
 	}
 	public void unapply(MutableShipStatsAPI stats, String id) {

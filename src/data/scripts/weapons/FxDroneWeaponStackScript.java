@@ -47,7 +47,7 @@ public class FxDroneWeaponStackScript implements EveryFrameWeaponEffectPlugin {
                 v.addWeapon("WS 001", weapon.getSpec().getWeaponId() + "_decorative");
                 demDrone = Global.getCombatEngine().createFXDrone(v);
             }
-            demDrone.setLayer(CombatEngineLayers.ABOVE_SHIPS_AND_MISSILES_LAYER);
+            demDrone.setLayer(CombatEngineLayers.ABOVE_SHIPS_LAYER);
             demDrone.setOwner(ship.getOriginalOwner());
             demDrone.getMutableStats().getHullDamageTakenMult().modifyMult("dem", 0f); // so it's non-targetable
             demDrone.setDrone(true);
