@@ -40,6 +40,6 @@
 	"textureScrollSpeed":292.0,
 	"pixelsPerTexel":5.0,
 	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
-	"fireSoundOne":"tp_drake_fire",
+	"fireSoundOne":"tp_microdrake_fire",
 	#"fireSoundTwo":"burst_pd_loop",
 }

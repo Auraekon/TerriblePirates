@@ -16,6 +16,8 @@ public class DrakeMuzzleFlashEffect implements OnFireEffectPlugin, OnHitEffectPl
     final static private Color muzzleFlashLessBrightColor = new Color(1f, 0.61f, 0.61f, 0.95f);
     final static private Color muzzleFlashDimColor = new Color(1f, 0.11f, 0.11f, 0.95f);
     final static private Color muzzleFlashDimColorFaint = new Color(1f, 0.11f, 0.11f, 0.25f);
+    final static private Color empBright = new Color(1f, 0.21f, 0.21f, 1f);
+    final static private Color empDim = new Color(1f, 0.11f, 0.11f, 1f);
     public void onHit(DamagingProjectileAPI projectile, CombatEntityAPI target, Vector2f point, boolean shieldHit, ApplyDamageResultAPI damageResult, CombatEngineAPI engine) {
 
     }
@@ -25,21 +27,18 @@ public class DrakeMuzzleFlashEffect implements OnFireEffectPlugin, OnHitEffectPl
         if (weapon != null) {
             final ShipAPI ship = weapon.getShip();
             if (ship != null) {
-                engine.spawnMuzzleFlashOrSmoke(ship, weapon.getFirePoint(0), weapon.getSpec(), weapon.getCurrAngle());
+                // engine.spawnMuzzleFlashOrSmoke(ship, weapon.getFirePoint(0), weapon.getSpec(), weapon.getCurrAngle());
                 final Vector2f shipVelocity = ship.getVelocity();
-                // Vector2f muzzleLoc = weapon.getFirePoint(0);
+                Vector2f muzzleLoc = weapon.getFirePoint(0);
                 var numberOfWeaponOffsets = weapon.getSpec().getTurretFireOffsets().size();
                 engine.addHitParticle(projectile.getSpawnLocation(), shipVelocity, 8f, 255f, 0.2f, muzzleFlashBrightColor);
                 engine.addHitParticle(projectile.getSpawnLocation(), shipVelocity, 12f, 255f, 0.3f, muzzleFlashLessBrightColor);
                 engine.addHitParticle(projectile.getSpawnLocation(), shipVelocity, 24f, 255f, 0.5f, muzzleFlashDimColor);
                 engine.addHitParticle(projectile.getSpawnLocation(), shipVelocity, 48f, 255f, 0.5f, muzzleFlashDimColorFaint);
-                //for (int i = 0; numberOfWeaponOffsets -1 >= i; i++) {
-                  //  engine.addHitParticle(weapon.getFirePoint(i), shipVelocity, 8f, 255f, 0.2f, muzzleFlashBrightColor);
-                  //  engine.addHitParticle(weapon.getFirePoint(i), shipVelocity, 12f, 255f, 0.3f, muzzleFlashLessBrightColor);
-                  //  engine.addHitParticle(weapon.getFirePoint(i), shipVelocity, 24f, 255f, 0.5f, muzzleFlashDimColor);
-                  //  engine.addHitParticle(weapon.getFirePoint(i), shipVelocity, 48f, 255f, 0.5f, muzzleFlashDimColorFaint);
-                  //  engine.spawnMuzzleFlashOrSmoke(ship, weapon.getFirePoint(0), weapon.getSpec(), weapon.getCurrAngle());
-                //}
+                for (int i = 0; i < 4; i++) {
+                    Vector2f randomArcLocation = new Vector2f(muzzleLoc.x - 15f + Math.round(Math.random() * 30f), muzzleLoc.y - 15f + Math.round(Math.random() * 30f));
+                    engine.spawnEmpArcVisual(muzzleLoc, ship, randomArcLocation, ship, 10f, empBright, empDim);
+                }
 
                 //engine.addLayeredRenderingPlugin(new LockedMuzzleFlashRenderer(weapon));
             }

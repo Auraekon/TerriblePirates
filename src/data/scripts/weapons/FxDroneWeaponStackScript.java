@@ -8,6 +8,8 @@ import com.fs.starfarer.api.loading.WeaponGroupType;
 import com.fs.starfarer.api.util.Misc;
 import org.lwjgl.util.vector.Vector2f;
 
+import java.awt.*;
+
 /**
  *
  */
@@ -17,6 +19,8 @@ public class FxDroneWeaponStackScript implements EveryFrameWeaponEffectPlugin {
     protected WeaponAPI weapon;
     protected ShipAPI demDrone;
     protected Vector2f aimDirection = new Vector2f(0,0);
+    final static private Color empBright = new Color(1f, 0.81f, 0.81f, 0.01f);
+    final static private Color muzzleFlashDimColor = new Color(1f, 0.11f, 0.11f, 0.95f);
 
     @Override
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {

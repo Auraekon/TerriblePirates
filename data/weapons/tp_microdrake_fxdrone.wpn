@@ -1,6 +1,7 @@
 {
 	"specClass":"beam",
 	"id":"tp_microdrake_fxdrone",
+    "beamEffect": "data.scripts.weapons.beam.TP_SparkyBeamEffect",
 	"type":"ENERGY",
 	"size":"SMALL",
 	"mountTypeOverride":"HYBRID",
@@ -22,6 +23,6 @@
 	"textureScrollSpeed":64.0,
 	"pixelsPerTexel":5.0,
 	"pierceSet":[PROJECTILE_FF,PROJECTILE_NO_FF,PROJECTILE_FIGHTER],
-	"fireSoundOne":"laser_intro",
-	"fireSoundTwo":"pd_laser_loop",
+	#"fireSoundOne":"laser_intro",
+	#"fireSoundTwo":"pd_laser_loop",
 }
