@@ -233,15 +233,15 @@
         }
     ],
     "height": 222,
-    "hullId": "tp_new_cruiser",
-    "hullName": "New Cruiser Test",
+    "hullId": "tp_swoop",
+    "hullName": "Swoop",
     "hullSize": "CRUISER",
     "shieldCenter": [
         23,
         0
     ],
     "shieldRadius": 155,
-    "spriteName": "graphics/ships/tp_new_cruiser/tp_new_cruiser.png",
+    "spriteName": "graphics/ships/tp_swoop/tp_swoop.png",
     "style": "MIDLINE",
     "viewOffset": 0,
     "weaponSlots": [

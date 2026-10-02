@@ -22,7 +22,7 @@
 	"visualRecoil":2.7,  # the gun sprites are only used if this is non-0
 	"renderHints":[RENDER_BARREL_BELOW],
 	"forceShowBeamGlow": true,
-	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"barrelMode":"LINKED", # or LINKED.  whether barrels fire at the same time or alternate.
 	"animationType":"GLOW",
 	"muzzleFlashSpec":{
 		"length":7.0,   # only used if animationType = MUZZLE_FLASH

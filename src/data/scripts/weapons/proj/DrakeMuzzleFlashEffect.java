@@ -35,10 +35,10 @@ public class DrakeMuzzleFlashEffect implements OnFireEffectPlugin, OnHitEffectPl
                 engine.addHitParticle(projectile.getSpawnLocation(), shipVelocity, 12f, 255f, 0.3f, muzzleFlashLessBrightColor);
                 engine.addHitParticle(projectile.getSpawnLocation(), shipVelocity, 24f, 255f, 0.5f, muzzleFlashDimColor);
                 engine.addHitParticle(projectile.getSpawnLocation(), shipVelocity, 48f, 255f, 0.5f, muzzleFlashDimColorFaint);
-                for (int i = 0; i < 4; i++) {
-                    Vector2f randomArcLocation = new Vector2f(muzzleLoc.x - 15f + Math.round(Math.random() * 30f), muzzleLoc.y - 15f + Math.round(Math.random() * 30f));
-                    engine.spawnEmpArcVisual(muzzleLoc, ship, randomArcLocation, ship, 10f, empBright, empDim);
-                }
+                //for (int i = 0; i < 4; i++) {
+                //    Vector2f randomArcLocation = new Vector2f(muzzleLoc.x - 15f + Math.round(Math.random() * 30f), muzzleLoc.y - 15f + Math.round(Math.random() * 30f));
+                //    engine.spawnEmpArcVisual(muzzleLoc, ship, randomArcLocation, ship, 10f, empBright, empDim);
+                //}
 
                 //engine.addLayeredRenderingPlugin(new LockedMuzzleFlashRenderer(weapon));
             }

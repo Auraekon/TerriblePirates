@@ -2,6 +2,9 @@
     "tp_drake_fire":[
             {"file":"sounds/tp_drake_fire.ogg","pitch":1,"volume":1}
     ],
+    "tp_drake_beam_buzz":[
+            {"file":"sounds/tp_drake_beam_buzz.ogg","pitch":1,"volume":2}
+    ],
     "tp_microdrake_fire":[
             {"file":"sounds/tp_microdrake_fire.ogg","pitch":1,"volume":2}
     ],

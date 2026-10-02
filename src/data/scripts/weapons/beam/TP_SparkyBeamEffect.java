@@ -15,17 +15,15 @@ public class TP_SparkyBeamEffect implements BeamEffectPlugin {
 
         flashInterval.advance(engine.getElapsedInLastFrame());
         if (flashInterval.intervalElapsed()) {
-            var muzzleLoc = beam.getWeapon().getFirePoint(0);
             float size = beam.getWidth() * MathUtils.getRandomNumberInRange(1.9f, 2.2f);
-            Vector2f randomArcLocation = new Vector2f(muzzleLoc.x - 15f + Math.round(Math.random() * 30f), muzzleLoc.y - 15f + Math.round(Math.random() * 30f));
 
-            float dur = MathUtils.getRandomNumberInRange(0.15f,0.24f);
+            float dur = MathUtils.getRandomNumberInRange(0.22f,0.33f);
 
-            engine.addHitParticle(beam.getFrom(), beam.getSource().getVelocity(), beam.getWidth(), 0.4f, dur, beam.getCoreColor());
-            engine.addHitParticle(beam.getFrom(), beam.getSource().getVelocity(), size, 0.4f, dur, beam.getFringeColor().brighter());
+            engine.addHitParticle(beam.getFrom(), beam.getSource().getVelocity(), beam.getWidth(), 0.6f, dur, beam.getCoreColor());
+            engine.addHitParticle(beam.getFrom(), beam.getSource().getVelocity(), size, 0.6f, dur, beam.getFringeColor().brighter());
 
             if (beam.didDamageThisFrame()) {
-                engine.addHitParticle(beam.getTo(), beam.getSource().getVelocity(), size * 2.5f, 0.4f, dur, beam.getFringeColor());
+                engine.addHitParticle(beam.getTo(), beam.getSource().getVelocity(), size * 2.5f, 0.6f, dur, beam.getFringeColor());
             }
         }
     }
