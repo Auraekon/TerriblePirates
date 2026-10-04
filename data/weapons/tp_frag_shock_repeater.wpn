@@ -1,0 +1,21 @@
+{
+	"id":"tp_frag_shock_repeater",  # this id must match what's in the spreadsheet
+	"specClass":"projectile",
+	"type":"ENERGY",
+	"mountTypeOverride":"HYBRID",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/weapons/frag_shock_repeater/shock_repeater_turret_base.png",
+	"turretGlowSprite":"graphics/weapons/frag_shock_repeater/shock_repeater_turret_glow.png",
+	"hardpointSprite":"graphics/weapons/frag_shock_repeater/shock_repeater_hardpoint_base.png",
+	"hardpointGlowSprite":"graphics/weapons/frag_shock_repeater/shock_repeater_hardpoint_glow.png",
+	"glowColor":[255,10,0,255],
+	"turretOffsets":[8, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[8, 0],
+	"hardpointAngleOffsets":[0],
+	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW",
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"tp_frag_shock_repeater_shot",  # projectile that will be fired
+	"fireSoundTwo":"shock_repeater_fire",
+}
