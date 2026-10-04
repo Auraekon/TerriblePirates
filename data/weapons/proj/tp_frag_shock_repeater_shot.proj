@@ -1,6 +1,6 @@
 {
 	"id":"tp_frag_shock_repeater_shot",
-	"onFireEffect":"com.fs.starfarer.api.impl.combat.ShockRepeaterOnFireEffect",
+	"onFireEffect":"data.scripts.weapons.proj.FragShockRepeaterOnFireEffect",
 	"specClass":"projectile",
 	"spawnType":"BALLISTIC",
 	"collisionClass":"NONE",
