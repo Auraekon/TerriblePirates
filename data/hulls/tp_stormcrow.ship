@@ -110,12 +110,12 @@
     "hullName": "Stormcrow",
     "hullSize": "FRIGATE",
     "shieldCenter": [
-        26.34,
+        26.5,
         0.07
     ],
     "shieldRadius": 90,
     "spriteName": "graphics/ships/tp_stormcrow/tp_stormcrow.png",
-    "style": "TP_PIRATE_HOMEBREW_ELITE",
+    "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [
         {
@@ -147,8 +147,8 @@
             "arc": 15,
             "id": "WS 004",
             "locations": [
-                71.02,
-                0.03
+                73.08,
+                -0.01
             ],
             "mount": "HARDPOINT",
             "size": "MEDIUM",
@@ -159,8 +159,8 @@
             "arc": 120,
             "id": "WS 007",
             "locations": [
-                56.92,
-                0.01
+                56.87,
+                -0.07
             ],
             "mount": "TURRET",
             "size": "SMALL",
@@ -171,7 +171,7 @@
             "arc": 360,
             "id": "WS 008",
             "locations": [
-                16.94,
+                16.96,
                 0.03
             ],
             "mount": "TURRET",

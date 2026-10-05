@@ -8,3 +8,4 @@ A pirate capital ship armament that became popular not long after the collapse. 
 tp_mining_laser_oc,WEAPON,A overclocked mining laser.,,,,,
 tp_charger,SHIP,Description pending further playtesting.,,,,,
 tp_attack_burn,SHIP_SYSTEM,Provides a strong boost in forward movement and strafe speed while reducing turn rate.,,,,,
+tp_frag_emp,SHIP_SYSTEM,Short duration burst of lightning that deals mediocre fragmentation damage and low EMP damage.,,,,,
