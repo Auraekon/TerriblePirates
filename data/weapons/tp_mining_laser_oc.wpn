@@ -11,7 +11,7 @@
 	"turretGlowSprite":"graphics/weapons/mining_laser_oc/tp_mining_laser_oc_turret_glow.png",
 	"hardpointSprite":"graphics/weapons/mining_laser_oc/tp_mining_laser_oc_hardpoint_base.png",
 	"hardpointGlowSprite":"graphics/weapons/mining_laser_oc/tp_mining_laser_oc_hardpoint_glow.png",
-	"turretOffsets":[10, 0],
+	"turretOffsets":[9, 0],
 	"turretAngleOffsets":[0],
 	"hardpointOffsets":[15, 0],
 	"hardpointAngleOffsets":[0],
