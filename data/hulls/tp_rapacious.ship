@@ -202,7 +202,7 @@
     ],
     "shieldRadius": 200,
     "spriteName": "graphics/ships/tp_rapacious/tp_rapacious.png",
-    "style": "TP_PIRATE_HOMEBREW",
+    "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [
         {
@@ -266,8 +266,8 @@
             "type": "BALLISTIC"
         },
         {
-            "angle": -90,
-            "arc": 220,
+            "angle": -77,
+            "arc": 180,
             "id": "WS 008",
             "locations": [
                 -80.07,
@@ -278,8 +278,8 @@
             "type": "BALLISTIC"
         },
         {
-            "angle": 90,
-            "arc": 220,
+            "angle": 77,
+            "arc": 180,
             "id": "WS 009",
             "locations": [
                 -80.07,
@@ -362,7 +362,7 @@
             "type": "BALLISTIC"
         },
         {
-            "angle": -45,
+            "angle": -60,
             "arc": 180,
             "id": "WS 026",
             "locations": [
@@ -374,31 +374,31 @@
             "type": "BALLISTIC"
         },
         {
-            "angle": -62,
-            "arc": 160,
+            "angle": 0,
+            "arc": 0,
             "id": "WS 027",
             "locations": [
                 152.06,
                 -23.97
             ],
-            "mount": "TURRET",
+            "mount": "HARDPOINT",
             "size": "SMALL",
-            "type": "BALLISTIC"
+            "type": "MISSILE"
         },
         {
-            "angle": 62,
-            "arc": 160,
+            "angle": 0,
+            "arc": 0,
             "id": "WS 028",
             "locations": [
                 152.06,
                 23.97
             ],
-            "mount": "TURRET",
+            "mount": "HARDPOINT",
             "size": "SMALL",
-            "type": "BALLISTIC"
+            "type": "MISSILE"
         },
         {
-            "angle": 45,
+            "angle": 60,
             "arc": 180,
             "id": "WS 029",
             "locations": [
@@ -411,7 +411,7 @@
         },
         {
             "angle": 0,
-            "arc": 270,
+            "arc": 240,
             "id": "WS 030",
             "locations": [
                 167.56,
@@ -495,11 +495,11 @@
         },
         {
             "angle": 0,
-            "arc": 270,
+            "arc": 240,
             "id": "WS 037",
             "locations": [
-                103.46,
-                0.01
+                103.52,
+                -0.02
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
@@ -507,39 +507,39 @@
         },
         {
             "angle": 0,
-            "arc": 270,
+            "arc": 240,
             "id": "WS 039",
             "locations": [
-                31.42,
-                0.02
+                31.55,
+                -0.03
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
             "type": "BALLISTIC"
         },
         {
-            "angle": 120,
-            "arc": 240,
+            "angle": 139,
+            "arc": 0,
             "id": "WS 040",
             "locations": [
-                -83.14,
-                69.06
+                -83.07,
+                68.8
             ],
-            "mount": "TURRET",
+            "mount": "HARDPOINT",
             "size": "SMALL",
-            "type": "BALLISTIC"
+            "type": "MISSILE"
         },
         {
-            "angle": -120,
-            "arc": 240,
+            "angle": -139,
+            "arc": 0,
             "id": "WS 041",
             "locations": [
-                -83.14,
-                -69.06
+                -83.07,
+                -68.8
             ],
-            "mount": "TURRET",
+            "mount": "HARDPOINT",
             "size": "SMALL",
-            "type": "BALLISTIC"
+            "type": "MISSILE"
         }
     ],
     "width": 228
