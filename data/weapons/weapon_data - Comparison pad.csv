@@ -7,9 +7,9 @@ Drake Battery,tp_drake_battery,1,,600,900,1440,,,0,10,24,,,,ENERGY,,1296,0.1,0.2
 Drake Battery (Decoration),tp_drake_battery_decorative,1,,600,900,,,,0,40,99,,,,ENERGY,1,,0.1,1.9,1,,,,,,,10000,,,,,,"ANTI_FTR,SYSTEM",,,,,Suppression / Anti Armor,,,,,,,,,,,
 Drake Battery (for fx drone use),tp_drake_battery_fxdrone,1,,600,900,70,,,0,40,99,,,,HIGH_EXPLOSIVE,,1,0.1,1.6,0.2,0.45,,,,,10000,,,,,,,"ANTI_FTR,SYSTEM",,,,,Suppression / Anti Armor,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Micro Drake,tp_microdrake,0,,75,500,450,,,4,75,5,,,,ENERGY,,500,0.1,0.1,0.35,0.702,0,,,,100000,,,,,,,ANTI_FTR,,,Pirate,,Anti Armor / Anti Fighter,,,,,Shorter beam duration gives the weapon similar armor piercing profile to Drake.,,,,,,
-Micro Drake (decorative),tp_microdrake_decorative,0,,75,600,1,,,4,75,99,,,,ENERGY,,1,0.1,0.88,0.1,0.042,0,,,,100000,,,,,,,"ANTI_FTR,SYSTEM",,,,,Anti Armor / Anti Fighter,,,,,,,,,,,
-Micro Drake (for fx drone),tp_microdrake_fxdrone,0,,75,600,30,,,4,75,99,,,,HIGH_EXPLOSIVE,,1,0.1,0.88,0.1,0.042,0,,,,100000,,,,,,,"ANTI_FTR,SYSTEM",,,,,Anti Armor / Anti Fighter,,,,,,,,,,,
+Micro Drake,tp_microdrake,0,,75,500,150,,,0,75,7,,,,HIGH_EXPLOSIVE,,500,0.1,0.1,0.60,0.452,0,,,,100000,,,,,,,ANTI_FTR,,,Pirate,,Anti Armor / Anti Fighter,,,,,Faster cycle rate and shorter beam duration give the weapon near identical anti-armor performance to a normal Drake.,,,,,,
+Micro Drake (decorative) (deprecated),tp_microdrake_decorative,0,,75,600,1,,,0,75,99,,,,ENERGY,,1,0.1,0.88,0.1,0.042,0,,,,100000,,,,,,,"ANTI_FTR,SYSTEM",,,,,Anti Armor / Anti Fighter,,,,,,,,,,,
+Micro Drake (for fx drone) (deprecated),tp_microdrake_fxdrone,0,,75,600,30,,,0,75,99,,,,HIGH_EXPLOSIVE,,1,0.1,0.88,0.1,0.042,0,,,,100000,,,,,,,"ANTI_FTR,SYSTEM",,,,,Anti Armor / Anti Fighter,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Mining Laser (OC),tp_mining_laser_oc,1,,200,400,100,,,1,100,4,,,,HIGH_EXPLOSIVE,,100,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,Pirate,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,
 Double Mining Laser,tp_double_mining_laser,0,,200,600,60,,,0,60,2,,,,ENERGY,,20,0,0.25,,,,,,,2400,,,,,,,PD,,,,,Point Defense,,,,,,,,,,,2
