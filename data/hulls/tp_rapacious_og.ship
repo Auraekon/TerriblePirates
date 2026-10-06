@@ -263,7 +263,7 @@
             ],
             "mount": "TURRET",
             "size": "LARGE",
-            "type": "COMPOSITE"
+            "type": "BALLISTIC"
         },
         {
             "angle": -90,
