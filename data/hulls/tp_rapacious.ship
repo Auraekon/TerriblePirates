@@ -263,7 +263,7 @@
             ],
             "mount": "TURRET",
             "size": "LARGE",
-            "type": "COMPOSITE"
+            "type": "BALLISTIC"
         },
         {
             "angle": -77,
@@ -518,26 +518,26 @@
             "type": "BALLISTIC"
         },
         {
-            "angle": 139,
-            "arc": 0,
+            "angle": 120,
+            "arc": 240,
             "id": "WS 040",
             "locations": [
-                -83.07,
-                68.8
+                -82.97,
+                69.14
             ],
-            "mount": "HARDPOINT",
+            "mount": "TURRET",
             "size": "SMALL",
             "type": "MISSILE"
         },
         {
-            "angle": -139,
-            "arc": 0,
+            "angle": -120,
+            "arc": 240,
             "id": "WS 041",
             "locations": [
-                -83.07,
-                -68.8
+                -82.97,
+                -69.14
             ],
-            "mount": "HARDPOINT",
+            "mount": "TURRET",
             "size": "SMALL",
             "type": "MISSILE"
         }
