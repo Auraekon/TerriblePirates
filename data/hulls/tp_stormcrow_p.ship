@@ -52,7 +52,7 @@
         -0.77
     ],
     "builtInMods": [
-        "coherer"
+        "safetyoverrides"
     ],
     "center": [
         44,
@@ -106,8 +106,8 @@
         }
     ],
     "height": 125,
-    "hullId": "tp_stormcrow",
-    "hullName": "Stormcrow",
+    "hullId": "tp_stormcrow_p",
+    "hullName": "Stormcrow (P)",
     "hullSize": "FRIGATE",
     "shieldCenter": [
         26.5,
@@ -152,7 +152,7 @@
             ],
             "mount": "HARDPOINT",
             "size": "MEDIUM",
-            "type": "HYBRID"
+            "type": "ENERGY"
         },
         {
             "angle": 0,

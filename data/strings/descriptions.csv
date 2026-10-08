@@ -1,11 +1,21 @@
 id,type,text1,text2,text3,text4,text5,notes
 tp_rapacious,SHIP,"With the fury of Manticore, aggression of Retribution, panache of Eradicator, bullishness of Mule and contriteness of Buffalo, these powers unite to make a pirate battleship! A fast, fragile platform for delivering a withering rain of dakka.",,,,,
 tp_infernium_burner,SHIP_SYSTEM,Provides a massive boost to forward mobility with a long fade-out period.,,,,,
-tp_drake,WEAPON,"An overcharged mining laser stacked with a series of focusing lenses and loaded with sacrificial lasing mediums that burn out in use, fed in from a magazine. The weapon is infamous for being difficult to maintain due to its internals occasionally outright melting in use. The cooling system, if not stripped for parts by an enterprising newbie, eats almost as much energy as powering the laser.",,,,,
+tp_drake,WEAPON,"A medium-range laser rifle capable of delivering a short-duration laser burst that efficiently penetrates armor.
+
+The humble mining laser is, in reality, a hyper-advanced, hyper-ruggedized, hyper-economical piece of technology, made so by the needs of the late-era Domain economy and its reliance on asteroid mining.
+
+Ubiquitous among civilian populations, mining lasers were designed to be too weak to serve as weapons—not through software lockouts, but through the compactness of the underlying technology. Their small form factor limits how much they can be cooled before the laser is destroyed by its own power input. A mining laser combined with a military energy-weapon-rated power input can deliver a pulse of laser light that was badly outdated by the time of the Collapse, but in the modern sector, that same pulse is very much militarily competitive.
+
+In the years 60–61 after the Collapse, the pirate lord Francis Drake held a short reign of terror with a new hack-job weapon. It used a hacked, small-form-factor mining laser powered by Domain-restricted chemical laser fuel in the form of sacrificial shells as ammunition. His weapon proliferated quickly, and although he was eventually defeated, his name remains immortalized in the colloquial name of the weapon type. In the hundred and fifty years since, the weapon has remained popular due to its ability to deliver the utility of a beam weapon without requiring an energy-weapon mount on a ship.
+
+The production template that produces the modern Drake is itself a hack-job of a mining-probe launcher, heavily modified with the laser-focusing optics of a military-grade hull-boring laser and the cooling systems of a high-impulse-power fusion reactor, capable of holding back the tremendous surge of heat produced when the weapon fires.
+
+The ammunition is a small-form-factor, Domain-era mining laser, hacked down to the least and most stripped-down version possible, then modified to be powered by a canister of Domain-restricted chemical laser fuel. The result is a compact, powerful laser shell.",,,,,
 tp_drake_battery,WEAPON,"An overcharged mining laser stacked with a series of focusing lenses and loaded with sacrificial lasing mediums that burn out in use, fed in from a magazine. The weapon is infamous for being difficult to maintain due to its internals occasionally outright melting in use. The cooling system, if not stripped for parts by an enterprising newbie, eats almost as much energy as powering the laser.
 
 A pirate capital ship armament that became popular not long after the collapse. A battery of three drake weapons, combined into a single mount and sharing a cooling jacket ripped from the reactor housing of an Atlas. Due to lack of individual elevation and traverse within the turret housing, the lasers emitted by a drake battery travel adjacent to each other and fail to concentrate their damage on target.",,,,,
-tp_mining_laser_oc,WEAPON,A overclocked mining laser.,,,,,
+tp_mining_laser_oc,WEAPON,,,,,,
 tp_charger,SHIP,Description pending further playtesting.,,,,,
 tp_attack_burn,SHIP_SYSTEM,Provides a strong boost in forward movement and strafe speed while reducing turn rate.,,,,,
-tp_frag_emp,SHIP_SYSTEM,Short duration burst of lightning that deals mediocre fragmentation damage and low EMP damage.,,,,,
+tp_frag_emp,WEAPON,Short duration burst of lightning that deals mediocre fragmentation damage and low EMP damage.,,,,,
