@@ -12,10 +12,26 @@ In the years 60–61 after the Collapse, the pirate lord Francis Drake held a sh
 The production template that produces the modern Drake is itself a hack-job of a mining-probe launcher, heavily modified with the laser-focusing optics of a military-grade hull-boring laser and the cooling systems of a high-impulse-power fusion reactor, capable of holding back the tremendous surge of heat produced when the weapon fires.
 
 The ammunition is a small-form-factor, Domain-era mining laser, hacked down to the least and most stripped-down version possible, then modified to be powered by a canister of Domain-restricted chemical laser fuel. The result is a compact, powerful laser shell.",,,,,
-tp_drake_battery,WEAPON,"An overcharged mining laser stacked with a series of focusing lenses and loaded with sacrificial lasing mediums that burn out in use, fed in from a magazine. The weapon is infamous for being difficult to maintain due to its internals occasionally outright melting in use. The cooling system, if not stripped for parts by an enterprising newbie, eats almost as much energy as powering the laser.
+tp_drake_battery,WEAPON,"A medium-range laser rifle capable of delivering a short-duration laser burst that efficiently penetrates armor.
 
-A pirate capital ship armament that became popular not long after the collapse. A battery of three drake weapons, combined into a single mount and sharing a cooling jacket ripped from the reactor housing of an Atlas. Due to lack of individual elevation and traverse within the turret housing, the lasers emitted by a drake battery travel adjacent to each other and fail to concentrate their damage on target.",,,,,
-tp_mining_laser_oc,WEAPON,,,,,,
+The humble mining laser is, in reality, a hyper-advanced, hyper-ruggedized, hyper-economical piece of technology, made so by the needs of the late-era Domain economy and its reliance on asteroid mining.
+
+Ubiquitous among civilian populations, mining lasers were designed to be too weak to serve as weapons—not through software lockouts, but through the compactness of the underlying technology. Their small form factor limits how much they can be cooled before the laser is destroyed by its own power input. A mining laser combined with a military energy-weapon-rated power input can deliver a pulse of laser light that was badly outdated by the time of the Collapse, but in the modern sector, that same pulse is very much militarily competitive.
+
+In the years 60–61 after the Collapse, the pirate lord Francis Drake held a short reign of terror with a new hack-job weapon. It used a hacked, small-form-factor mining laser powered by Domain-restricted chemical laser fuel in the form of sacrificial shells as ammunition. His weapon proliferated quickly, and although he was eventually defeated, his name remains immortalized in the colloquial name of the weapon type. In the hundred and fifty years since, the weapon has remained popular due to its ability to deliver the utility of a beam weapon without requiring an energy-weapon mount on a ship.
+
+The production template that produces the modern Drake is itself a hack-job of a mining-probe launcher, heavily modified with the laser-focusing optics of a military-grade hull-boring laser and the cooling systems of a high-impulse-power fusion reactor, capable of holding back the tremendous surge of heat produced when the weapon fires.
+
+The ammunition is a small-form-factor, Domain-era mining laser, hacked down to the least and most stripped-down version possible, then modified to be powered by a canister of Domain-restricted chemical laser fuel. The result is a compact, powerful laser shell.",,,,,
+tp_mining_laser_oc,WEAPON,A laser designed for cutting apart ships for salvage. Inefficient against ships but murderous against fighters.,,,,,
+tp_mining_charge_launcher,WEAPON,"A mining charge thrower loaded with mining charges. The simplest of technologies, but in a fight a simple solution, especially if brutally powerful, often just works.",,,,,
+tp_volt_launcher_small,WEAPON,A pulsed-power missile that delivers a destructive surge of electric current on impact.,,,,,
+tp_volt_launcher_medium,WEAPON,A pulsed-power missile that delivers a destructive surge of electric current on impact.,,,,,
+tp_triple_mining_laser_oc,WEAPON,"A laser designed for cutting apart ships for salvage. Inefficient against ships but murderous against fighters.
+
+Heavy duty triple mount for faster scrapping.",,,,,
+tp_carronade,WEAPON,"Inaccurate, short range railgun with a far heavier projectile that kills with its sheer mass. The recoil is so high that the dampers installed into the comparatively undersized mount have zero hope of actually controlling it, which leaves the utility of this weapon to close range encounters where firepower matters more than accuracy.",,,,,
 tp_charger,SHIP,Description pending further playtesting.,,,,,
 tp_attack_burn,SHIP_SYSTEM,Provides a strong boost in forward movement and strafe speed while reducing turn rate.,,,,,
+tp_microburn,SHIP_SYSTEM,"Provides a brief engine boost, propelling the ship forward at an extreme velocity.",,,,,
 tp_frag_emp,WEAPON,Short duration burst of lightning that deals mediocre fragmentation damage and low EMP damage.,,,,,

@@ -14,17 +14,17 @@
 	"turretAngleOffsets":[0],
 	"hardpointOffsets":[12, 0],
 	"hardpointAngleOffsets":[0],
-	"glowColor":[36,174,200,255],
+	"glowColor":[255,255,255,200],
 	"renderHints":[RENDER_BARREL_BELOW],
 	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
-	"animationType":"GLOW",
-	"muzzleFlashSpec":{"length":20.0,   # only used if animationType = MUZZLE_FLASH
-					   "spread":6.0,
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":13.2,   # only used if animationType = MUZZLE_FLASH
+					   "spread":8.0,
 					   "particleSizeMin":6.0,
 					   "particleSizeRange":8.0,
 					   "particleDuration":0.15,
-					   "particleCount":7,
-					   "particleColor":[255,240,165,200]},
+					   "particleCount":11,
+					   "particleColor":[110,255,246,200]},
 	"projectileSpecId":"tp_carronade_shot",  # projectile that will be fired
 	#"fireSoundOne":"light_machinegun_intro",
 	#"fireSoundTwo":"chaingun_fire",

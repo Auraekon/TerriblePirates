@@ -8,20 +8,20 @@ Drake Battery,tp_drake_battery,1,,600,900,1440,,,0,10,24,,,,ENERGY,,1296,0.1,0.2
 Drake Battery (Decoration),tp_drake_battery_decorative,1,,600,900,,,,0,40,99,,,,ENERGY,1,,0.1,1.9,1,,,,,,,10000,,,,,,"ANTI_FTR,SYSTEM",,,,,Suppression / Anti Armor,,,,,,,,,,,
 Drake Battery (for fx drone use),tp_drake_battery_fxdrone,1,,600,900,70,,,0,40,99,,,,HIGH_EXPLOSIVE,,1,0.1,1.6,0.2,0.45,,,,,10000,,,,,,,"ANTI_FTR,SYSTEM",,,,,Suppression / Anti Armor,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Micro Drake (deprecated),tp_microdrake,0,,75,500,450,,,0,75,99,,,,ENERGY,,500,0.1,0.1,0.60,0.452,0,,,,100000,,,,,,,"ANTI_FTR,SYSTEM",,,Pirate,,Anti Armor / Anti Fighter,,,,,Faster cycle rate and shorter beam duration give the weapon near identical anti-armor performance to a normal Drake.,,,,,,
+Micro Drake (deprecated),tp_microdrake,0,,75,500,450,,,0,75,99,,,,ENERGY,,500,0.1,0.1,0.60,0.452,0,,,,100000,,,,,,,"ANTI_FTR,SYSTEM",,,,,Anti Armor / Anti Fighter,,,,,Faster cycle rate and shorter beam duration give the weapon near identical anti-armor performance to a normal Drake.,,,,,,
 Micro Drake (decorative) (deprecated),tp_microdrake_decorative,0,,75,600,1,,,0,75,99,,,,ENERGY,,1,0.1,0.88,0.1,0.042,0,,,,100000,,,,,,,"ANTI_FTR,SYSTEM",,,,,Anti Armor / Anti Fighter,,,,,,,,,,,
 Micro Drake (for fx drone) (deprecated),tp_microdrake_fxdrone,0,,75,600,30,,,0,75,99,,,,HIGH_EXPLOSIVE,,1,0.1,0.88,0.1,0.042,0,,,,100000,,,,,,,"ANTI_FTR,SYSTEM",,,,,Anti Armor / Anti Fighter,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Hullcutter Laser,tp_mining_laser_oc,1,,200,400,100,,,0,100,4,,,,HIGH_EXPLOSIVE,,100,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,Pirate,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,
-Hullcutter Laser Triple Mount,tp_triple_mining_laser_oc,1,,200,400,300,,,0,100,9,,,,HIGH_EXPLOSIVE,,240,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,Pirate,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,3
+Hullcutter Laser,tp_mining_laser_oc,1,,200,400,100,,,0,100,4,,,,HIGH_EXPLOSIVE,,80,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,
+Hullcutter Laser Triple Mount,tp_triple_mining_laser_oc,1,,200,400,300,,,0,100,9,,,,HIGH_EXPLOSIVE,,240,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,3
 Mining Laser Triple Mount,tp_triple_mining_laser,0,,200,600,90,,,0,60,3,,,,ENERGY,,30,0,0.25,,,,,,,2400,,,,,,,PD,,,,,Point Defense,,,,,,,,,,,3
 Double Mining Laser (deprecated),tp_double_mining_laser,0,,200,600,60,,,0,60,99,,,,ENERGY,,20,0,0.25,,,,,,,2400,,,,,,,"PD,SYSTEM",,,,,Point Defense,,,,,,,,,,,2
-Double Mining Laser (OC) (deprecated),tp_double_mining_laser_oc,1,,200,400,200,,,0,100,99,,,,HIGH_EXPLOSIVE,,160,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR,SYSTEM",,,Pirate,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,2
+Double Mining Laser (OC) (deprecated),tp_double_mining_laser_oc,1,,200,400,200,,,0,100,99,,,,HIGH_EXPLOSIVE,,160,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR,SYSTEM",,,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,2
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # Projectiles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Carronade,tp_carronade,1,,1000,450,,100,,10,50,6,,,,KINETIC,50,,0,0.50,1,,0,10,2,5,,800,,,30,,,,,,,,General,,,,,,,,,,,
+Carronade Assault Railgun,tp_carronade,1,,1000,450,,100,,10,50,6,,,,KINETIC,80,,0,0.50,1,,0,10,2,5,,800,,,30,,,,,,,,General,,,,,,,,,,,
 "Dakka ""Super-overclock"" Mortar",tp_heavy_mortar_oc,0,,600,700,,60,,12,60,8,60,5,15,HIGH_EXPLOSIVE,42,,0,0.055,1,0,5,28,5,5,,525,,,30,,,ANTI_FTR,,,Pirate,,Battlespace Saturation,,,,Accuracy?,"Extremely inaccurate. Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,,,
 Rapid fire flak field shield proto,tp_rapid_fire_energy,0,,600,350,,30,,12,60,8,,,,FRAGMENTATION,1,,0,0.21,1,,0,0,0,0,,2000,2000,0.10,30,,,"PD,ANTI_FTR,SYSTEM",,,Pirate,,Battlespace Saturation,,,,Accuracy?,"Extremely inaccurate. Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,,,
 Energy rapid fire weapon,tp_rapid_fire_energy_og,0,,600,350,,30,,12,60,8,,,,ENERGY,1,,0,0.58,3,0.21,0,0,0,0,,2000,2000,0.10,30,,,"PD,ANTI_FTR,SYSTEM",,,Pirate,,Battlespace Saturation,,,,Accuracy?,"Extremely inaccurate. Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,,,
@@ -29,8 +29,8 @@ Energy rapid fire weapon,tp_rapid_fire_energy_og,0,,600,350,,30,,12,60,8,,,,ENER
 # Missiles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Mining Blast Charge Launcher,tp_mining_charge_launcher,1,,1500,1000,,250,,100,30,8,100,,,HIGH_EXPLOSIVE,0,,0,1.5,1,,20,20,0,0,,105,420,4,300,,,"PD,ANTI_FTR",,,,,Point Defense / Anti Fighter,Very Slow,None,,,"Not affected by missile speed, acceleration, and flight time modifiers.",,,,TRUE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Volt SRM,tp_volt_launcher_small,2,,600,1200,,330,300,40,10,5,12,,,ENERGY,0,,0,4,3,0.25,0,0,0,0,,400,170,4,120,,,GUIDED_POOR,,,,,Pressure / Disabler,Fast,Good,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,TRUE,,
-Volt SRM Pod,tp_volt_launcher_medium,2,,600,1200,,330,300,40,10,10,40,,,ENERGY,0,,0,8,5,0.25,0,0,0,0,,400,170,4,120,,,GUIDED_POOR,,,,,Pressure / Disabler,Fast,Good,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,TRUE,,
+Volt SRM,tp_volt_launcher_small,2,,600,1200,,330,300,40,10,5,12,,,ENERGY,0,,0,4,3,0.25,0,0,0,0,,400,170,4,120,,,GUIDED_POOR,,,High Tech,,Pressure / Disabler,Fast,Good,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,TRUE,,
+Volt SRM Pod,tp_volt_launcher_medium,2,,600,1200,,330,300,40,10,10,40,,,ENERGY,0,,0,8,5,0.25,0,0,0,0,,400,170,4,120,,,GUIDED_POOR,,,High Tech,,Pressure / Disabler,Fast,Good,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,TRUE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
