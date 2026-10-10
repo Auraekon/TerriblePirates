@@ -16,7 +16,17 @@
 	
     # This section is where we can define images that can be referenced ingame using Global.getSettings().getSpriteName("category", "name");
 	"graphics":{
-		"fx":{ "laser_splash_flash":"graphics/fx/laser_splash_flash.png", }
+		"fx":{ 
+			"laser_splash_flash":"graphics/fx/laser_splash_flash.png", 
+		},
+		# does not support animations
+		"weaponSkinsPlayerAndNPC":{
+		},
+		"weaponSkinsPlayerOnly":{
+			
+		},
+		"weaponSkinsExcludeFromSharing":{
+		},		
 	},
     "designTypeColors":{
         "Forge-hack":[227,180,72,255]
