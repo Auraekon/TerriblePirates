@@ -1,3 +1,9 @@
 id,trigger,conditions,script,text,options,notes
-# This file is not required by the game and can be deleted if you aren't using it, but doesn't hurt to keep either.
-# Official rules.csv guide: https://fractalsoftworks.com/2023/11/13/you-merely-adopted-rules-csv-i-was-born-into-it/
+pirateRaidMenuOverride,DialogOptionSelected,$option == mktRaid score:1000,PirateRaidCMD raidMenu,,,Pirate Raid override; preferred over vanilla
+pirateRaidNormalValuableOverride,DialogOptionSelected,$option == mktRaidValuable score:1000,PirateRaidCMD normalValuable,,,Pirate Raid override; preferred over vanilla
+pirateRaidNormalDisruptOverride,DialogOptionSelected,$option == mktRaidDisrupt score:1000,PirateRaidCMD normalDisrupt,,,Pirate Raid override; preferred over vanilla
+pirateRaidConfirmOverride,DialogOptionSelected,$option == mktRaidConfirm score:1000,PirateRaidCMD raidConfirm,,,Pirate Raid override; preferred over vanilla
+pirateRaidConfirmContinueOverride,DialogOptionSelected,$option == mktRaidConfirmContinue score:1000,PirateRaidCMD raidConfirmContinue,,,Pirate Raid override; preferred over vanilla
+pirateRaidNeverMindOverride,DialogOptionSelected,$option == mktRaidNeverMind score:1000,PirateRaidCMD raidNeverMind,,,Pirate Raid override; preferred over vanilla
+pirateRaidResultOverride,DialogOptionSelected,$option == mktRaidResult score:1000,PirateRaidCMD raidResult,,,Pirate Raid override; preferred over vanilla
+pirateRaidStartSelection,DialogOptionSelected,$option == pirateRaidInitiate score:1000,PirateRaidCMD pirateValuable,,,Custom selection
