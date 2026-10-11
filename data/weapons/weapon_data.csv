@@ -14,7 +14,7 @@ Micro Drake (for fx drone) (deprecated),tp_microdrake_fxdrone,0,,75,600,30,,,0,7
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Hullcutter Laser,tp_mining_laser_oc,1,,200,400,100,,,0,100,4,,,,HIGH_EXPLOSIVE,,80,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,
 Hullcutter Laser Triple Mount,tp_triple_mining_laser_oc,1,,200,400,300,,,0,100,9,,,,HIGH_EXPLOSIVE,,240,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,3
-Late Domain Mining Laser,tp_mininglaser,0,,100,600,30,,,0,80,1,,,,ENERGY,,3,0,0.25,,,,,,,2400,,,,,,,PD,"beam0, energy0, pd0, base_bp, ind",,,,Point Defense,,,,,,,,,,16.5,
+Late Domain Mining Laser,tp_mininglaser,0,,100,600,30,,,0,80,1,,,,ENERGY,,3,0,0.25,,,,,,,2400,,,,,,,PD,,,,,Point Defense,,,,,,,,,,,
 Mining Laser Triple Mount,tp_triple_mining_laser,0,,200,600,90,,,0,60,3,,,,ENERGY,,30,0,0.25,,,,,,,2400,,,,,,,PD,,,,,Point Defense,,,,,,,,,,,3
 Double Mining Laser (deprecated),tp_double_mining_laser,0,,200,600,60,,,0,60,99,,,,ENERGY,,20,0,0.25,,,,,,,2400,,,,,,,"PD,SYSTEM",,,,,Point Defense,,,,,,,,,,,2
 Double Mining Laser (OC) (deprecated),tp_double_mining_laser_oc,1,,200,400,200,,,0,100,99,,,,HIGH_EXPLOSIVE,,160,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR,SYSTEM",,,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,2
@@ -30,8 +30,8 @@ Energy rapid fire weapon,tp_rapid_fire_energy_og,0,,600,350,,30,,12,60,8,,,,ENER
 # Missiles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Mining Blast Charge Launcher,tp_mining_charge_launcher,1,,1500,1000,,250,,100,30,8,100,,,HIGH_EXPLOSIVE,0,,0,1.5,1,,20,20,0,0,,105,420,4,300,,,"PD,ANTI_FTR",,,,,Point Defense / Anti Fighter,Very Slow,None,,,"Not affected by missile speed, acceleration, and flight time modifiers.",,,,TRUE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Volt SRM,tp_volt_launcher_small,2,,600,1200,,330,300,40,10,5,12,,,ENERGY,0,,0,4,3,0.25,0,0,0,0,,400,170,4,120,,,GUIDED_POOR,,,High Tech,,Pressure / Disabler,Fast,Good,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,TRUE,,
-Volt SRM Pod,tp_volt_launcher_medium,2,,600,1200,,330,300,40,10,10,40,,,ENERGY,0,,0,8,5,0.25,0,0,0,0,,400,170,4,120,,,GUIDED_POOR,,,High Tech,,Pressure / Disabler,Fast,Good,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,TRUE,,
+Volt SRM,tp_volt_launcher_small,2,,600,1200,,330,300,40,10,5,12,,,ENERGY,0,,0,4,3,0.25,0,0,0,0,,330,200,5.5,120,,,GUIDED_POOR,,,High Tech,,Pressure / Disabler,Fast,Good,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,TRUE,,
+Volt SRM Pod,tp_volt_launcher_medium,2,,600,1200,,330,300,40,10,10,40,,,ENERGY,0,,0,8,5,0.25,0,0,0,0,,330,200,5.5,120,,,GUIDED_POOR,,,High Tech,,Pressure / Disabler,Fast,Good,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,TRUE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

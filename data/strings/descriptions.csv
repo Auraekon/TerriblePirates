@@ -5,7 +5,7 @@ tp_drake,WEAPON,"A medium-range laser rifle capable of delivering a short-durati
 
 The humble Late Domain Era mining laser is, in reality, a hyper-advanced, hyper-ruggedized, hyper-economical piece of technology, made so by the needs of the late-era Domain economy and its reliance on asteroid mining. 
 
-Ubiquitous among civilian populations, mining lasers were designed to be too weak to serve as weapons—not through software lockouts, but through the compactness of the underlying technology. Their small form factor limits how much they can be cooled before the laser is destroyed by its own power input. 
+Ubiquitous among civilian populations, these mining lasers were designed to be too weak to serve as weapons—not through software lockouts, but through the compactness of the underlying technology. Their small form factor limits how much they can be cooled before the laser is destroyed by its own power input. 
 
 In the years 60–61 after the Collapse, the pirate lord Francis Drake held a short reign of terror with a new hack-job weapon. It used a hacked, small-form-factor mining laser powered by Domain-restricted chemical laser fuel in the form of sacrificial shells as ammunition. His weapon proliferated quickly, and although he was eventually defeated, his name remains immortalized in the colloquial name of the weapon type. In the hundred and fifty years since, the weapon type has remained popular due to its ability to deliver the utility of a beam weapon without requiring an energy weapon mount on a ship.
 
@@ -16,7 +16,7 @@ tp_drake_battery,WEAPON,"A medium-range laser rifle capable of delivering a shor
 
 The humble Late Domain Era mining laser is, in reality, a hyper-advanced, hyper-ruggedized, hyper-economical piece of technology, made so by the needs of the late-era Domain economy and its reliance on asteroid mining. 
 
-Ubiquitous among civilian populations, mining lasers were designed to be too weak to serve as weapons—not through software lockouts, but through the compactness of the underlying technology. Their small form factor limits how much they can be cooled before the laser is destroyed by its own power input. 
+Ubiquitous among civilian populations, these mining lasers were designed to be too weak to serve as weapons—not through software lockouts, but through the compactness of the underlying technology. Their small form factor limits how much they can be cooled before the laser is destroyed by its own power input. 
 
 In the years 60–61 after the Collapse, the pirate lord Francis Drake held a short reign of terror with a new hack-job weapon. It used a hacked, small-form-factor mining laser powered by Domain-restricted chemical laser fuel in the form of sacrificial shells as ammunition. His weapon proliferated quickly, and although he was eventually defeated, his name remains immortalized in the colloquial name of the weapon type. In the hundred and fifty years since, the weapon type has remained popular due to its ability to deliver the utility of a beam weapon without requiring an energy weapon mount on a ship.
 
@@ -29,7 +29,7 @@ tp_mininglaser,WEAPON,"A standardized, Late Domain Era mining laser hardwired fo
 
 The humble Late Domain Era mining laser is, in reality, a hyper-advanced, hyper-ruggedized, hyper-economical piece of technology, made so by the needs of the late-era Domain economy and its reliance on asteroid mining.
 
-Ubiquitous among civilian populations, mining lasers were designed to be too weak to serve as weapons—not through software lockouts, but through the compactness of the underlying technology. Their small form factor limits how much they can be cooled before the laser is destroyed by its own power input. ",,,,,
+Ubiquitous among civilian populations, these mining lasers were designed to be too weak to serve as weapons—not through software lockouts, but through the compactness of the underlying technology. Their small form factor limits how much they can be cooled before the laser is destroyed by its own power input. ",,,,,
 tp_triple_mining_laser,WEAPON,A triple mount of cheap utility lasers hardwired for missile and fighter defense. Long-ranged and relatively efficient.,,,,,
 tp_volt_launcher_small,WEAPON,A pulsed-power missile that delivers a destructive surge of electric current on impact.,,,,,
 tp_volt_launcher_medium,WEAPON,A pulsed-power missile that delivers a destructive surge of electric current on impact.,,,,,
