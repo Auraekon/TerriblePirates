@@ -19,5 +19,8 @@
     ],
     "tp_canister_frag_sandblast":[
             {"file":"sounds/tp_canister_frag_sandblast.ogg","pitch":0.3,"volume":0.1}
+    ],
+    "tp_ammofeed_fighter_quiet":[ 
+                {"file":"sounds/sfx_systems/ammo_feeder_oneshot.ogg","pitch":1,"volume":0.1}
     ]
 }

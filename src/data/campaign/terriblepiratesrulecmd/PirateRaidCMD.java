@@ -100,7 +100,7 @@ public class PirateRaidCMD extends MarketCMD {
         } else if (temp.raidMult < VALUABLES_THRESHOLD) {
             options.setEnabled(OPTION_ID, false);
             options.setTooltip(OPTION_ID,
-                    "Your forces cannot conduct an effective valuables raid.");
+                    "Your forces are not sufficient to conduct an effective valuables raid.");
         }
 
         options.addOption("Go back", RAID_GO_BACK);

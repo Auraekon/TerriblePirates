@@ -1,0 +1,13 @@
+{
+	"id":"tp_ammofeed_fighter",
+	"type":"STAT_MOD",
+	"aiType":"WEAPON_BOOST",
+	
+	"statsScript":"data.shipsystems.scripts.AmmoFeedStats",
+	
+	"weaponGlowColor":[255,200,0,155],
+	"weaponTypes":[BALLISTIC],
+	
+	"useSound":"tp_ammofeed_fighter_quiet",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

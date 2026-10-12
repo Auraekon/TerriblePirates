@@ -1,3 +1,2 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
-# Add your fighter wings here. One left commented out for reference.
-# See https://starsector.fandom.com/wiki/Wing_data.csv_Overview
+tp_rattler_drone,tp_rattler_drone_hmachinegun,"stay_in_front_of_ship, interceptor1, interceptor, low, auto_fighter",0,,5,8,V,0,500,,2,SUPPORT,Attack Drone,10,1500,,,,,,,,,,,,,
