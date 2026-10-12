@@ -1,6 +1,6 @@
 {
 	"quality":0,
-	"displayName":"Attack Drone",
+	"displayName":"Support Drone",
 	"hullId":"tp_rattler_drone",
 	"variantId":"tp_rattler_drone_hmachinegun",
 	"fluxVents":0,
