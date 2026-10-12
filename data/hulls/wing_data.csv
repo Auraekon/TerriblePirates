@@ -1,2 +1,2 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
-tp_rattler_drone_wing,tp_rattler_drone_hmachinegun,"stay_in_front_of_ship, interceptor1, drone, interceptor, low, auto_fighter",0,,5,8,V,0,500,,2,SUPPORT,Attack Drone,10,1500,,,,,,,,,,,,,
+tp_rattler_drone_wing,tp_rattler_drone_hmachinegun,"stay_in_front_of_ship, interceptor1, drone, interceptor, low, auto_fighter",0,,5,10,V,0,500,,2,SUPPORT,Attack Drone,10,1500,,,,,,,,,,,,,
