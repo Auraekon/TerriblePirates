@@ -1,13 +1,21 @@
 {
     "bounds": [
-        9.8,
-        9.93,
-        -9.79,
-        12.85,
-        -9.79,
-        -12.85,
-        9.8,
-        -9.93
+        3.79,
+        12.94,
+        -8.87,
+        12.95,
+        -8.87,
+        -12.95,
+        3.79,
+        -12.94,
+        4.9,
+        -7.02,
+        13.1,
+        -7.14,
+        13.1,
+        7.14,
+        4.9,
+        7.02
     ],
     "builtInMods": [
         "tp_safety_overrides_fighter"
@@ -24,8 +32,8 @@
             "contrailSize": 64,
             "length": 23,
             "location": [
-                -11.81,
-                7.31
+                -11.43,
+                5.54
             ],
             "style": "LOW_TECH",
             "width": 9
@@ -35,38 +43,16 @@
             "contrailSize": 64,
             "length": 23,
             "location": [
-                -11.81,
-                -7.31
+                -11.43,
+                -5.54
             ],
             "style": "LOW_TECH",
             "width": 9
-        },
-        {
-            "angle": -42,
-            "contrailSize": 20,
-            "length": 9,
-            "location": [
-                -1.92,
-                -11.64
-            ],
-            "style": "LOW_TECH",
-            "width": 4
-        },
-        {
-            "angle": 42,
-            "contrailSize": 20,
-            "length": 9,
-            "location": [
-                -1.92,
-                11.64
-            ],
-            "style": "LOW_TECH",
-            "width": 4
         }
     ],
     "height": 27,
     "hullId": "tp_rattler_drone",
-    "hullName": "Rattler",
+    "hullName": "Hatchet",
     "hullSize": "FIGHTER",
     "shieldCenter": [
         1,
