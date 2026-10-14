@@ -1,6 +1,6 @@
 id,type,text1,text2,text3,text4,text5,notes
 tp_rapacious,SHIP,"With the fury of Manticore, aggression of Retribution, panache of Eradicator, bullishness of Mule and contriteness of Buffalo, these powers unite to make a pirate battleship! A fast, fragile platform for delivering a withering rain of dakka.",,,,,
-tp_rattler_drone,SHIP,Close-in support drone that attacks with little heed for its own survival. Has only 75 heavy MG shells in its magazines and has to reload in its mothership regularly.,,,,,
+tp_rattler_drone,SHIP,"A sturdy, hyper-agile support drone that specializes in delivering significant, close-in kinetic firepower.",,,,,
 tp_infernium_burner,SHIP_SYSTEM,Provides a massive boost to forward mobility with a long fade-out period.,,,,,
 tp_ammofeed_fighter,SHIP_SYSTEM,Activates an advanced - but jamming-prone - mechanism for quickly delivering ammo to the ship's ballistic weapon emplacements. The mechanism must be re-calibrated and cooled before it can be used again.,Offensive,Provides a flux cost reduction and a brief boost to the rate of fire of all ballistic weapons.,,"Increases ballistic weapon rate of fire by {{100%}}, and reduces the flux generation of ballistic weapons by {{50%}}.",
 tp_drake,WEAPON,"A medium-range laser rifle capable of delivering a short-duration laser burst that efficiently penetrates armor.
