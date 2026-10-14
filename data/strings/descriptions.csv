@@ -1,6 +1,6 @@
 id,type,text1,text2,text3,text4,text5,notes
 tp_rapacious,SHIP,"With the fury of Manticore, aggression of Retribution, panache of Eradicator, bullishness of Mule and contriteness of Buffalo, these powers unite to make a pirate battleship! A fast, fragile platform for delivering a withering rain of dakka.",,,,,
-tp_rattler_drone,SHIP,Extremely aggressive support drone that attacks with little heed for its own survival. Has limited ammo.,,,,,
+tp_rattler_drone,SHIP,Close-in support drone that attacks with little heed for its own survival. Has only 75 heavy MG shells in its magazines and has to reload in its mothership regularly.,,,,,
 tp_infernium_burner,SHIP_SYSTEM,Provides a massive boost to forward mobility with a long fade-out period.,,,,,
 tp_ammofeed_fighter,SHIP_SYSTEM,Activates an advanced - but jamming-prone - mechanism for quickly delivering ammo to the ship's ballistic weapon emplacements. The mechanism must be re-calibrated and cooled before it can be used again.,Offensive,Provides a flux cost reduction and a brief boost to the rate of fire of all ballistic weapons.,,"Increases ballistic weapon rate of fire by {{100%}}, and reduces the flux generation of ballistic weapons by {{50%}}.",
 tp_drake,WEAPON,"A medium-range laser rifle capable of delivering a short-duration laser burst that efficiently penetrates armor.
@@ -39,6 +39,7 @@ tp_triple_mining_laser_oc,WEAPON,"A laser designed for cutting apart ships for s
 
 Heavy duty triple mount for faster scrapping.",,,,,
 tp_carronade,WEAPON,"Inaccurate, short range railgun with a far heavier projectile that kills with its sheer mass. The recoil is so high that the dampers installed into the comparatively undersized mount have zero hope of actually controlling it, which leaves the utility of this weapon to close range encounters where firepower matters more than accuracy.",,,,,
+tp_microhammer_small,WEAPON,Smaller Hammer. Calibrated to pierce Enforcer armor comfortably.,,,,,
 tp_charger,SHIP,Description pending further playtesting.,,,,,
 tp_attack_burn,SHIP_SYSTEM,Provides a strong boost in forward movement and strafe speed while reducing turn rate.,,,,,
 tp_microburn,SHIP_SYSTEM,"Provides a brief engine boost, propelling the ship forward at an extreme velocity.",,,,,
