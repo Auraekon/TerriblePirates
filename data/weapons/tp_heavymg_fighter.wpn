@@ -10,7 +10,7 @@
 	"hardpointGunSprite":"graphics/weapons/fighter/tp_heavymg_fighter/heavy_machinegun_hardpoint_recoil.png",
 	"renderHints":[RENDER_BARREL_BELOW],
 	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
-	"turretOffsets":[14, -6, 14, 6],
+	"turretOffsets":[14, -1, 14, 1],
 	"turretAngleOffsets":[0, 0],
 	"hardpointOffsets":[20, -6, 20, 6],
 	"hardpointAngleOffsets":[0, 0],
