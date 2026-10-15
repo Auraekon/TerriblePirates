@@ -14,7 +14,9 @@
         17.72
     ],
     "builtInMods": [
-        "tp_safety_overrides_fighter"
+        "tp_safety_overrides_fighter",
+        "auxiliarythrusters",
+        "tp_ballistic_rangefinder_fighter"
     ],
     "center": [
         19,
