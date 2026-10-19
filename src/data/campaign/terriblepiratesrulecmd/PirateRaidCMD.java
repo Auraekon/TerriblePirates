@@ -88,7 +88,7 @@ public class PirateRaidCMD extends MarketCMD {
         options.addOption("Initiate a pirate raid", OPTION_ID);
         options.setTooltip(OPTION_ID,
                 "Choose objectives same as with a normal valuables raid, but receive " +
-                "credits instead of loot. Any valuables recovered will be fenced at " + "twice the calculated market value of the items obtained." + "Your cut is based on your reputation with the pirates.");
+                "credits instead of loot. Any valuables recovered will be fenced for " + "the average market value of the items obtained." + "Your cut is based on your reputation with the pirates.");
 
         if (pirateRep() <= 0f) {
             options.setEnabled(OPTION_ID, false);
@@ -115,7 +115,7 @@ public class PirateRaidCMD extends MarketCMD {
 
         options.setOptionText("Launch pirate raid", RAID_CONFIRM);
         text.addPara("Any valuables recovered will be fenced at " +
-                "twice the calculated market value of the items obtained." +
+                "the average market value of the items obtained." +
                 "Your cut is based on your reputation with the pirates.");
         if (pirateRep() <= 0f) {
             options.setEnabled(RAID_CONFIRM, false);
@@ -165,8 +165,7 @@ public class PirateRaidCMD extends MarketCMD {
         // deposits its credits directly into the player's account in vanilla.
         CargoAPI creditOnly = Global.getFactory().createCargo(true);
         if (payout > 0L) creditOnly.getCredits().add(payout);
-        double fencedValue = lootValue * 2;
-        text.addPara("Recovered valuables fenced for " + Misc.getDGSCredits((float) fencedValue) +
+        text.addPara("Recovered valuables fenced for " + Misc.getDGSCredits((float) lootValue) +
                 "; your cut: " + Misc.getDGSCredits(payout));
 
         return creditOnly;
@@ -178,7 +177,7 @@ public class PirateRaidCMD extends MarketCMD {
         if (reputation <= 0f || size <= 0 || lootValue <= 0d ||
                 Double.isNaN(lootValue)) return 0L;
         // double result = (reputation * (double) size * lootValue) / divisor;
-        double result = (reputation * lootValue) * 2;
+        double result = (reputation * lootValue);
         if (Double.isNaN(result) || result <= 0d) return 0L;
         if (Double.isInfinite(result) || result >= MAX_PAYOUT_CREDITS) {
             return MAX_PAYOUT_CREDITS;
