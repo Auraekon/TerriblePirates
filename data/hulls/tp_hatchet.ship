@@ -1,0 +1,188 @@
+{
+    "bounds": [
+        18.87,
+        5.05,
+        18.87,
+        -5.05,
+        2.4,
+        -24.4,
+        -14.32,
+        -13.27,
+        -14.32,
+        13.27,
+        2.4,
+        24.4
+    ],
+    "builtInMods": [
+        "tp_safety_overrides_fighter",
+        "auxiliarythrusters",
+        "tp_ballistic_rangefinder_fighter"
+    ],
+    "center": [
+        25,
+        15.5
+    ],
+    "collisionRadius": 23,
+    "coversColor": "",
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 26.5,
+            "location": [
+                -15.5,
+                10
+            ],
+            "style": "TP_BLOOD_RED",
+            "width": 9
+        },
+        {
+            "angle": 180,
+            "contrailSize": 64,
+            "length": 26.5,
+            "location": [
+                -15.5,
+                -10
+            ],
+            "style": "TP_BLOOD_RED",
+            "width": 9
+        },
+        {
+            "angle": 135,
+            "contrailSize": 20,
+            "length": 23,
+            "location": [
+                -8,
+                18.08
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 9
+        },
+        {
+            "angle": 135,
+            "contrailSize": 20,
+            "length": 23,
+            "location": [
+                -1.01,
+                22.62
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 9
+        },
+        {
+            "angle": -135,
+            "contrailSize": 20,
+            "length": 23,
+            "location": [
+                -8,
+                -18.08
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 9
+        },
+        {
+            "angle": -135,
+            "contrailSize": 20,
+            "length": 23,
+            "location": [
+                -1.01,
+                -22.62
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 9
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 15,
+            "location": [
+                -17,
+                10
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 11
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 15,
+            "location": [
+                -17,
+                -10
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 11
+        },
+        {
+            "angle": -135,
+            "contrailSize": 20,
+            "length": 11.5,
+            "location": [
+                -8.71,
+                -18.93
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 11
+        },
+        {
+            "angle": 135,
+            "contrailSize": 20,
+            "length": 11.5,
+            "location": [
+                -8.71,
+                18.93
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 11
+        },
+        {
+            "angle": 135,
+            "contrailSize": 20,
+            "length": 11.5,
+            "location": [
+                -1.86,
+                23.57
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 11
+        },
+        {
+            "angle": -135,
+            "contrailSize": 20,
+            "length": 11.5,
+            "location": [
+                -1.86,
+                -23.57
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 11
+        }
+    ],
+    "height": 36,
+    "hullId": "tp_hatchet",
+    "hullName": "Hatchet",
+    "hullSize": "FIGHTER",
+    "shieldCenter": [
+        -1.57,
+        0
+    ],
+    "shieldRadius": 24,
+    "spriteName": "graphics/ships/fighters/tp_hatchet.png",
+    "style": "LOW_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 0,
+            "arc": 45,
+            "id": "WS 001",
+            "locations": [
+                11.04,
+                0.02
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        }
+    ],
+    "width": 50
+}

@@ -22,10 +22,8 @@ public class tp_safety_overrides_fighter extends BaseHullMod {
 		return null;
 	}
 
-	private Color color = new Color(255,100,255,255);
 	@Override
 	public void advanceInCombat(ShipAPI ship, float amount) {
-		ship.getEngineController().fadeToOtherColor(this, color, null, 1f, 0.4f);
-		ship.getEngineController().extendFlame(this, 0.25f, 0.25f, 0.25f);
+		ship.getEngineController().extendFlame(this, 0.0f, 0.0f, 0.30f);
 	}
 }

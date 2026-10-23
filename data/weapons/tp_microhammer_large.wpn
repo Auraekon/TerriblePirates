@@ -5,7 +5,7 @@
 	"size":"LARGE",
 	"turretSprite":"graphics/weapons/launchers/tp_large_missile_autoloader_turret_base.png",
 	"hardpointSprite":"graphics/weapons/launchers/tp_large_missile_autoloader_hardpoint_base.png",	
-	"hardpointOffsets":[13, -9, 13, -3, 13, 3, 13, 9],
+	"hardpointOffsets":[16, -9, 16, -3, 16, 3, 16, 9],
 	"turretOffsets":[8, -9, 8, -3, 8, 3, 8, 9],
 	"hardpointAngleOffsets":[0, 0, 0, 0],
 	"turretAngleOffsets":[0, 0, 0, 0],

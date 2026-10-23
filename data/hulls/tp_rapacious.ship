@@ -527,7 +527,7 @@
             ],
             "mount": "TURRET",
             "size": "SMALL",
-            "type": "MISSILE"
+            "type": "COMPOSITE"
         },
         {
             "angle": -120,
@@ -539,7 +539,7 @@
             ],
             "mount": "TURRET",
             "size": "SMALL",
-            "type": "MISSILE"
+            "type": "COMPOSITE"
         }
     ],
     "width": 228

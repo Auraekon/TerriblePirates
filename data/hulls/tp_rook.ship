@@ -105,8 +105,8 @@
             "arc": 180,
             "id": "WS 001",
             "locations": [
-                -8.11,
-                44.14
+                -8.03,
+                44.06
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
@@ -117,8 +117,8 @@
             "arc": 180,
             "id": "WS 002",
             "locations": [
-                -8.11,
-                -44.14
+                -8.03,
+                -44.06
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
@@ -129,8 +129,8 @@
             "arc": 180,
             "id": "WS 003",
             "locations": [
-                31.97,
-                35.08
+                31.95,
+                35.11
             ],
             "mount": "TURRET",
             "size": "SMALL",
@@ -141,8 +141,8 @@
             "arc": 180,
             "id": "WS 004",
             "locations": [
-                31.97,
-                -35.08
+                31.95,
+                -35.11
             ],
             "mount": "TURRET",
             "size": "SMALL",

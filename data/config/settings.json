@@ -29,6 +29,7 @@
 		},		
 	},
     "designTypeColors":{
-        "Forge-hack":[227,180,72,255]
+        "Forge-hack":[227,180,72,255],
+        "Advanced P1rat3 MK.II":[190,10,0,255],
     },
 }

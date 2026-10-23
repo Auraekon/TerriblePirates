@@ -1,17 +1,17 @@
 {
     "bounds": [
-        16.62,
-        -0.15,
-        6.48,
-        -17.72,
+        18.87,
+        5.05,
+        18.87,
+        -5.05,
+        2.4,
+        -24.4,
         -14.32,
-        -12.5,
+        -13.27,
         -14.32,
-        0.12,
-        -14.32,
-        12.5,
-        6.48,
-        17.72
+        13.27,
+        2.4,
+        24.4
     ],
     "builtInMods": [
         "tp_safety_overrides_fighter",
@@ -19,8 +19,8 @@
         "tp_ballistic_rangefinder_fighter"
     ],
     "center": [
-        19,
-        14.5
+        25,
+        15.5
     ],
     "collisionRadius": 23,
     "coversColor": "",
@@ -28,73 +28,139 @@
         {
             "angle": 180,
             "contrailSize": 64,
-            "length": 30,
+            "length": 26.5,
             "location": [
-                -15.09,
-                9.42
+                -15.5,
+                10
             ],
-            "style": "LOW_TECH",
-            "width": 10
+            "style": "TP_BLOOD_RED",
+            "width": 9
         },
         {
             "angle": 180,
             "contrailSize": 64,
-            "length": 30,
+            "length": 26.5,
             "location": [
-                -15.09,
-                -9.42
+                -15.5,
+                -10
             ],
-            "style": "LOW_TECH",
-            "width": 10
+            "style": "TP_BLOOD_RED",
+            "width": 9
         },
         {
             "angle": 135,
             "contrailSize": 20,
-            "length": 22,
+            "length": 23,
             "location": [
-                -9.71,
-                16.66
+                -8,
+                18.08
             ],
-            "style": "LOW_TECH",
-            "width": 8
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 9
         },
         {
             "angle": 135,
             "contrailSize": 20,
-            "length": 22,
+            "length": 23,
             "location": [
-                -2.67,
-                19.13
+                -1.01,
+                22.62
             ],
-            "style": "LOW_TECH",
-            "width": 8
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 9
         },
         {
             "angle": -135,
             "contrailSize": 20,
-            "length": 22,
+            "length": 23,
             "location": [
-                -9.71,
-                -16.66
+                -8,
+                -18.08
             ],
-            "style": "LOW_TECH",
-            "width": 8
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 9
         },
         {
             "angle": -135,
             "contrailSize": 20,
-            "length": 22,
+            "length": 23,
             "location": [
-                -2.67,
-                -19.13
+                -1.01,
+                -22.62
             ],
-            "style": "LOW_TECH",
-            "width": 8
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 9
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 15,
+            "location": [
+                -17,
+                10
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 11
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 15,
+            "location": [
+                -17,
+                -10
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 11
+        },
+        {
+            "angle": -135,
+            "contrailSize": 20,
+            "length": 11.5,
+            "location": [
+                -8.71,
+                -18.93
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 11
+        },
+        {
+            "angle": 135,
+            "contrailSize": 20,
+            "length": 11.5,
+            "location": [
+                -8.71,
+                18.93
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 11
+        },
+        {
+            "angle": 135,
+            "contrailSize": 20,
+            "length": 11.5,
+            "location": [
+                -1.86,
+                23.57
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 11
+        },
+        {
+            "angle": -135,
+            "contrailSize": 20,
+            "length": 11.5,
+            "location": [
+                -1.86,
+                -23.57
+            ],
+            "style": "TP_BLOOD_RED_SMOKELESS",
+            "width": 11
         }
     ],
-    "height": 34,
+    "height": 36,
     "hullId": "tp_rattler_drone",
-    "hullName": "Hatchet",
+    "hullName": "Rattler (deprecated)",
     "hullSize": "FIGHTER",
     "shieldCenter": [
         -1.57,
@@ -118,5 +184,5 @@
             "type": "BALLISTIC"
         }
     ],
-    "width": 38
+    "width": 50
 }
