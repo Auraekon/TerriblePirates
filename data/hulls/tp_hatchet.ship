@@ -1,17 +1,17 @@
 {
     "bounds": [
-        18.87,
-        5.05,
-        18.87,
-        -5.05,
-        2.4,
-        -24.4,
-        -14.32,
-        -13.27,
-        -14.32,
-        13.27,
-        2.4,
-        24.4
+        11.27,
+        14.71,
+        11.27,
+        -14.71,
+        3.29,
+        -23.84,
+        -13.38,
+        -13.5,
+        -13.38,
+        13.5,
+        3.29,
+        23.84
     ],
     "builtInMods": [
         "tp_safety_overrides_fighter",
@@ -19,7 +19,7 @@
         "tp_ballistic_rangefinder_fighter"
     ],
     "center": [
-        25,
+        24,
         15.5
     ],
     "collisionRadius": 23,
@@ -158,7 +158,7 @@
             "width": 11
         }
     ],
-    "height": 36,
+    "height": 38,
     "hullId": "tp_hatchet",
     "hullName": "Hatchet",
     "hullSize": "FIGHTER",
@@ -184,5 +184,5 @@
             "type": "BALLISTIC"
         }
     ],
-    "width": 50
+    "width": 48
 }
