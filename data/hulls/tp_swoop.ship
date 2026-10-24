@@ -81,7 +81,9 @@
         -37.63,
         77.73
     ],
-    "builtInMods": [],
+    "builtInMods": [
+        "defensive_targeting_array"
+    ],
     "center": [
         81,
         88

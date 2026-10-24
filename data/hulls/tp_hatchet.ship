@@ -16,7 +16,7 @@
     "builtInMods": [
         "tp_safety_overrides_fighter",
         "auxiliarythrusters",
-        "tp_ballistic_rangefinder_fighter"
+        "ballistic_rangefinder"
     ],
     "center": [
         24,
@@ -163,10 +163,10 @@
     "hullName": "Hatchet",
     "hullSize": "FIGHTER",
     "shieldCenter": [
-        -1.57,
+        2,
         0
     ],
-    "shieldRadius": 24,
+    "shieldRadius": 30.5,
     "spriteName": "graphics/ships/fighters/tp_hatchet.png",
     "style": "LOW_TECH",
     "viewOffset": 0,

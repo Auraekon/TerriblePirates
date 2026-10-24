@@ -1,6 +1,7 @@
 {
 	"id":"tp_microhammer_medium",
 	"specClass":"projectile",
+	"everyFrameEffect":"com.fs.starfarer.api.impl.combat.threat.VoidblasterEffect",
 	"type":"MISSILE",
 	"size":"MEDIUM",
 	"turretSprite":"graphics/weapons/launchers/tp_medium_missile_autoloader_turret_base.png",
