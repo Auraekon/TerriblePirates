@@ -10,6 +10,7 @@
 	"collisionClass":"MISSILE_FF",
 	"explosionColor":[255,74,20,255],  # purely visual, will get a white additively blended core on top of this color
 	"explosionRadius":184, # purely visual
+	#"alwaysAccelerate":true,
 	"explosionSpec":{"duration":0.1f, # not visual
 					 "radius":80,
 					 "coreRadius":53, # full damage within core radius
@@ -24,10 +25,10 @@
 	"armingTime":.05,
 	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
 	"fadeTime":0.5, # fadeout duration					 
-	"engineSpec":{"turnAcc":120,
-				  "turnRate":30,
-				  "acc":750,
-				  "dec":200},
+	"engineSpec":{"turnAcc":100,
+				  "turnRate":15,
+				  "acc":500,
+				  "dec":125},
 	"engineSlots":[{"id":"ES1",
 					"loc":[-10, 0],
 				    "style":"CUSTOM",

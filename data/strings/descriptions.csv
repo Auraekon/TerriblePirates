@@ -32,8 +32,8 @@ In the years 60–61 after the Collapse, the pirate lord Francis Drake held a sh
 The production template that produces the modern Drake is itself a hack-job of a mining-probe launcher, heavily modified with the laser-focusing optics of a military-grade hull-boring laser and the cooling systems of a high-impulse-power fusion reactor, capable of holding back the tremendous surge of heat produced when the weapon fires.
 
 The ammunition is a small-form-factor, Domain-era mining laser, hacked down to the least and most stripped-down version possible, then modified to be powered by a canister of Domain-restricted chemical laser fuel. The result is a compact, powerful laser shell.",,,,,
-tp_hullcutter_laser,WEAPON,"A laser engineered for cutting apart ships to scrap. It also works against non-condemned ships. Functions also as a point-defense weapon, though is inefficient in that capacity.",,,,,
-tp_hullcutter_laser_triple,WEAPON,"A laser engineered for cutting apart ships to scrap. It also works against non-condemned ships. Functions also as a point-defense weapon, though is inefficient in that capacity.",,,,,
+tp_hullcutter_laser,WEAPON,A laser engineered for cutting apart ships to scrap. It also works against non-condemned ships.,,,,,
+tp_hullcutter_laser_triple,WEAPON,A laser engineered for cutting apart ships to scrap. It also works against non-condemned ships.,,,,,
 tp_mining_charge_launcher,WEAPON,"A mining charge thrower loaded with mining charges. The simplest of technologies, but in a fight a simple solution, especially if brutally powerful, often just works.",,,,,
 tp_mininglaser,WEAPON,"A standardized, Late Domain Era mining laser hardwired for missile and fighter defense. Long-ranged, but hampered by its low power output. Extremely efficient.
 
