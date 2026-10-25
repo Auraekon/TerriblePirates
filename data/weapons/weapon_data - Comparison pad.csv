@@ -12,8 +12,8 @@ Micro Drake (deprecated),tp_microdrake,0,,75,500,450,,,0,75,99,,,,ENERGY,,500,0.
 Micro Drake (decorative) (deprecated),tp_microdrake_decorative,0,,75,600,1,,,0,75,99,,,,ENERGY,,1,0.1,0.88,0.1,0.042,0,,,,100000,,,,,,,"ANTI_FTR,SYSTEM",,,,,Anti Armor / Anti Fighter,,,,,,,,,,,
 Micro Drake (for fx drone) (deprecated),tp_microdrake_fxdrone,0,,75,600,30,,,0,75,99,,,,HIGH_EXPLOSIVE,,1,0.1,0.88,0.1,0.042,0,,,,100000,,,,,,,"ANTI_FTR,SYSTEM",,,,,Anti Armor / Anti Fighter,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Hullcutter Laser,tp_mining_laser_oc,1,,200,400,100,,,0,100,4,,,,HIGH_EXPLOSIVE,,80,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,
-Hullcutter Laser Triple Mount,tp_triple_mining_laser_oc,1,,200,400,300,,,0,100,9,,,,HIGH_EXPLOSIVE,,240,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,3
+Hullcutter Laser,tp_mining_laser_oc,1,,200,450,150,,,0,100,5,,,,HIGH_EXPLOSIVE,,120,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,
+Hullcutter Laser Triple Mount,tp_triple_mining_laser_oc,1,,200,450,450,,,0,100,10,,,,HIGH_EXPLOSIVE,,360,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR",,,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,3
 Late Domain Mining Laser,tp_mininglaser,0,,100,600,30,,,0,80,1,,,,ENERGY,,3,0,0.25,,,,,,,2400,,,,,,,PD,,,,,Point Defense,,,,,,,,,,,
 Mining Laser Triple Mount,tp_triple_mining_laser,0,,200,600,90,,,0,60,3,,,,ENERGY,,30,0,0.25,,,,,,,2400,,,,,,,PD,,,,,Point Defense,,,,,,,,,,,3
 Double Mining Laser (deprecated),tp_double_mining_laser,0,,200,600,60,,,0,60,99,,,,ENERGY,,20,0,0.25,,,,,,,2400,,,,,,,"PD,SYSTEM",,,,,Point Defense,,,,,,,,,,,2
@@ -30,16 +30,15 @@ Heavy Machine Gun (fighter),tp_heavymg_fighter,2,,1200,550,,40,,3,400,10,,,,KINE
 # Heavy Machine Gun (fighter),tp_heavymg_fighter_backup,2,,1200,550,,40,,3,400,10,75,,,KINETIC,15,,0,0.2,4,0.1,0,5,1,15,,1300,,,30,,,"PD,ANTI_FTR,SYSTEM",,,,,Point Defense,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # Missiles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Mining Blast Charge Launcher,tp_mining_charge_launcher,1,,1500,1000,,250,,100,30,8,100,,,HIGH_EXPLOSIVE,0,,0,1.5,1,,20,20,0,0,,105,420,4,300,,,"PD,ANTI_FTR",,,,,Point Defense / Anti Fighter,Very Slow,None,,,"Not affected by missile speed, acceleration, and flight time modifiers.",,,,TRUE,,
+Mining Blast Charge Launcher,tp_mining_charge_launcher,1,,1500,1000,,250,,100,30,8,75,,,HIGH_EXPLOSIVE,0,,0,1.5,1,,20,20,0,0,,105,420,4,300,,,"PD,ANTI_FTR",,,,,Point Defense / Anti Fighter,Very Slow,None,,,"Not affected by missile speed, acceleration, and flight time modifiers.",,,,TRUE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Volt SRM,tp_volt_launcher_small,2,,600,1200,,330,300,40,10,5,12,,,ENERGY,0,,0,4,3,0.25,0,0,0,0,,330,200,5.5,120,,,GUIDED_POOR,,,High Tech,,Pressure / Disabler,Fast,Good,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,TRUE,,
 Volt SRM Pod,tp_volt_launcher_medium,2,,600,1200,,330,300,40,10,10,40,,,ENERGY,0,,0,8,5,0.25,0,0,0,0,,330,200,5.5,120,,,GUIDED_POOR,,,High Tech,,Pressure / Disabler,Fast,Good,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,TRUE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Tackhammer (small),tp_microhammer_small,0,,150,1200,,570,,30,40,6,9,,,HIGH_EXPLOSIVE,0,,0,2,1,,0,0,0,0,,500,500,4,150,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity.,,,,,,
-Tackhammer (medium),tp_microhammer_medium,0,,150,1200,,570,,30,20,12,18,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,500,500,4,150,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity.,,,,,,
-Tackhammer (large),tp_microhammer_large,0,,150,1200,,570,,30,10,24,36,,,HIGH_EXPLOSIVE,0,,0,3,4,0.25,0,0,0,0,,500,500,4,150,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity.,,,,,,
+Microhammer,tp_microhammer_small,0,,150,1200,,200,,75,40,4,20,,,HIGH_EXPLOSIVE,0,,0,2,1,,0,0,0,0,,544,544,3.1,250,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity. This weapon deals soft flux to shields.,250,,,,,
+Microhammer Pod,tp_microhammer_medium,0,,150,1200,,200,,75,20,8,40,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,544,544,3.1,250,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity. This weapon deals soft flux to shields.,250,,,,,
+Microhammer Battery,tp_microhammer_large,0,,150,1200,,200,,75,10,22,80,,,HIGH_EXPLOSIVE,0,,0,3,4,0.25,0,0,0,0,,544,544,3.1,250,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity. This weapon deals soft flux to shields.,250,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Tackhammer (medium),tp_microhammer_medium,0,,150,1200,,570,,30,20,12,18,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,500,500,4,150,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity.,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # Other,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Frag Shock Repeater,tp_frag_shock_repeater,1,,20000,600,,200,,0,100,11,,,,FRAGMENTATION,66,,0,0.6666,1,,,,,,,10000,,,,,25,"PD,ANTI_FTR",,,,,Point Defense,,,,Perfect,Fires a fragmentation damage dealing arc at the nearest target close to the weapon's current facing. The arc always hits.,,,,,,
