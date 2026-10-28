@@ -7,7 +7,7 @@
 	"turretSprite":"graphics/weapons/launchers/tp_crossbow_turret_base.png",
 	"hardpointSprite":"graphics/weapons/launchers/tp_crossbow_hardpoint_base.png",	
 	"hardpointOffsets":[10, 0],
-	"turretOffsets":[5, 0],
+	"turretOffsets":[3, 0],
 	"hardpointAngleOffsets":[0],
 	"turretAngleOffsets":[0],
 	"barrelMode":"ALTERNATING",
