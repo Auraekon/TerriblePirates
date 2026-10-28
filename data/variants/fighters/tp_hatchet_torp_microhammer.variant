@@ -1,0 +1,19 @@
+{
+	"quality":0,
+	"displayName":"Bomber Drone",
+	"hullId":"tp_hatchet_torp",
+	"variantId":"tp_hatchet_torp_microhammer",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"tp_microhammer_medium_fighter",
+		 		   },
+		},
+	],
+}

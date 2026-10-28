@@ -1,9 +1,8 @@
 {
 	 "portraits":{
         "standard_female":[
-                        "graphics/portraits/portrait_pirate_pompadour.png",
+                        "graphics/portraits/tp_portrait_pirate_pompadour.png",
+                        "graphics/portraits/tp_portrait_pirate_avasarala.png"
         	],
         },  
 }
-
-

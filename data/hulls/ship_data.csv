@@ -9,6 +9,7 @@ Rattler (deprecated),tp_rattler_drone,,Advanced P1rat3 MK.II,tp_ammofeed_fighter
 # fighters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 DEM Drone (hardpoint),dem_drone_hardpoint,,,,,10000000,0,100000,,100000,,,100,100,100,100,100,100,NONE,,,,,,,,,,,,,,,,,,,,,,,,,,,,"restricted, no_sell",,,,0,,,,
 Hatchet,tp_hatchet,,Advanced P1rat3 MK.II,tp_ammofeed_fighter,,700,180,250,,100,0,,350,264,200,462,924,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,
+Hatchet (Torp),tp_hatchet_torp,,Advanced P1rat3 MK.II,,,700,180,250,,100,0,,350,264,200,462,924,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # frigates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Stormcrow,tp_stormcrow,Strike Frigate,Advanced P1rat3 MK.II,tp_frag_emp,9,1250,300,3500,2813,225,55,,180,200,175,90,270,400,FRONT,,270,0.2,0.8,,,15,25,30,20,1,20,11,36000,10,20,360,0.25,8,8,,,,,,,,,,,,0.4,2,2,,

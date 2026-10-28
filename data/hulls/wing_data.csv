@@ -1,3 +1,5 @@
 id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
 tp_rattler_drone_wing,tp_rattler_drone_hmachinegun,"stay_in_front_of_ship, interceptor1, drone, interceptor, low, auto_fighter",0,,5,7,V,0,500,750,1,SUPPORT,Point Defense / Anti-shield,10,1500,,,,,,,,,,,,,
 tp_hatchet_wing,tp_hatchet_hmachinegun,"stay_in_front_of_ship, interceptor1, drone, interceptor, low, auto_fighter",0,,5,7,V,0,500,750,1,SUPPORT,Point Defense / Anti-shield,10,1500,,,,,,,,,,,,,
+tp_hatchet_torp_wing,tp_hatchet_torp_microhammer,"stay_in_front_of_ship, interceptor1, drone, interceptor, low, auto_fighter",0,,5,18,V,0,500,750,3,SUPPORT,Bomber,10,1500,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,

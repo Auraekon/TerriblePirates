@@ -10,8 +10,12 @@
         67.62,
         42.19,
         67.5,
-        51.46,
-        48.84,
+        49.43,
+        59.64,
+        74.25,
+        56.51,
+        76.56,
+        41.2,
         111.52,
         32.02,
         126.02,
@@ -28,8 +32,12 @@
         -31.53,
         111.52,
         -32.02,
-        51.46,
-        -48.84,
+        76.56,
+        -41.2,
+        74.48,
+        -59.77,
+        49.43,
+        -59.64,
         42.19,
         -67.5,
         15.9,
@@ -247,7 +255,7 @@
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
-            "type": "MISSILE"
+            "type": "COMPOSITE"
         },
         {
             "angle": -50,
@@ -259,7 +267,7 @@
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
-            "type": "MISSILE"
+            "type": "COMPOSITE"
         },
         {
             "angle": 68,
@@ -269,9 +277,9 @@
                 38.91,
                 59.77
             ],
-            "mount": "TURRET",
+            "mount": "HIDDEN",
             "size": "SMALL",
-            "type": "BALLISTIC"
+            "type": "DECORATIVE"
         },
         {
             "angle": -68,
@@ -281,9 +289,9 @@
                 38.91,
                 -59.77
             ],
-            "mount": "TURRET",
+            "mount": "HIDDEN",
             "size": "SMALL",
-            "type": "BALLISTIC"
+            "type": "DECORATIVE"
         },
         {
             "angle": 59,
@@ -310,8 +318,8 @@
             "type": "BALLISTIC"
         },
         {
-            "angle": 110,
-            "arc": 220,
+            "angle": 100,
+            "arc": 230,
             "id": "WS 007",
             "locations": [
                 -24.08,
@@ -322,8 +330,8 @@
             "type": "BALLISTIC"
         },
         {
-            "angle": -110,
-            "arc": 220,
+            "angle": -100,
+            "arc": 230,
             "id": "WS 008",
             "locations": [
                 -24.08,
