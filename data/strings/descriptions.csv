@@ -46,5 +46,5 @@ tp_volt_launcher_medium,WEAPON,A pulsed-power missile that delivers a destructiv
 tp_carronade,WEAPON,"Inaccurate, short range railgun with a far heavier projectile that kills with its sheer mass. The recoil is so high that the dampers installed into the comparatively undersized mount have zero hope of actually controlling it, which leaves the utility of this weapon to close range encounters where firepower matters more than accuracy.",,,,,
 tp_microhammer_small,WEAPON,Smaller Hammer. Calibrated to pierce Enforcer armor comfortably.,,,,,
 ,,,,,,,
-tp_ravager_medium,WEAPON,-,,,,,
+tp_ravager_medium,WEAPON,"A mid- to long range torpedo launched by a dedicated catapult platform that accelerates it to a high velocity, saving the missile from having to accelerate to its combat speed. Accurate and reliable.",,,,,
 tp_frag_emp,WEAPON,Short duration burst of lightning that deals mediocre fragmentation damage and low EMP damage.,,,,,
