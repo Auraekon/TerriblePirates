@@ -8,7 +8,7 @@ Rattler (deprecated),tp_rattler_drone,,Advanced P1rat3 MK.II,tp_ammofeed_fighter
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # fighters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 DEM Drone (hardpoint),dem_drone_hardpoint,,,,,10000000,0,100000,,100000,,,100,100,100,100,100,100,NONE,,,,,,,,,,,,,,,,,,,,,,,,,,,,"restricted, no_sell",,,,0,,,,
-Hatchet,tp_hatchet,,Advanced P1rat3 MK.II,tp_ammofeed_fighter,,700,180,250,,100,0,,350,264,200,462,924,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,
+Hatchet,tp_hatchet,,Advanced P1rat3 MK.II,tp_damper_micro,,600,350,250,,100,0,,350,264,200,462,924,50,NONE,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,
 Hatchet (Torp),tp_hatchet_torp,,Advanced P1rat3 MK.II,,,700,180,250,,100,0,,350,264,200,462,924,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # frigates,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

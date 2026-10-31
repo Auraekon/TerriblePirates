@@ -8,3 +8,4 @@ Multiplies the peak performance time by a factor of %s, slows down active ventin
 Can not be installed on civilian or capital ships.","Some improvement in performance, somewhat lower peak time.",graphics/hullmods/tp_overdriven_flux_core.png
 Safety Overrides,tp_safety_overrides_fighter,0,,,,"Special, Engines",2500,,TRUE,,0,0,0,0,data.hullmods.tp_safety_overrides_fighter,,,graphics/hullmods/tp_overdriven_flux_core.png
 Ballistic Rangefinder,tp_ballistic_rangefinder_fighter,2,,,,Weapons,8000,,TRUE,,0,0,0,0,data.hullmods.tp_ballistic_rangefinder_fighter,,,graphics/hullmods/tp_mediumballisticsintegration.png
+Speed Engineering,tp_full_system_overclock,,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_full_system_overclock,,,graphics/hullmods/tp_overdriven_flux_core.png

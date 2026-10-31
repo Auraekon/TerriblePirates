@@ -13,6 +13,8 @@
 		{"mode":"LINKED",
 		 "weapons":{
 		 			"WS 001":"tp_heavymg_fighter",
+		 			"WS 002":"tp_hatchet_eye",
+		 			"WS 003":"tp_hatchet_eye"
 		 		   },
 		},
 	],

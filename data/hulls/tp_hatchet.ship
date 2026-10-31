@@ -16,7 +16,10 @@
     "builtInMods": [
         "tp_safety_overrides_fighter",
         "auxiliarythrusters",
-        "ballistic_rangefinder"
+        "pointdefenseai",
+        "distributed_fire_control",
+        "fluxbreakers",
+        "tp_full_system_overclock"
     ],
     "center": [
         24,
@@ -156,6 +159,28 @@
             ],
             "style": "TP_BLOOD_RED_SMOKELESS",
             "width": 11
+        },
+        {
+            "angle": 128.5,
+            "contrailSize": 20,
+            "length": 3,
+            "location": [
+                5.23,
+                11.27
+            ],
+            "style": "LOW_TECH",
+            "width": 2
+        },
+        {
+            "angle": -128.5,
+            "contrailSize": 20,
+            "length": 3,
+            "location": [
+                5.23,
+                -11.27
+            ],
+            "style": "LOW_TECH",
+            "width": 2
         }
     ],
     "height": 38,
@@ -163,10 +188,10 @@
     "hullName": "Hatchet",
     "hullSize": "FIGHTER",
     "shieldCenter": [
-        2,
-        0
+        -22.23,
+        -0.11
     ],
-    "shieldRadius": 30.5,
+    "shieldRadius": 57,
     "spriteName": "graphics/ships/fighters/tp_hatchet.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
@@ -182,6 +207,30 @@
             "mount": "TURRET",
             "size": "MEDIUM",
             "type": "BALLISTIC"
+        },
+        {
+            "angle": 128.5,
+            "arc": 0,
+            "id": "WS 002",
+            "locations": [
+                5.02,
+                11.53
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "DECORATIVE"
+        },
+        {
+            "angle": -128.5,
+            "arc": 0,
+            "id": "WS 003",
+            "locations": [
+                5.02,
+                -11.53
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "DECORATIVE"
         }
     ],
     "width": 48

@@ -1,7 +1,7 @@
 id,type,text1,text2,text3,text4,text5,notes
 tp_rapacious,SHIP,"With the fury of Manticore, aggression of Retribution, panache of Eradicator, bullishness of Mule and contriteness of Buffalo, these powers unite to make a pirate battleship! A fast, fragile platform for delivering a withering rain of dakka.",,,,,
 tp_rattler_drone,SHIP,"A heavily armored support drone built around a ship-scale ""heavy machinegun"". Hatchet cannot leave the proximity of its carrier but its heavy armor and very heavy armament make it an adept close-range support drone.",,,,,
-tp_hatchet,SHIP,"A heavily armored support drone built around a ship-scale ""heavy machinegun"". Hatchet cannot leave the proximity of its carrier but its heavy armor and very heavy armament make it an adept close-range support drone.",,,,,
+tp_hatchet,SHIP,"A heavily armored close-in support drone built around a ship-scale heavy machine gun. Engineered for minimum reaction time, Hatchet has an absurd amount of thrust.",,,,,
 tp_charger,SHIP,Description pending further playtesting.,,,,,
 tp_kestrel,SHIP,"An aggressive pirate battlecarrier remade from a Falcon, Kestrel excels at rapidly swooping to point blank range and raining destruction with its wings.",,,,,
 ,,,,,,,
@@ -46,5 +46,5 @@ tp_volt_launcher_medium,WEAPON,A pulsed-power missile that delivers a destructiv
 tp_carronade,WEAPON,"Inaccurate, short range railgun with a far heavier projectile that kills with its sheer mass. The recoil is so high that the dampers installed into the comparatively undersized mount have zero hope of actually controlling it, which leaves the utility of this weapon to close range encounters where firepower matters more than accuracy.",,,,,
 tp_microhammer_small,WEAPON,Smaller Hammer. Calibrated to pierce Enforcer armor comfortably.,,,,,
 ,,,,,,,
-tp_ravager_medium,WEAPON,"A mid- to long range torpedo launched by a dedicated catapult platform that accelerates it to a high velocity, saving the missile from having to accelerate to its combat speed. Accurate and reliable.",,,,,
+tp_ravager_medium,WEAPON,A mid- to long range torpedo launched by a dedicated catapult platform that accelerates it to a high velocity before release. Accurate and reliable.,,,,,
 tp_frag_emp,WEAPON,Short duration burst of lightning that deals mediocre fragmentation damage and low EMP damage.,,,,,
