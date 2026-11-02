@@ -1,0 +1,21 @@
+{
+	"quality":0,
+	"displayName":"Support Drone",
+	"hullId":"tp_hatchet_HM",
+	"variantId":"tp_hatchet_HM_heavymortar",
+	"fluxVents":0,
+	"fluxCapacitors":0,
+	"mods":[], # array of strings
+	
+	# mode is either LINKED or ALTERNATING
+	# slot ids (WS ***) must match what's in the .ship file
+	"weaponGroups":[
+		{"mode":"LINKED",
+		 "weapons":{
+		 			"WS 001":"tp_heavymortar_fighter",
+		 			"WS 002":"tp_hatchet_eye",
+		 			"WS 003":"tp_hatchet_eye"
+		 		   },
+		},
+	],
+}

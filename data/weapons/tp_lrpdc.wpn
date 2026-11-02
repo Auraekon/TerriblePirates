@@ -2,19 +2,21 @@
 	"id":"tp_lrpdc",  # this id must match what's in the spreadsheet
 	"specClass":"projectile",
 	"type":"BALLISTIC",
-	"size":"SMALL",
-	"turretSprite":"graphics/weapons/vulcan_cannon_turret_base.png",
-	"turretGunSprite":"graphics/weapons/vulcan_cannon_turret_recoil.png",
-	"hardpointSprite":"graphics/weapons/vulcan_cannon_hardpoint_base.png",
-	"hardpointGunSprite":"graphics/weapons/vulcan_cannon_hardpoint_recoil.png",
+	"size":"MEDIUM",
+	"turretSprite":"graphics/weapons/pd_coilgun/tp_pd_coilgun_turret_base.png",
+	"hardpointSprite":"graphics/weapons/pd_coilgun/tp_pd_coilgun_hardpoint_base.png",
+	"turretGlowSprite":"graphics/weapons/pd_coilgun/tp_pd_coilgun_turret_glow.png",
+	"hardpointGlowSprite":"graphics/weapons/pd_coilgun/tp_pd_coilgun_hardpoint_glow.png",
 	"renderHints":[RENDER_BARREL_BELOW],
-	"visualRecoil":3.0,  # the gun sprites are only used if this is non-0
 	"turretOffsets":[10, 0],
 	"turretAngleOffsets":[0],
 	"hardpointOffsets":[15, 0],
 	"hardpointAngleOffsets":[0],
+	"fringeColor":[253,29,0,5],
+	"coreColor": [255,255,255,5],
+	"glowColor":[255,255,255,100],
 	"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
-	"animationType":"MUZZLE_FLASH",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+	"animationType":"GLOW",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
 	"muzzleFlashSpec":{"length":20.0,   # only used if animationType = MUZZLE_FLASH
 					   "spread":6.0,
 					   "particleSizeMin":6.0,

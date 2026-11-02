@@ -14,11 +14,11 @@
         23.84
     ],
     "builtInMods": [
-        "tp_safety_overrides_fighter",
         "auxiliarythrusters",
-        "pointdefenseai",
         "distributed_fire_control",
+        "pointdefenseai",
         "fluxbreakers",
+        "tp_safety_overrides_fighter",
         "tp_full_system_overclock"
     ],
     "center": [
@@ -168,7 +168,7 @@
                 5.23,
                 11.27
             ],
-            "style": "LOW_TECH",
+            "style": "TP_DEEP_RED_GLOW",
             "width": 2
         },
         {
@@ -179,7 +179,7 @@
                 5.23,
                 -11.27
             ],
-            "style": "LOW_TECH",
+            "style": "TP_DEEP_RED_GLOW",
             "width": 2
         }
     ],
