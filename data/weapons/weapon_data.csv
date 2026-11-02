@@ -48,10 +48,16 @@ Anniside Battery (Deprecated),tp_anniside_large,0,,150,1200,,220,,20,10,20,180,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Ravager Pod,tp_ravager_medium,0,,150,1200,,220,,20,20,10,80,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,544,544,3.1,150,,,CONSERVE_1,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity.,250,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Heavy EMP Torpedo,tp_heavy_emp_torpedo_medium,0,,150,1200,,1140,2500,20,20,10,6,,,ENERGY,500,,0.15,4.75,1,,0,0,0,0,,340,340,5.91,700,,,USE_LESS_VS_SHIELDS,,,,,Torpedo,Medium,None,,,"This weapon's torpedoes launch at their maximum velocity. Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",100%,,,,,
+Heavy EMP Torpedo,tp_heavy_emp_torpedo_medium,0,,150,1200,,1140,2500,20,20,10,6,,,ENERGY,500,,0.15,4.75,1,,0,0,0,0,,340,340,5.91,700,,,USE_LESS_VS_SHIELDS,,,,,Torpedo,Medium,None,,,"This weapon's torpedoes launch at their maximum velocity. 
+Hits to hull or armor cause energy arcs to chain into the weapons and engines of the hit ship:
+- 1 full damage of the torpedo
+- 7 one tenth the damage of the torpedo
+",100%,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Microhammer,tp_microhammer_small,0,,150,1200,,570,,75,40,5,6,,,HIGH_EXPLOSIVE,0,,0,2,1,,0,0,0,0,,544,544,3.1,250,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity.,250,,,,,
-Microhammer Pod,tp_microhammer_medium,0,,150,1200,,570,,75,20,10,12,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,544,544,3.1,250,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity.,250,,,,,
+Microhammer Pod,tp_microhammer_medium,0,,150,1200,,570,,75,20,10,12,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,544,544,3.1,250,,,STRIKE,,,,,Torpedo,Fast,None,,,"This weapon's torpedoes launch at their maximum velocity. 
+Hits on hull or armor causes additional damage to weapons and equal to:
+- One equal to the original hit",250,,,,,
 Microhammer Pod (Fighter),tp_microhammer_medium_fighter,0,,150,1200,,750,,75,20,10,2,,,HIGH_EXPLOSIVE,0,,0,1,2,0.2,0,0,0,0,,544,544,3.1,250,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity.,250,,,,,
 Microhammer Battery,tp_microhammer_large,0,,150,1200,,570,,75,10,20,24,,,HIGH_EXPLOSIVE,0,,0,3,4,0.25,6,6,0,0,,544,544,3.1,250,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity.,250,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
