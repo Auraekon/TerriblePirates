@@ -1,9 +1,9 @@
 name,id,designation,tech/manufacturer,system id,fleet pts,hitpoints,armor rating,max flux,8/6/5/4%,flux dissipation,ordnance points,fighter bays,max speed,acceleration,deceleration,max turn rate,turn acceleration,mass,shield type,defense id,shield arc,shield upkeep,shield efficiency,phase cost,phase upkeep,min crew,max crew,cargo,fuel,fuel/ly,range,max burn,base value,cr %/day,CR to deploy,peak CR sec,CR loss/sec,supplies/rec,supplies/mo,c/s,c/f,f/s,f/f,crew/s,crew/f,hints,tags,logistics n/a reason,codex variant id,rarity,breakProb,minPieces,maxPieces,travel drive,number
 # deprecated,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Duck (deprecated),tp_duck,Destroyer,Pirate,maneuveringjets,11,4666,650,5000,3333,283,100,,80,66,43,33,56,400,OMNI,,140,0.36,0.86,,,60,100,90,90,3,30,9,38000,5,11,380,0.25,11,11,,,,,,,,,,,,0.4,2,3,,
-Rotflower (deprecated),tp_rotflower,Destroyer,Pirate,tp_attack_burn,12,4666,650,5000,3333,283,100,,80,66,43,33,56,400,OMNI,,140,0.36,0.86,,,60,100,90,90,3,30,9,38000,5,11,380,0.25,12,12,,,,,,,,,,,,0.4,2,3,,
-New capital,tp_new_capital,,,lidararray,1,18000,3500,18000,,900,999,,33,15,15,6,80,4000,PHASE,canister_flak,0,0,0,,,10,40,50,40,2,,8,20000,,,,,1,1,,,,,,,,,,,,,,,,
-Cruiser (deprecated),tp_new_cruiser,,,tp_microburn,20,6000,750,5000,8000,400,150,2,80,70,50,20,25,800,OMNI,,180,0.4,0.9,,,100,180,120,100,3,33,9,80000,4,12,480,0.25,20,20,,,,,,,,,,,,0.5,2,3,,
+Duck (deprecated),tp_duck,Destroyer,Pirate,maneuveringjets,11,4666,650,5000,3333,283,100,,80,66,43,33,56,400,OMNI,,140,0.36,0.86,,,60,100,90,90,3,30,9,38000,5,11,380,0.25,11,11,,,,,,,,"restricted, no_sell",,,,0.4,2,3,,
+Rotflower (deprecated),tp_rotflower,Destroyer,Pirate,tp_attack_burn,12,4666,650,5000,3333,283,100,,80,66,43,33,56,400,OMNI,,140,0.36,0.86,,,60,100,90,90,3,30,9,38000,5,11,380,0.25,12,12,,,,,,,,"restricted, no_sell",,,,0.4,2,3,,
+New capital,tp_new_capital,,,lidararray,1,18000,3500,18000,,900,999,,33,15,15,6,80,4000,PHASE,canister_flak,0,0,0,,,10,40,50,40,2,,8,20000,,,,,1,1,,,,,,,,"restricted, no_sell",,,,,,,,
+Cruiser (deprecated),tp_new_cruiser,,,tp_microburn,20,6000,750,5000,8000,400,150,2,80,70,50,20,25,800,OMNI,,180,0.4,0.9,,,100,180,120,100,3,33,9,80000,4,12,480,0.25,20,20,,,,,,,,"restricted, no_sell",,,,0.5,2,3,,
 Rattler (deprecated),tp_rattler_drone,,Advanced P1rat3 MK.II,tp_ammofeed_fighter,,700,180,250,,100,0,,350,264,200,462,924,50,NONE,,0,0,0,,,0,0,,,,,,,,,,,,,,,,,,,,,,,,0,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # fighters,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

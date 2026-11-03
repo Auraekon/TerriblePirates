@@ -1,7 +1,6 @@
 {
 	"id":"tp_heavy_emp_torpedo_medium",
 	"specClass":"projectile",
-	#"everyFrameEffect":"com.fs.starfarer.api.impl.combat.threat.VoidblasterEffect",
 	"type":"MISSILE",
 	"size":"MEDIUM",
 	"turretSprite":"graphics/weapons/launchers/tp_crossbow_turret_blue_base.png",
@@ -14,6 +13,8 @@
 	"animationType":"SMOKE",
 	"renderHints":[RENDER_LOADED_MISSILES],
 	"interruptibleBurst":false,
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"requiresFullCharge":true,  # for pulse weapons - whether the weapon will fire at a lower strength partial charge
 	"smokeSpec":{"particleSizeMin":8.0,
 				 "particleSizeRange":8.0,
 				 "cloudParticleCount":4,
@@ -25,5 +26,6 @@
 				 "blowbackSpread":15.0,
 				 "particleColor":[222,222,222,200]},					 
 	"projectileSpecId":"tp_heavy_emp_torpedo",
-	"fireSoundTwo":"breach_fire",
+	"fireSoundTwo":"breach_fire"
 }
+
