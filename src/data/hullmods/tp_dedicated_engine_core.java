@@ -18,12 +18,8 @@ public class tp_dedicated_engine_core extends BaseHullMod {
     public static float TURRET_SPEED_BONUS = 50f;
 
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-		stats.getZeroFluxMinimumFluxLevel().modifyFlat(id, ZERO_FLUX_MULT * 0.02f); // should set it usable at 5% or lower
-        stats.getEngineHealthBonus().modifyPercent(id, ENGINE_HEALTH_BONUS);
-        stats.getVentRateMult().modifyPercent(id, VENT_RATE_BONUS);
+		stats.getZeroFluxMinimumFluxLevel().modifyFlat(id, ZERO_FLUX_MULT * 0.01f); // should set it usable at 5% or lower
         stats.getOverloadTimeMod().modifyMult(id, 1f - OVERLOAD_BONUS * 0.01f);
-        stats.getWeaponTurnRateBonus().modifyPercent(id, TURRET_SPEED_BONUS);
-        stats.getBeamWeaponTurnRateBonus().modifyPercent(id, TURRET_SPEED_BONUS);
 	}
 
     @Override
@@ -35,10 +31,7 @@ public class tp_dedicated_engine_core extends BaseHullMod {
         Color bad = Misc.getNegativeHighlightColor();
         tooltip.setBulletedListMode("");
         tooltip.addPara("Zero-flux bonus triggers if current flux is below %s max.", pad, good, Math.round(ZERO_FLUX_MULT) + "%");
-        tooltip.addPara("Increases the durability of the ship's engines by %s.", pad, good, Math.round(ENGINE_HEALTH_BONUS) + "%");
-        tooltip.addPara("Increases active flux vent rate by %s.", pad, good, Math.round(VENT_RATE_BONUS) + "%");
         tooltip.addPara("Reduces overload duration by %s.", pad, good, Math.round(OVERLOAD_BONUS) + "%");
-        tooltip.addPara("Increases turret rotation rate by %s.", pad, good, Math.round(TURRET_SPEED_BONUS) + "%");
         tooltip.setBulletedListMode(null);
     }
 }
