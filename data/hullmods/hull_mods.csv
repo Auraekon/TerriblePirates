@@ -1,5 +1,6 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
 Auxiliary Engine Core,tp_auxiliary_engine_core,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_auxiliary_engine_core,,,graphics/hullmods/tp_overdriven_flux_core.png
+Auxiliary Engine Core,tp_dedicated_engine_core,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_dedicated_engine_core,,,graphics/hullmods/tp_overdriven_flux_core.png
 Accelerated Turrets,tp_accelerated_turret,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_accelerated_turret,,,graphics/hullmods/tp_mediumballisticsintegration.png
 Pirate Tuning,tp_pirate_tuning,0,,,,"Special, Engines",2500,TRUE,,,5,10,15,23,data.hullmods.tp_pirate_tuning,"""Tuning past"" the safety protocols increases the ship's top speed in combat by %s/%s/%s (depending on ship size, with a corresponding increase in acceleration) and allows the zero-flux engine boost to take effect below one third flux max. The flux dissipation rate, including that of additional vents, is increased by a factor of %s.
 
@@ -9,3 +10,4 @@ Can not be installed on civilian or capital ships.","Some improvement in perform
 Safety Overrides,tp_safety_overrides_fighter,0,,,,"Special, Engines",2500,,TRUE,,0,0,0,0,data.hullmods.tp_safety_overrides_fighter,,,graphics/hullmods/tp_overdriven_flux_core.png
 Ballistic Rangefinder,tp_ballistic_rangefinder_fighter,2,,,,Weapons,8000,,TRUE,,0,0,0,0,data.hullmods.tp_ballistic_rangefinder_fighter,,,graphics/hullmods/tp_mediumballisticsintegration.png
 Speed Engineering,tp_full_system_overclock,,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_full_system_overclock,,,graphics/hullmods/tp_overdriven_flux_core.png
+Improvised MIssile Storage,tp_improvised_missile_storage,,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_improvised_missile_storage,Increases the ammo capacity of missile weapons by %s. Reduces the rate of fire of missile weapons by %s.,Increases missile weapon ammo.,graphics/hullmods/tp_improvised_missile_storage.png
