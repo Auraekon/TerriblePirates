@@ -4,14 +4,28 @@
         8,
         182,
         -8,
-        170,
-        -16,
-        154,
-        -61,
+        167.45,
+        -16.46,
+        167.01,
+        -32.83,
+        161.09,
+        -38.75,
+        162.62,
+        -50.23,
+        156.55,
+        -60.3,
+        144.35,
+        -60.99,
+        135.79,
+        -56.93,
         124,
         -57,
-        120,
-        -67,
+        119.54,
+        -64.22,
+        100.56,
+        -65.76,
+        96.63,
+        -60.49,
         76.87,
         -60.03,
         70.46,
@@ -19,98 +33,109 @@
         52,
         -45,
         44.98,
-        -60.75,
-        20.75,
-        -60.73,
-        19.39,
-        -79.07,
-        7.04,
-        -89.19,
-        -1,
-        -80.31,
-        7.68,
-        -69.66,
+        -60.59,
+        33.88,
+        -60.01,
+        27.48,
+        -59.68,
+        22.64,
+        -65.32,
+        5.3,
+        -65.39,
         0.27,
         -57.58,
-        -14,
-        -57,
+        -16.32,
+        -57.46,
         -24,
         -77,
-        -49,
-        -77,
-        -57,
-        -96,
+        -47.42,
+        -77.81,
+        -56.98,
+        -84.88,
+        -59.69,
+        -98.34,
         -73.13,
         -103.11,
-        -91,
-        -111,
+        -93.57,
+        -111.36,
         -144,
         -97,
         -136,
         -69,
         -158,
         -61,
-        -149,
-        -35,
-        -164.83,
-        -18.38,
-        -164.83,
-        18.38,
-        -149,
-        36,
+        -148.14,
+        -36.54,
+        -166.67,
+        -20.65,
+        -166.67,
+        20.65,
+        -148.14,
+        36.54,
         -158,
         62,
         -136,
         70,
         -144,
         97,
-        -90,
-        111,
-        -61,
-        100,
-        -52,
-        80,
+        -93.57,
+        111.36,
+        -59.69,
+        98.34,
+        -56.98,
+        84.88,
+        -47.42,
+        77.81,
         -24,
         77,
-        -14,
-        57,
+        -16.32,
+        57.46,
         0.27,
         57.58,
-        7.68,
-        69.66,
-        -1,
-        80.31,
-        7.04,
-        89.19,
-        19.39,
-        79.07,
-        20.75,
-        60.73,
+        5.3,
+        65.39,
+        22.64,
+        65.32,
+        27.48,
+        59.68,
         44.98,
-        60.75,
+        60.59,
         52,
         45,
         70.46,
         44.79,
         76.87,
         60.03,
-        120,
-        67,
+        96.63,
+        60.49,
+        100.56,
+        65.76,
+        119.54,
+        64.22,
         124,
         57,
-        154,
-        61,
-        170,
-        16
+        135.79,
+        56.93,
+        144.35,
+        60.99,
+        156.55,
+        60.3,
+        162.62,
+        50.23,
+        161.09,
+        38.75,
+        167.01,
+        32.83,
+        167.45,
+        16.46
     ],
     "builtInMods": [
         "distributed_fire_control",
-        "tp_improvised_missile_storage",
         "tp_dedicated_engine_core"
     ],
     "builtInWeapons": {
-        "WS 042": "tp_rapacious_exhaust",
-        "WS 043": "tp_rapacious_exhaust"
+        "WS 014": "tp_rapacious_exhaust",
+        "WS 015": "tp_rapacious_exhaust"
     },
     "center": [
         114,
@@ -126,7 +151,7 @@
                 -144.24,
                 91.79
             ],
-            "style": "TP_OVERDRIVEN_ENGINE",
+            "style": "LOW_TECH",
             "width": 20
         },
         {
@@ -137,7 +162,7 @@
                 -144.24,
                 -91.79
             ],
-            "style": "TP_OVERDRIVEN_ENGINE",
+            "style": "LOW_TECH",
             "width": 20
         },
         {
@@ -148,7 +173,7 @@
                 -157.34,
                 -55.53
             ],
-            "style": "TP_OVERDRIVEN_ENGINE",
+            "style": "LOW_TECH",
             "width": 25
         },
         {
@@ -159,7 +184,7 @@
                 -157.34,
                 55.53
             ],
-            "style": "TP_OVERDRIVEN_ENGINE",
+            "style": "LOW_TECH",
             "width": 25
         },
         {
@@ -170,7 +195,7 @@
                 -158.85,
                 26.54
             ],
-            "style": "TP_OVERDRIVEN_ENGINE",
+            "style": "LOW_TECH",
             "width": 13
         },
         {
@@ -181,7 +206,7 @@
                 -158.85,
                 -26.54
             ],
-            "style": "TP_OVERDRIVEN_ENGINE",
+            "style": "LOW_TECH",
             "width": 13
         },
         {
@@ -192,7 +217,7 @@
                 -184.97,
                 0.05
             ],
-            "style": "RED_LANCE",
+            "style": "TP_OVERDRIVEN_ENGINE",
             "width": 33
         },
         {
@@ -203,7 +228,7 @@
                 -160.48,
                 0.11
             ],
-            "style": "RED_LANCE",
+            "style": "TP_OVERDRIVEN_ENGINE",
             "width": 100
         },
         {
@@ -214,30 +239,52 @@
                 -190.36,
                 -0.06
             ],
-            "style": "RED_LANCE",
+            "style": "TP_OVERDRIVEN_ENGINE",
             "width": 33
         },
         {
-            "angle": -139,
+            "angle": -94,
             "contrailSize": 128,
-            "length": 20,
+            "length": 91,
             "location": [
-                1.66,
-                -85.45
+                -3.04,
+                -34.58
             ],
-            "style": "TP_RAPACIOUS_EXHAUST",
-            "width": 15
+            "style": "TP_OVERDRIVEN_ENGINE",
+            "width": 20
         },
         {
-            "angle": 139,
+            "angle": 94,
             "contrailSize": 128,
-            "length": 20,
+            "length": 91,
             "location": [
-                1.66,
-                85.45
+                -3.04,
+                34.58
             ],
-            "style": "TP_RAPACIOUS_EXHAUST",
-            "width": 15
+            "style": "TP_OVERDRIVEN_ENGINE",
+            "width": 20
+        },
+        {
+            "angle": -94,
+            "contrailSize": 128,
+            "length": 40,
+            "location": [
+                -7.22,
+                -57.76
+            ],
+            "style": "TP_OVERDRIVEN_ENGINE",
+            "width": 12
+        },
+        {
+            "angle": 94,
+            "contrailSize": 128,
+            "length": 40,
+            "location": [
+                -7.22,
+                57.76
+            ],
+            "style": "TP_OVERDRIVEN_ENGINE",
+            "width": 12
         }
     ],
     "height": 356,
@@ -338,28 +385,28 @@
             "type": "BALLISTIC"
         },
         {
-            "angle": -60,
-            "arc": 120,
+            "angle": -94,
+            "arc": 1,
             "id": "WS 014",
             "locations": [
-                -2.92,
-                -32.92
+                -3.28,
+                -36.88
             ],
-            "mount": "TURRET",
+            "mount": "HIDDEN",
             "size": "SMALL",
-            "type": "BALLISTIC"
+            "type": "DECORATIVE"
         },
         {
-            "angle": 60,
-            "arc": 120,
+            "angle": 94,
+            "arc": 1,
             "id": "WS 015",
             "locations": [
-                -2.92,
-                32.92
+                -3.28,
+                36.88
             ],
-            "mount": "TURRET",
+            "mount": "HIDDEN",
             "size": "SMALL",
-            "type": "BALLISTIC"
+            "type": "DECORATIVE"
         },
         {
             "angle": 80,
@@ -542,28 +589,28 @@
             "type": "BALLISTIC"
         },
         {
-            "angle": -139,
-            "arc": 90,
+            "angle": -78,
+            "arc": 20,
             "id": "WS 042",
             "locations": [
-                4.44,
-                -83.69
+                14.13,
+                -52.93
             ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "DECORATIVE"
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
+            "type": "MISSILE"
         },
         {
-            "angle": 139,
-            "arc": 90,
+            "angle": 78,
+            "arc": 20,
             "id": "WS 043",
             "locations": [
-                4.44,
-                83.69
+                14.13,
+                52.93
             ],
-            "mount": "HIDDEN",
-            "size": "SMALL",
-            "type": "DECORATIVE"
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
+            "type": "MISSILE"
         }
     ],
     "width": 228

@@ -14,6 +14,21 @@
 		#"contrailCampaignColor":[120,50,50,50],
 		"type":"GLOW" # GLOW or SMOKE
 	},
+		"GREEN_LANCE":{
+		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/fx/engineflame32.png",
+		"engineColor":[45,255,90,255],
+		"engineCampaignColor":[45,255,90,255],
+		"contrailParticleSizeMult":2,
+		"contrailParticleDuration":3,
+		"contrailParticleFinalSizeMult":2.5,
+		"contrailMaxSpeedMult":0.5,
+		"contrailAngularVelocityMult":0.5,
+		"contrailColor":[100,255,100,25],
+		"contrailCampaignColor":[90,200,70,75],
+		#"contrailCampaignColor":[120,50,50,50],
+		"type":"GLOW" # GLOW or SMOKE
+	},
 		"TP_OVERDRIVEN_ENGINE":{
 		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
 		#"glowShape":"graphics/fx/engineflame32.png",
