@@ -241,50 +241,6 @@
             ],
             "style": "TP_OVERDRIVEN_ENGINE",
             "width": 33
-        },
-        {
-            "angle": -94,
-            "contrailSize": 128,
-            "length": 91,
-            "location": [
-                -3.04,
-                -34.58
-            ],
-            "style": "TP_OVERDRIVEN_ENGINE",
-            "width": 20
-        },
-        {
-            "angle": 94,
-            "contrailSize": 128,
-            "length": 91,
-            "location": [
-                -3.04,
-                34.58
-            ],
-            "style": "TP_OVERDRIVEN_ENGINE",
-            "width": 20
-        },
-        {
-            "angle": -94,
-            "contrailSize": 128,
-            "length": 40,
-            "location": [
-                -7.22,
-                -57.76
-            ],
-            "style": "TP_OVERDRIVEN_ENGINE",
-            "width": 12
-        },
-        {
-            "angle": 94,
-            "contrailSize": 128,
-            "length": 40,
-            "location": [
-                -7.22,
-                57.76
-            ],
-            "style": "TP_OVERDRIVEN_ENGINE",
-            "width": 12
         }
     ],
     "height": 356,
