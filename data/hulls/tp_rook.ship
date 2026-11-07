@@ -1,59 +1,53 @@
 {
     "bounds": [
-        58,
-        19,
-        33.55,
-        18.66,
-        48.83,
-        9.39,
-        48.83,
-        -9.39,
-        33.55,
-        -18.66,
-        58,
-        -19,
-        57.84,
-        -43.16,
-        -0.53,
-        -57.17,
-        -15.22,
-        -56.76,
-        -24.75,
-        -53.76,
-        -62.27,
-        -59,
-        -68.67,
-        -53.98,
-        -62.72,
-        -24.72,
-        -46,
-        -23,
-        -47.28,
-        -6,
-        -52.24,
-        -4.54,
-        -52.24,
-        4.54,
-        -47.28,
-        6,
-        -46,
-        23,
-        -62.72,
-        24.72,
-        -68.5,
-        33.69,
-        -68.67,
-        53.98,
-        -62.27,
-        59,
-        -24.75,
-        53.76,
-        -15.22,
-        56.76,
-        -0.53,
-        57.17,
-        57.84,
-        43.16
+        54.33,
+        40.89,
+        54.33,
+        25.96,
+        50.04,
+        21.38,
+        38.87,
+        20.9,
+        49.62,
+        6.42,
+        49.62,
+        -6.42,
+        38.87,
+        -20.9,
+        50.04,
+        -21.38,
+        54.33,
+        -25.96,
+        54.33,
+        -40.89,
+        -10.29,
+        -55.99,
+        -18.96,
+        -52.43,
+        -57.14,
+        -58.58,
+        -66.15,
+        -50.9,
+        -63.38,
+        -47.66,
+        -63.14,
+        -28.12,
+        -44.13,
+        -23.86,
+        -44.13,
+        23.86,
+        -63.14,
+        28.12,
+        -63.38,
+        47.66,
+        -66.15,
+        50.9,
+        -57.14,
+        58.58,
+        -18.96,
+        52.43,
+        -10.29,
+        55.99
     ],
     "builtInMods": [
         "distributed_fire_control"
@@ -62,17 +56,17 @@
         62,
         71
     ],
-    "collisionRadius": 89,
+    "collisionRadius": 87,
     "engineSlots": [
         {
             "angle": 180,
             "contrailSize": 20,
             "length": 82,
             "location": [
-                -68.28,
-                38.58
+                -65.78,
+                36.87
             ],
-            "style": "TP_REDDISH_LOW_TECH",
+            "style": "TP_OVERDRIVEN_ENGINE_PURPLE",
             "width": 25
         },
         {
@@ -80,19 +74,41 @@
             "contrailSize": 20,
             "length": 82,
             "location": [
-                -68.28,
-                -38.58
+                -65.78,
+                -36.87
             ],
-            "style": "TP_REDDISH_LOW_TECH",
+            "style": "TP_OVERDRIVEN_ENGINE_PURPLE",
             "width": 25
+        },
+        {
+            "angle": 180,
+            "contrailSize": 128,
+            "length": 111,
+            "location": [
+                -69.75,
+                37
+            ],
+            "style": "TP_OVERDRIVEN_ENGINE_PURPLE",
+            "width": 35
+        },
+        {
+            "angle": 180,
+            "contrailSize": 128,
+            "length": 111,
+            "location": [
+                -69.75,
+                -37
+            ],
+            "style": "TP_OVERDRIVEN_ENGINE_PURPLE",
+            "width": 35
         }
     ],
-    "height": 132,
+    "height": 130,
     "hullId": "tp_rook",
     "hullName": "Rook",
     "hullSize": "DESTROYER",
     "shieldCenter": [
-        -11,
+        -8,
         0.02
     ],
     "shieldRadius": 90,
@@ -105,56 +121,56 @@
             "arc": 180,
             "id": "WS 001",
             "locations": [
-                -8.03,
-                44.06
+                -7.95,
+                40.58
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
-            "type": "BALLISTIC"
+            "type": "HYBRID"
         },
         {
             "angle": -57,
             "arc": 180,
             "id": "WS 002",
             "locations": [
-                -8.03,
-                -44.06
+                -7.95,
+                -40.58
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
-            "type": "BALLISTIC"
+            "type": "HYBRID"
         },
         {
             "angle": 45,
             "arc": 180,
             "id": "WS 003",
             "locations": [
-                31.95,
-                35.11
+                32.05,
+                36.11
             ],
             "mount": "TURRET",
             "size": "SMALL",
-            "type": "BALLISTIC"
+            "type": "HYBRID"
         },
         {
             "angle": -45,
             "arc": 180,
             "id": "WS 004",
             "locations": [
-                31.95,
-                -35.11
+                32.05,
+                -36.11
             ],
             "mount": "TURRET",
             "size": "SMALL",
-            "type": "BALLISTIC"
+            "type": "HYBRID"
         },
         {
             "angle": 0,
             "arc": 10,
             "id": "WS 005",
             "locations": [
-                -6.66,
-                -0.02
+                8.06,
+                0
             ],
             "mount": "HARDPOINT",
             "size": "LARGE",
