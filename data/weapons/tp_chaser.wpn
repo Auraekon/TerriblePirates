@@ -6,7 +6,7 @@
 	#"mountTypeOverride":"MISSILE",
 	#"type":"ENERGY",
 	"size":"SMALL",
-	#"everyFrameEffect":"com.fs.starfarer.api.impl.combat.threat.VoidblasterEffect",
+	"everyFrameEffect":"com.fs.starfarer.api.impl.combat.threat.VoidblasterEffect",
 	"turretSprite":"graphics/weapons/launchers/tp_chaser_turret_base.png",
 	"hardpointSprite":"graphics/weapons/launchers/tp_chaser_hardpoint_base.png",	
 	"hardpointOffsets":[7, -0.5],

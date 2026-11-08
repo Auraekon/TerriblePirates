@@ -17,7 +17,10 @@
     # This section is where we can define images that can be referenced ingame using Global.getSettings().getSpriteName("category", "name");
 	"graphics":{
 		"fx":{ 
-			"laser_splash_flash":"graphics/fx/laser_splash_flash.png", 
+			"laser_splash_flash":"graphics/fx/laser_splash_flash.png",
+			"tp_trail_zappy":"graphics/fx/trails/trails_zappy.png",
+			"tp_trail_contrail":"graphics/fx/trails/trails_contrail.png",
+			"tp_trail_spatter":"graphics/fx/trails/trails_spatter.png"
 		},
 		# does not support animations
 		"weaponSkinsPlayerAndNPC":{

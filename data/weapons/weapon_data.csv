@@ -54,7 +54,8 @@ Hits to hull or armor cause 1 arc with full damage and 7 other arcs with one ten
 Blackout Torpedo Pod,tp_blackout_pod,0,,150,1200,,1140,2500,20,20,10,6,,,ENERGY,500,,0.15,14.25,1,,0,0,0,0,,340,340,5.91,700,,,"STRIKE,USE_LESS_VS_SHIELDS",,,,,Torpedo,Medium,None,,,"This weapon's torpedoes launch at their maximum velocity. 
 Hits to hull or armor cause 1 arc with full damage and 7 other arcs with one tenth damage each to chain into the weapons and engines of the hit ship.",,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Chaser SRM,tp_chaser,0,,40000,1150,,300,150,15,50,5,10,,,ENERGY,240,,0,1.38,1,0.27,0,0,0,0,,740,50,6,150,,,"DO_NOT_AIM, DO_NOT_CONSERVE",,,Unknown,,Anti Small Craft,Very Fast,Excellent,,,,soft flux,,,TRUE,,
+Chaser SRM,tp_chaser,0,,400,1600,,320,150,15,50,7,,,,ENERGY,240,,0,5,1,0.27,0,0,0,0,,740,50,6,150,,,"DO_NOT_AIM, DO_NOT_CONSERVE",,,Unknown,,Anti Small Craft,Very Fast,Excellent,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,TRUE,,
+Guardian PD Missile,tp_guardian_pd,0,,400,1600,,150,150,15,50,5,,,,FRAGMENTATION,240,,0,5,2,0.27,0,0,0,0,,740,50,6,150,,,"DO_NOT_AIM, PD",,,Unknown,,Anti Small Craft,Very Fast,Excellent,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,TRUE,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Microhammer,tp_microhammer_small,0,,150,1200,,570,,75,40,5,6,,,HIGH_EXPLOSIVE,0,,0,2,1,,0,0,0,0,,544,544,3.1,250,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity.,250,,,,,
 Microhammer Pod,tp_microhammer_medium,0,,150,1200,,570,,75,20,10,12,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,544,544,3.1,250,,,STRIKE,,,,,Torpedo,Fast,None,,,"This weapon's torpedoes launch at their maximum velocity. 
