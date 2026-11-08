@@ -1,6 +1,6 @@
 trail,projectile,sprite,minLength,fadeIn,duration,fadeOut,sizeIn,sizeOut,colorIn,colorOut,opacity,textLength,textScroll,randomTextureOffset,distance,dispersion,drift,fadeOnFadeOut,angleAdjustment,additive,velocityIn,velocityOut,randomVelocity,angle,rotationIn,rotationOut,randomRotation,renderBelowExplosions
-tp_chaser_srm_trail,tp_chaser_srm,tp_trail_contrail,30,0.05,0,3,10,30,"[200,200,255]","[10,10,255]",0.5,128,0,true,-10,20,0,TRUE,FALSE,TRUE,20,20,0.5,0,30,0,true,false
-tp_chaser_srm_trail2,tp_chaser_srm,tp_trail_spatter,10,0,0,2,30,120,"[0,0,255]","[0,0,255]",1,200,20,TRUE,0,0,0,TRUE,FALSE,TRUE,20,20,0,0,0,0,false,false
-tp_chaser_srm_trail3,tp_chaser_srm,tp_trail_spatter,10,0,0,2,30,140,"[0,0,255]","[0,0,255]",1,200,20,TRUE,0,0,0,TRUE,FALSE,TRUE,20,20,0,0,0,0,false,false
-tp_chaser_srm_trail4,tp_chaser_srm,tp_trail_spatter,10,0,0,2,30,160,"[0,0,255]","[0,0,255]",1,200,20,TRUE,0,0,0,TRUE,FALSE,TRUE,20,20,0,0,0,0,false,false
-tp_chaser_srm_trail,tp_chaser_srm,tp_trail_zappy,30,0.05,0,1,10,5,"[200,200,255]","[200,200,255]",0.5,300,0,true,-10,20,0,TRUE,FALSE,TRUE,20,20,0.5,0,30,0,true,false
+tp_chaser_srm_trail,tp_chaser_srm,tp_trail_contrail,30,0.0,0,3,10,30,"[200,200,255]","[10,10,255]",0.5,128,0,true,-10,20,0,TRUE,FALSE,TRUE,20,20,0.5,0,30,0,true,false
+tp_chaser_srm_trail2,tp_chaser_srm,tp_trail_spatter,10,0,0,2,30,120,"[200,200,255]","[200,200,255]",1,200,20,TRUE,0,0,0,TRUE,FALSE,TRUE,20,20,0,0,0,0,false,false
+tp_chaser_srm_trail3,tp_chaser_srm,tp_trail_spatter,10,0,0,2,30,140,"[200,200,255]","[200,200,255]",1,200,20,TRUE,0,0,0,TRUE,FALSE,TRUE,20,20,0,0,0,0,false,false
+tp_chaser_srm_trail4,tp_chaser_srm,tp_trail_spatter,10,0,0,2,30,160,"[200,200,255]","[200,200,255]",1,200,20,TRUE,0,0,0,TRUE,FALSE,TRUE,20,20,0,0,0,0,false,false
+tp_chaser_srm_trail,tp_chaser_srm,tp_trail_zappy,30,0.0,0,1,10,5,"[220,220,255]","[220,220,255]",0.7,300,0,true,-10,20,0,TRUE,FALSE,TRUE,20,20,0.5,0,30,0,true,false

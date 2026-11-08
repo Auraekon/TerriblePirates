@@ -51,3 +51,5 @@ tp_heavy_emp_torpedo_medium,WEAPON,"Slow moving, sturdy, potent, very big EMP to
 ,,,,,,,
 tp_ravager_medium,WEAPON,A mid- to long range torpedo launched by a dedicated catapult platform that accelerates it to a high velocity before release. Accurate and reliable.,,,,,
 tp_frag_emp,WEAPON,Short duration burst of lightning that deals mediocre fragmentation damage and low EMP damage.,,,,,
+tp_blackout,WEAPON,Heavy EMP torpedo.,,,,,
+tp_chaser,WEAPON,Hyper-agile interceptor pulsed-power energy missile.,,,,,
