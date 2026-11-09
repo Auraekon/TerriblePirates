@@ -53,3 +53,4 @@ tp_ravager_medium,WEAPON,A mid- to long range torpedo launched by a dedicated ca
 tp_frag_emp,WEAPON,Short duration burst of lightning that deals mediocre fragmentation damage and low EMP damage.,,,,,
 tp_blackout,WEAPON,Heavy EMP torpedo.,,,,,
 tp_chaser,WEAPON,Hyper-agile interceptor pulsed-power energy missile.,,,,,
+tp_sting,WEAPON,Hyper-agile interceptor pulsed-power energy missile.,,,,,

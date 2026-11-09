@@ -9,7 +9,7 @@
 	"everyFrameEffect":"com.fs.starfarer.api.impl.combat.threat.VoidblasterEffect",
 	"turretSprite":"graphics/weapons/launchers/tp_chaser_turret_base.png",
 	"hardpointSprite":"graphics/weapons/launchers/tp_chaser_hardpoint_base.png",	
-	"hardpointOffsets":[7, -0.5],
+	"hardpointOffsets":[11, -0.5],
 	"turretOffsets":[2, -0.5],
 	"hardpointAngleOffsets":[0],
 	"turretAngleOffsets":[0],
