@@ -25,7 +25,6 @@ public class HatchetEyeGlow implements EveryFrameWeaponEffectPlugin {
             if (ship.isAlive()) {
                 MagicTrailPlugin.addTrailMemberAdvanced(ship, this.trailID, this.sprite, weapon.getLocation(), 0.0F, 0.0F, VectorUtils.getFacing(ship.getVelocity()), ship.getAngularVelocity() / 4.0F, ship.getAngularVelocity() / 8.0F, 12.0F, 8.0F, brightRed, darkRed, 0.75F, 0.05F, 0.17F, 0.17F, 770, 1, 50.0F, 300.0F, 30.0F, new Vector2f(), (Map)null, CombatEngineLayers.ABOVE_SHIPS_AND_MISSILES_LAYER, 1.0F);
             }
-
         }
     }
 }

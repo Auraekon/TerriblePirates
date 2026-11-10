@@ -20,7 +20,9 @@
 			"laser_splash_flash":"graphics/fx/laser_splash_flash.png",
 			"tp_trail_zappy":"graphics/fx/trails/trails_zappy.png",
 			"tp_trail_contrail":"graphics/fx/trails/trails_contrail.png",
-			"tp_trail_spatter":"graphics/fx/trails/trails_spatter.png"
+			"tp_trail_spatter":"graphics/fx/trails/trails_spatter.png",
+			"tp_drake_beam":"graphics/fx/beams/drake_beam.png",
+			"tp_drake_muzzle_flash":"graphics/fx/drake_muzzle_flash.png"
 		},
 		# does not support animations
 		"weaponSkinsPlayerAndNPC":{

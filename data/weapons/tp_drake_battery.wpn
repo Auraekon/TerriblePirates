@@ -1,7 +1,7 @@
 {
 	"specClass":"beam",
 	"id":"tp_drake_battery",
-    "everyFrameEffect": "data.scripts.weapons.FxDroneWeaponStackScript",
+    #"everyFrameEffect": "data.scripts.weapons.FxDroneWeaponStackScript",
 	"type":"ENERGY",
 	"mountTypeOverride":"HYBRID",
 	"size":"LARGE",
