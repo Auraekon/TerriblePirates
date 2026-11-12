@@ -1,5 +1,6 @@
 id,type,text1,text2,text3,text4,text5,notes
 tp_rapacious,SHIP,"With the fury of Manticore, aggression of Retribution, panache of Eradicator, bullishness of Mule and contriteness of Buffalo, these powers unite to make a pirate battleship! A fast, fragile platform for delivering a withering rain of dakka.",,,,,
+tp_rapacious_new,SHIP,"With the fury of Manticore, aggression of Retribution, panache of Eradicator, bullishness of Mule and contriteness of Buffalo, these powers unite to make a pirate battleship! A fast, fragile platform for delivering a withering rain of dakka.",,,,,
 tp_rattler_drone,SHIP,"A heavily armored support drone built around a ship-scale ""heavy machinegun"". Hatchet cannot leave the proximity of its carrier but its heavy armor and very heavy armament make it an adept close-range support drone.",,,,,
 tp_hatchet,SHIP,"A heavily armored close-in support drone built around a ship-scale heavy machine gun. Engineered for minimum reaction time, Hatchet has an absurd amount of thrust.",,,,,
 tp_charger,SHIP,Description pending further playtesting.,,,,,
@@ -54,3 +55,4 @@ tp_frag_emp,WEAPON,Short duration burst of lightning that deals mediocre fragmen
 tp_blackout,WEAPON,Heavy EMP torpedo.,,,,,
 tp_chaser,WEAPON,Hyper-agile interceptor pulsed-power energy missile.,,,,,
 tp_sting,WEAPON,Hyper-agile interceptor pulsed-power energy missile.,,,,,
+tp_proot,SHIP,Dakkkkaaaaaaa.,,,,,

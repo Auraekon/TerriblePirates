@@ -1,0 +1,156 @@
+{
+    "bounds": [
+        76.75,
+        21.94,
+        69.02,
+        15,
+        69.02,
+        -15,
+        76.75,
+        -21.94,
+        -19,
+        -66,
+        -39,
+        -65,
+        -59,
+        -76,
+        -76.72,
+        -63.59,
+        -76.94,
+        -52.23,
+        -72.19,
+        -52.05,
+        -67,
+        -33,
+        -50,
+        -25,
+        -51.91,
+        -5.08,
+        -57.05,
+        -4.85,
+        -57.05,
+        4.85,
+        -51.91,
+        5.08,
+        -50,
+        25,
+        -67,
+        32,
+        -72.19,
+        52.05,
+        -76.94,
+        52.23,
+        -76.72,
+        63.59,
+        -54,
+        76,
+        -39,
+        65,
+        -13,
+        65
+    ],
+    "center": [
+        80,
+        79
+    ],
+    "collisionRadius": 100,
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 80,
+            "location": [
+                -78.12,
+                58.11
+            ],
+            "style": "LOW_TECH",
+            "width": 25
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 80,
+            "location": [
+                -78.12,
+                -58.11
+            ],
+            "style": "LOW_TECH",
+            "width": 25
+        }
+    ],
+    "height": 158,
+    "hullId": "tp_proot",
+    "hullName": "tp_proot",
+    "hullSize": "DESTROYER",
+    "shieldCenter": [
+        0,
+        0
+    ],
+    "shieldRadius": 0,
+    "spriteName": "graphics/ships/tp_proot/tp_proot.png",
+    "style": "LOW_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 63.5,
+            "arc": 180,
+            "id": "WS 001",
+            "locations": [
+                -13.04,
+                47.18
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -63.5,
+            "arc": 180,
+            "id": "WS 002",
+            "locations": [
+                -13.04,
+                -47.18
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 63.5,
+            "arc": 180,
+            "id": "WS 003",
+            "locations": [
+                23.97,
+                29.12
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -63.5,
+            "arc": 180,
+            "id": "WS 004",
+            "locations": [
+                23.97,
+                -29.12
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 15,
+            "id": "WS 005",
+            "locations": [
+                57.95,
+                0.01
+            ],
+            "mount": "HARDPOINT",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        }
+    ],
+    "width": 160
+}

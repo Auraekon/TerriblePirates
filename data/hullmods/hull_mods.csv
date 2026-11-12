@@ -1,6 +1,6 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
 Auxiliary Engine Core,tp_auxiliary_engine_core,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_auxiliary_engine_core,,,graphics/hullmods/tp_overdriven_flux_core.png
-Auxiliary Engine Core,tp_dedicated_engine_core,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_dedicated_engine_core,,,graphics/hullmods/tp_overdriven_flux_core.png
+Frankenstein's Flux System,tp_dedicated_engine_core,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_dedicated_engine_core,"The ship has multiple, redundant flux systems and power plants jury rigged together.",,graphics/hullmods/tp_overdriven_flux_core.png
 Accelerated Turrets,tp_accelerated_turret,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_accelerated_turret,,,graphics/hullmods/tp_mediumballisticsintegration.png
 Pirate Tuning,tp_pirate_tuning,0,,,,"Special, Engines",2500,TRUE,,,5,10,15,23,data.hullmods.tp_pirate_tuning,"""Tuning past"" the safety protocols increases the ship's top speed in combat by %s/%s/%s (depending on ship size, with a corresponding increase in acceleration) and allows the zero-flux engine boost to take effect below one third flux max. The flux dissipation rate, including that of additional vents, is increased by a factor of %s.
 

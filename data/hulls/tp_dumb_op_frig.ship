@@ -1,0 +1,194 @@
+{
+    "bounds": [
+        33.21,
+        36.88,
+        38.52,
+        18.87,
+        52.79,
+        17.96,
+        52.79,
+        -17.96,
+        38.52,
+        -18.87,
+        33.21,
+        -36.88,
+        24.96,
+        -50.31,
+        15.09,
+        -60.79,
+        -5.31,
+        -62.88,
+        -20,
+        -43,
+        -20,
+        -18,
+        -41.41,
+        -12.3,
+        -24,
+        -6,
+        -24,
+        6,
+        -41.41,
+        12.3,
+        -20,
+        17,
+        -20,
+        42,
+        -5.31,
+        62.88,
+        15.09,
+        60.79,
+        24.96,
+        50.31
+    ],
+    "center": [
+        68,
+        43
+    ],
+    "collisionRadius": 65,
+    "engineSlots": [
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 40,
+            "location": [
+                -20.87,
+                37.47
+            ],
+            "style": "LOW_TECH",
+            "width": 17
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 45,
+            "location": [
+                -20.83,
+                21.87
+            ],
+            "style": "LOW_TECH",
+            "width": 18
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 45,
+            "location": [
+                -20.83,
+                -21.87
+            ],
+            "style": "LOW_TECH",
+            "width": 18
+        },
+        {
+            "angle": 180,
+            "contrailSize": 20,
+            "length": 40,
+            "location": [
+                -20.87,
+                -37.47
+            ],
+            "style": "LOW_TECH",
+            "width": 17
+        }
+    ],
+    "height": 96,
+    "hullId": "frig_sprite",
+    "hullName": "Frig sprite",
+    "hullSize": "FRIGATE",
+    "shieldCenter": [
+        4.29,
+        -0.06
+    ],
+    "shieldRadius": 73,
+    "spriteName": "graphics/ships/frig_sprite/frig_sprite.png",
+    "style": "LOW_TECH",
+    "viewOffset": 0,
+    "weaponSlots": [
+        {
+            "angle": 45,
+            "arc": 180,
+            "id": "WS 001",
+            "locations": [
+                10.34,
+                47.44
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": -45,
+            "arc": 180,
+            "id": "WS 002",
+            "locations": [
+                10.34,
+                -47.44
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 180,
+            "id": "WS 003",
+            "locations": [
+                27.41,
+                22.95
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "COMPOSITE"
+        },
+        {
+            "angle": 0,
+            "arc": 180,
+            "id": "WS 004",
+            "locations": [
+                27.41,
+                -22.95
+            ],
+            "mount": "TURRET",
+            "size": "SMALL",
+            "type": "COMPOSITE"
+        },
+        {
+            "angle": 0,
+            "arc": 360,
+            "id": "WS 005",
+            "locations": [
+                -6.24,
+                -0.08
+            ],
+            "mount": "TURRET",
+            "size": "MEDIUM",
+            "type": "BALLISTIC"
+        },
+        {
+            "angle": 0,
+            "arc": 0,
+            "id": "WS 006",
+            "locations": [
+                48.26,
+                10.05
+            ],
+            "mount": "HARDPOINT",
+            "size": "SMALL",
+            "type": "COMPOSITE"
+        },
+        {
+            "angle": 0,
+            "arc": 0,
+            "id": "WS 007",
+            "locations": [
+                48.26,
+                -10.05
+            ],
+            "mount": "HARDPOINT",
+            "size": "SMALL",
+            "type": "COMPOSITE"
+        }
+    ],
+    "width": 136
+}
