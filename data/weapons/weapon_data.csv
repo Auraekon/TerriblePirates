@@ -18,14 +18,17 @@ Micro Drake (for fx drone) (deprecated),tp_microdrake_fxdrone,0,,75,600,30,,,0,7
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Mining laser OC (deprecated),tp_mining_laser_oc,1,,200,450,150,,,0,100,4,,,,HIGH_EXPLOSIVE,,120,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR,SYSTEM","no_dealer,no_sell ",,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,
 Mining laser triple OC (deprecated),tp_triple_mining_laser_oc,1,,200,450,450,,,0,100,9,,,,HIGH_EXPLOSIVE,,360,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR,SYSTEM","no_dealer,no_sell ",,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Double Mining Laser (deprecated),tp_double_mining_laser,0,,200,600,60,,,0,60,99,,,,ENERGY,,20,0,0.25,,,,,,,2400,,,,,,,"PD,SYSTEM","no_dealer,no_sell ",,,,Point Defense,,,,,,,,,,,2
 Double Mining Laser (OC) (deprecated),tp_double_mining_laser_oc,1,,200,400,200,,,0,100,99,,,,HIGH_EXPLOSIVE,,160,0.25,0.25,,,,,,,10000,,,,,,,"PD,ANTI_FTR,SYSTEM","no_dealer,no_sell ",,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,2
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Late Domain Mining Laser,tp_mininglaser,0,,100,600,30,,,0,80,1,,,,ENERGY,,10,0,0.25,,,,,,,2400,,,,,,,PD,,,,,Point Defense,,,,,,,,,,,
 Mining Laser Triple Mount,tp_triple_mining_laser,0,,200,600,90,,,0,60,3,,,,ENERGY,,30,0,0.25,,,,,,,2400,,,,,,,PD,,,,,Point Defense,,,,,,,,,,,3
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Hullcutter Laser,tp_hullcutter_laser,1,,200,450,150,,,0,100,4,,,,HIGH_EXPLOSIVE,,120,0.25,0.25,,,,,,,10000,,,,,,,ANTI_FTR,,,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,
 Hullcutter Laser Triple Mount,tp_hullcutter_laser_triple,1,,200,450,450,,,0,100,8,,,,HIGH_EXPLOSIVE,,360,0.25,0.25,,,,,,,10000,,,,,,,ANTI_FTR,,,,,Point Defense / Anti Fighter,,,,Perfect,,,,,,,3
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Deathray,tp_deathray,1,,4500,450,440,,,0,30,13,,,,HIGH_EXPLOSIVE,,396,0.1,0.1,,,,,,,2400,,,,,,,,,,,,Anti Armor,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # Projectiles,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Carronade Assault Railgun,tp_carronade,1,,1000,450,,100,,10,50,6,,,,KINETIC,80,,0,0.50,1,,0,10,2,5,,800,,,30,,,,,,,,General,,,,,,,,,,,

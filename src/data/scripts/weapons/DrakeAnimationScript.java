@@ -82,7 +82,6 @@ public class DrakeAnimationScript implements EveryFrameWeaponEffectPlugin {
             }
             int frame = (int) ((weapon.getAnimation().getNumFrames() - 1) * (1f - (weapon.getCooldownRemaining() / weapon.getCooldown())));
             weapon.getAnimation().setFrame(frame);
-            System.out.println("Muzzle frame: " + frame);
 
             // The rendered effect occupies the weapon's vicinity plus its range.
             if (entity != null && weapon.getShip() != null) {

@@ -98,7 +98,7 @@
     ],
     "height": 102,
     "hullId": "tp_reaver",
-    "hullName": "Frig sprite",
+    "hullName": "Reaver",
     "hullSize": "FRIGATE",
     "shieldCenter": [
         3.5,
@@ -167,7 +167,7 @@
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
-            "type": "BALLISTIC"
+            "type": "HYBRID"
         },
         {
             "angle": 0,
