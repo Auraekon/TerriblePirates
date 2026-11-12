@@ -65,5 +65,7 @@ Hits on hull or armor causes additional damage to weapons and equal to:
 Microhammer Pod (Fighter),tp_microhammer_medium_fighter,0,,150,1200,,750,,75,20,10,2,,,HIGH_EXPLOSIVE,0,,0,1,2,0.2,0,0,0,0,,544,544,3.1,250,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity.,250,,,,,
 Microhammer Battery,tp_microhammer_large,0,,150,1200,,570,,75,10,20,24,,,HIGH_EXPLOSIVE,0,,0,3,4,0.25,6,6,0,0,,544,544,3.1,250,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedoes launch at their maximum velocity.,250,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+Shortburn Hammer Torpedo,tp_shorthammer,0,,150,800,,1000,,30,10,2,3,,,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,544,120,1.5,350,,,STRIKE,,,,,Torpedo,Fast,None,,,This weapon's torpedos arm immediately upon launch.,,,,TRUE,9.8,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 # Other,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Frag Shock Repeater,tp_frag_shock_repeater,1,,20000,600,,200,,0,100,11,,,,FRAGMENTATION,66,,0,0.6666,1,,,,,,,10000,,,,,25,"PD,ANTI_FTR",,,,,Point Defense,,,,Perfect,Fires a fragmentation damage dealing arc at the nearest target close to the weapon's current facing. The arc always hits.,,,,,,

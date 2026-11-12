@@ -29,4 +29,5 @@ Rapacious,tp_rapacious_og,Battlecruiser,Advanced P1rat3 MK.II,tp_infernium_burne
 Rapacious,tp_rapacious,Battlecruiser,Advanced P1rat3 MK.II,tp_infernium_burner,30,9000,900,11000,,800,292,,70,50,40,8,80,4000,OMNI,,180,0.5,1,,,400,800,100,250,8,56,8,330000,4,20,600,0.25,45,45,,,,,,,,,,,,0.5,2,4,,
 Rapacious (New),tp_rapacious_new,Battlecruiser,Advanced P1rat3 MK.II,tp_microburn,30,10000,1000,14000,,800,292,,70,50,40,8,80,4000,OMNI,,180,0.5,1,,,400,800,100,250,8,56,8,330000,4,20,600,0.25,40,40,,,,,,,,,,,,0.5,2,4,,
 tp_proot,tp_proot,Phase Destroyer,Advanced P1rat3 MK.II,ammofeed,15,6000,800,5000,10000,250,95,,100,75,50,30,30,400,PHASE,phasecloak,90,,,0.05,0.16,25,50,60,100,2,50,8,20000,5,30,300,0.25,15,15,,,,,,,,,,,,0.5,2,3,,
-Frig sprite,frig_sprite,Gunship,Advanced P1rat3 MK.II,maneuveringjets,7,2000,450,3000,3125,250,50,,100,180,120,60,120,250,FRONT,,270,0.4,0.8,,,15,30,40,20,1,20,9,12000,8,10,300,0.25,8,8,,,,,,,,,,,,0.4,2,2,,
+Frig sprite (Deprecated),frig_sprite,Gunship,Advanced P1rat3 MK.II,maneuveringjets,7,2000,450,3000,3125,250,50,,100,180,120,60,120,250,FRONT,,270,0.4,0.8,,,15,30,40,20,1,20,9,12000,8,10,300,0.25,8,8,,,,,,,,,,,,0.4,2,2,,
+Reaver,tp_reaver,Gunship,Advanced P1rat3 MK.II,maneuveringjets,7,2000,450,3000,3125,250,50,,100,180,120,60,120,250,FRONT,,270,0.4,0.8,,,15,30,40,20,1,20,9,12000,8,10,300,0.25,8,8,,,,,,,,,,,,0.4,2,2,,

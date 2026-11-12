@@ -1,49 +1,53 @@
 {
     "bounds": [
-        33.21,
-        36.88,
-        38.52,
-        18.87,
-        52.79,
-        17.96,
-        52.79,
-        -17.96,
-        38.52,
-        -18.87,
-        33.21,
-        -36.88,
+        39,
+        22.59,
+        54.59,
+        18.08,
+        54.71,
+        7.66,
+        41.56,
+        4.37,
+        41.56,
+        -4.37,
+        54.71,
+        -7.66,
+        54.59,
+        -18.08,
+        39,
+        -22.59,
         24.96,
         -50.31,
         15.09,
         -60.79,
-        -5.31,
-        -62.88,
+        -5.43,
+        -64.32,
+        -19.64,
+        -42.48,
         -20,
-        -43,
+        -16.76,
+        -41.97,
+        -12.78,
+        -23.4,
+        -7.44,
+        -23.4,
+        7.44,
+        -41.97,
+        12.78,
         -20,
-        -18,
-        -41.41,
-        -12.3,
-        -24,
-        -6,
-        -24,
-        6,
-        -41.41,
-        12.3,
-        -20,
-        17,
-        -20,
-        42,
-        -5.31,
-        62.88,
+        16.76,
+        -19.64,
+        42.48,
+        -5.43,
+        64.32,
         15.09,
         60.79,
         24.96,
         50.31
     ],
     "center": [
-        68,
-        43
+        67,
+        44.5
     ],
     "collisionRadius": 65,
     "engineSlots": [
@@ -92,16 +96,16 @@
             "width": 17
         }
     ],
-    "height": 96,
-    "hullId": "frig_sprite",
+    "height": 102,
+    "hullId": "tp_reaver",
     "hullName": "Frig sprite",
     "hullSize": "FRIGATE",
     "shieldCenter": [
-        4.29,
-        -0.06
+        3.5,
+        0
     ],
-    "shieldRadius": 73,
-    "spriteName": "graphics/ships/frig_sprite/frig_sprite.png",
+    "shieldRadius": 75.5,
+    "spriteName": "graphics/ships/tp_reaver/tp_reaver.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [
@@ -110,8 +114,8 @@
             "arc": 180,
             "id": "WS 001",
             "locations": [
-                10.34,
-                47.44
+                10.07,
+                47.1
             ],
             "mount": "TURRET",
             "size": "SMALL",
@@ -122,8 +126,8 @@
             "arc": 180,
             "id": "WS 002",
             "locations": [
-                10.34,
-                -47.44
+                10.07,
+                -47.53
             ],
             "mount": "TURRET",
             "size": "SMALL",
@@ -134,32 +138,32 @@
             "arc": 180,
             "id": "WS 003",
             "locations": [
-                27.41,
+                27.21,
                 22.95
             ],
             "mount": "TURRET",
             "size": "SMALL",
-            "type": "COMPOSITE"
+            "type": "BALLISTIC"
         },
         {
             "angle": 0,
             "arc": 180,
             "id": "WS 004",
             "locations": [
-                27.41,
+                27.21,
                 -22.95
             ],
             "mount": "TURRET",
             "size": "SMALL",
-            "type": "COMPOSITE"
+            "type": "BALLISTIC"
         },
         {
             "angle": 0,
             "arc": 360,
             "id": "WS 005",
             "locations": [
-                -6.24,
-                -0.08
+                -6.62,
+                -0.01
             ],
             "mount": "TURRET",
             "size": "MEDIUM",
@@ -170,24 +174,24 @@
             "arc": 0,
             "id": "WS 006",
             "locations": [
-                48.26,
-                10.05
+                48.54,
+                13.11
             ],
             "mount": "HARDPOINT",
             "size": "SMALL",
-            "type": "COMPOSITE"
+            "type": "MISSILE"
         },
         {
             "angle": 0,
             "arc": 0,
             "id": "WS 007",
             "locations": [
-                48.26,
-                -10.05
+                48.54,
+                -13.11
             ],
             "mount": "HARDPOINT",
             "size": "SMALL",
-            "type": "COMPOSITE"
+            "type": "MISSILE"
         }
     ],
     "width": 136
