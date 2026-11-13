@@ -1,13 +1,28 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
-Auxiliary Engine Core,tp_auxiliary_engine_core,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_auxiliary_engine_core,,,graphics/hullmods/tp_overdriven_flux_core.png
+# Fighter related,,,,,,,,,,,,,,,,,,
+Safety Overrides,tp_safety_overrides_fighter,,,,,"Special, Engines",2500,,TRUE,,0,0,0,0,data.hullmods.tp_safety_overrides_fighter,,,graphics/hullmods/tp_overdriven_flux_core.png
+Ballistic Rangefinder,tp_ballistic_rangefinder_fighter,,,,,Weapons,8000,,TRUE,,0,0,0,0,data.hullmods.tp_ballistic_rangefinder_fighter,,,graphics/hullmods/tp_mediumballisticsintegration.png
+Speed Engineering,tp_full_system_overclock,,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_full_system_overclock,,,graphics/hullmods/tp_overdriven_flux_core.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+# Built-ins,,,,,,,,,,,,,,,,,,
 Frankenstein's Flux System,tp_dedicated_engine_core,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_dedicated_engine_core,"The ship has multiple, redundant flux systems and power plants jury rigged together.",,graphics/hullmods/tp_overdriven_flux_core.png
+Auxiliary Engine Core,tp_auxiliary_engine_core,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_auxiliary_engine_core,,,graphics/hullmods/tp_overdriven_flux_core.png
 Accelerated Turrets,tp_accelerated_turret,1,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_accelerated_turret,,,graphics/hullmods/tp_mediumballisticsintegration.png
-Pirate Tuning,tp_pirate_tuning,0,,,,"Special, Engines",2500,TRUE,,,5,10,15,23,data.hullmods.tp_pirate_tuning,"""Tuning past"" the safety protocols increases the ship's top speed in combat by %s/%s/%s (depending on ship size, with a corresponding increase in acceleration) and allows the zero-flux engine boost to take effect below one third flux max. The flux dissipation rate, including that of additional vents, is increased by a factor of %s.
+Improvised Missile Storage,tp_improvised_missile_storage,,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_improvised_missile_storage,Increases the ammo capacity of missile weapons by %s. Reduces the rate of fire of missile weapons by %s.,Increases missile weapon ammo.,graphics/hullmods/tp_improvised_missile_storage.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+# Maneuver related,,,,,,,,,,,,,,,,,,
+Pirate Tuning,tp_pirate_tuning,0,,,,"Special, Engines",2500,,,,5,10,15,23,data.hullmods.tp_pirate_tuning,"""Tuning past"" the safety protocols increases the ship's top speed in combat by %s/%s/%s (depending on ship size, with a corresponding increase in acceleration) and allows the zero-flux engine boost to take effect below one third flux max. The flux dissipation rate, including that of additional vents, is increased by a factor of %s.
 
 Multiplies the peak performance time by a factor of %s, slows down active venting by a factor of %s, and drastically reduces weapon ranges past %s units.
 
 Can not be installed on civilian or capital ships.","Some improvement in performance, somewhat lower peak time.",graphics/hullmods/tp_overdriven_flux_core.png
-Safety Overrides,tp_safety_overrides_fighter,0,,,,"Special, Engines",2500,,TRUE,,0,0,0,0,data.hullmods.tp_safety_overrides_fighter,,,graphics/hullmods/tp_overdriven_flux_core.png
-Ballistic Rangefinder,tp_ballistic_rangefinder_fighter,2,,,,Weapons,8000,,TRUE,,0,0,0,0,data.hullmods.tp_ballistic_rangefinder_fighter,,,graphics/hullmods/tp_mediumballisticsintegration.png
-Speed Engineering,tp_full_system_overclock,,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_full_system_overclock,,,graphics/hullmods/tp_overdriven_flux_core.png
-Improvised Missile Storage,tp_improvised_missile_storage,,,,,,,,TRUE,,0,0,0,0,data.hullmods.tp_improvised_missile_storage,Increases the ammo capacity of missile weapons by %s. Reduces the rate of fire of missile weapons by %s.,Increases missile weapon ammo.,graphics/hullmods/tp_improvised_missile_storage.png
+Drive Capacitators,tp_drive_capacitators,1,,,no_build_in,"Special, Engines",2500,,,,15,30,45,70,data.hullmods.tp_drive_capacitators,Increases flux capacity by %s. Zero flux bonus triggers below %s flux max.,Increases flux capacity and raised zero-flux bonus threshold.,graphics/hullmods/tp_overdriven_flux_core.png
+Battlecruiser Retrofit,tp_battlecruiser_retrofit,1,,,no_build_in,"Special, Engines",2500,,,,15,30,45,70,data.hullmods.tp_battlecruiser_retrofit,"Capital only SO analog that caps weapon range at 700 SO style and gives +25 speed. Zero flux bonus triggers below %s max flux. +%s flux dissipation. +%s fighter refit time, caps fighter engage range at 1800.",Mobility and speed augment that reduces range.,graphics/hullmods/tp_overdriven_flux_core.png
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,
+# Missile related,,,,,,,,,,,,,,,,,,
+Heavy Missiles,tp_heavy_missiles,1,,,,,2500,,,,0,0,0,0,data.hullmods.tp_heavy_missiles,"%s increased missile damage, %s increased missile health, %s reduced missile speed and maneuverability.",Makes missiles stronger but slower.,graphics/hullmods/tp_improvised_missile_storage.png
+Light Missiles,tp_light_missiles,1,,,,,2500,,,,0,0,0,0,data.hullmods.tp_light_missiles,"%s reduced missile damage and health, %s increased missile speed and maneuverability",Makes missiles weaker but faster.,graphics/hullmods/tp_improvised_missile_storage.png
+Hardened Missiles,tp_hardened_missiles,1,,,,,2500,,,,0,0,0,0,data.hullmods.tp_hardened_missiles,%s reduced missile damage. %s increased missile health.,Makes missiles sturdier but weaker.,graphics/hullmods/tp_improvised_missile_storage.png
