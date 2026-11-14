@@ -10,8 +10,8 @@ import java.awt.*;
 
 public class tp_drive_capacitators extends BaseHullMod {
 
-    private static final float ZERO_FLUX_MULT = 10f;
-    private static final float FLUX_CAP_MULT = 10f;
+    private static final float ZERO_FLUX_MULT = 15f;
+    private static final float FLUX_CAP_MULT = 15f;
 
     // Adds 10% to flux cap and gives zero flux bonus under 10% flux max.
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
