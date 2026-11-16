@@ -4,6 +4,7 @@ import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
+import com.fs.starfarer.api.impl.campaign.ids.HullMods;
 import com.fs.starfarer.api.ui.TooltipMakerAPI;
 import com.fs.starfarer.api.util.Misc;
 import java.awt.*;
@@ -18,6 +19,31 @@ public class tp_drive_capacitators extends BaseHullMod {
 		stats.getZeroFluxMinimumFluxLevel().modifyFlat(id, ZERO_FLUX_MULT * 0.01f); // should set it usable at 5% or lower
         stats.getFluxCapacity().modifyMult(id, 1 + FLUX_CAP_MULT * 0.01f);
 	}
+
+    @Override
+    public boolean isApplicableToShip(ShipAPI ship) {
+        if (ship.getVariant().getHullSize() == HullSize.CAPITAL_SHIP) return false;
+        if (ship.getVariant().hasHullMod(HullMods.CIVGRADE) && !ship.getVariant().hasHullMod(HullMods.MILITARIZED_SUBSYSTEMS)) return false;
+        if (ship.getVariant().hasHullMod(HullMods.FLUX_SHUNT)) return false;
+        if (ship.getVariant().hasHullMod(HullMods.SAFETYOVERRIDES)) return false;
+        return true;
+    }
+
+    public String getUnapplicableReason(ShipAPI ship) {
+        if (ship.getVariant().getHullSize() == HullSize.CAPITAL_SHIP) {
+            return "Can not be installed on capital ships";
+        }
+        if (ship.getVariant().hasHullMod(HullMods.CIVGRADE) && !ship.getVariant().hasHullMod(HullMods.MILITARIZED_SUBSYSTEMS)) {
+            return "Can not be installed on civilian ships";
+        }
+        if (ship.getVariant().hasHullMod(HullMods.FLUX_SHUNT)) {
+            return "Incompatible with Flux Shunt";
+        }
+        if (ship.getVariant().hasHullMod(HullMods.SAFETYOVERRIDES)) {
+            return "Incompatible with Safety Overrides";
+        }
+        return null;
+    }
 
 //    @Override
 //    public void addPostDescriptionSection(TooltipMakerAPI tooltip, HullSize hullSize, ShipAPI ship, float width, boolean isForModSpec) {

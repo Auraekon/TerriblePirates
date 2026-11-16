@@ -4,20 +4,18 @@ import com.fs.starfarer.api.combat.BaseHullMod;
 import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
+import com.fs.starfarer.api.impl.campaign.ids.HullMods;
+
 import java.awt.*;
 
 public class tp_battlecruiser_retrofit extends BaseHullMod {
 
     private static final float FLUX_DISSIPATION_MULT = 15f;
-    private static final float SPEED_ADD = 25f;
-    private static final float ACCEL_MULT = 25f;
-
+    private static final float ZERO_FLUX_MULT = 15f;
+    private static final float FLUX_CAP_MULT = 15f;
 
     private static final float RANGE_THRESHOLD = 700f;
     private static final float RANGE_MULT = 0.25f;
-    private static final float ZERO_FLUX_MULT = 1f;
-
-
 
     private static final float FIGHTER_RANGE_CAP = 1800f;
     private static final float FIGHTER_REFIT_MULT = 25f;
@@ -25,10 +23,8 @@ public class tp_battlecruiser_retrofit extends BaseHullMod {
 
     // Capital only SO analog that caps range at 700 and gives +25 speed. Zero flux bonus below 1% max flux. +15% flux dissipation. 25% fighter refit time, cap fighter engage range at 1800.
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) {
-        stats.getMaxSpeed().modifyFlat(id, SPEED_ADD);
-        stats.getAcceleration().modifyFlat(id, 1f + ACCEL_MULT * 0.01f);
-        stats.getDeceleration().modifyFlat(id, 1f + ACCEL_MULT * 0.01f);
-        stats.getZeroFluxMinimumFluxLevel().modifyFlat(id, ZERO_FLUX_MULT * 0.01f);
+        stats.getZeroFluxMinimumFluxLevel().modifyFlat(id, ZERO_FLUX_MULT * 0.01f); // should set it usable at 5% or lower
+        stats.getFluxCapacity().modifyMult(id, 1 + FLUX_CAP_MULT * 0.01f);
 
         stats.getFluxDissipation().modifyMult(id, 1f + FLUX_DISSIPATION_MULT * 0.01f);
 
@@ -48,13 +44,23 @@ public class tp_battlecruiser_retrofit extends BaseHullMod {
 
     @Override
     public boolean isApplicableToShip(ShipAPI ship) {
-        return ship.getVariant().getHullSize() == HullSize.CAPITAL_SHIP;
+        if (ship.getVariant().getHullSize() != HullSize.CAPITAL_SHIP) return false;
+        if (ship.getVariant().hasHullMod(HullMods.CIVGRADE) && !ship.getVariant().hasHullMod(HullMods.MILITARIZED_SUBSYSTEMS)) return false;
+        if (ship.getVariant().hasHullMod(HullMods.FLUX_SHUNT)) return false;
+        return true;
     }
 
     public String getUnapplicableReason(ShipAPI ship) {
         if (ship.getVariant().getHullSize() != HullSize.CAPITAL_SHIP) {
-            return "Can only be installed on capital ships.";
+            return "Can only be installed on capital ships";
         }
+        if (ship.getVariant().hasHullMod(HullMods.CIVGRADE) && !ship.getVariant().hasHullMod(HullMods.MILITARIZED_SUBSYSTEMS)) {
+            return "Can not be installed on civilian ships";
+        }
+        if (ship.getVariant().hasHullMod(HullMods.FLUX_SHUNT)) {
+            return "Incompatible with Flux Shunt";
+        }
+
         return null;
     }
 

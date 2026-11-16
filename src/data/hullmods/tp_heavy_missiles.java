@@ -16,9 +16,9 @@ public class tp_heavy_missiles extends BaseHullMod {
 
     public static float MISSILE_DAMAGE_MULT = 1.2f;
     public static float MISSILE_HEALTH_MULT = 1.2f;
-    public static float MISSILE_SPEED_MULT = 0.5f;
+    public static float MISSILE_SPEED_MULT = 0.67f;
     // 0.5 = 50% launch speed
-    private static final float LAUNCH_MULT = 0.5f;
+    private static final float LAUNCH_MULT = 0.67f;
 
     private static final String PROCESSED_KEY =
             "tp_heavy_missiles_processed";
@@ -40,8 +40,7 @@ public class tp_heavy_missiles extends BaseHullMod {
 
     public String getDescriptionParam(int index, HullSize hullSize) {
         if (index == 0) return processTooltipMultiModifier(MISSILE_DAMAGE_MULT);
-        if (index == 1) return processTooltipMultiModifier(MISSILE_HEALTH_MULT);
-        if (index == 2) return processTooltipMultiModifier(MISSILE_SPEED_MULT);
+        if (index == 1) return processTooltipMultiModifier(MISSILE_SPEED_MULT);
         return null;
     }
 
