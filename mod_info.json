@@ -3,7 +3,7 @@
   "name": "Terrible Pirates", #Display Name
   "author": "Auraekon", 
   "utility": false,
-  "version": "1.27.0",
+  "version": "1.27.1",
   "description": "Yarrr!",
   "gameVersion": "0.98.5a-RC7",
   "jars": [ "jars/TerriblePirates.jar" ],
