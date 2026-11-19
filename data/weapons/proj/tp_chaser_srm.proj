@@ -5,8 +5,8 @@
 	"sprite":"graphics/missiles/tp_chaser_srm.png",
 	#"size":[10,14],
 	#"center":[5,7],
-	"size":[4,14],	
-	"center":[2,7],
+	"size":[8,20],	
+	"center":[4,10],
 	"collisionRadius":8,
 	"collisionClass":"MISSILE_NO_FF",
 	"explosionColor":[80,227,255,255],  # purely visual, will get a white additively blended core on top of this color

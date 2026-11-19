@@ -16,7 +16,11 @@ import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.graphics.SpriteAPI;
 
 /**
- * Visual-only tiled/scrolled beam with brightness-linked muzzle flash.
+ * Visual-only tiled/scrolled beam with a soft impact fade and brightness-linked muzzle flash.
+ *
+ * Multiple-beam fix: draw all beam quads before using SpriteAPI.renderAtCenter(),
+ * and explicitly restore the required GL state for each beam. This avoids
+ * the sprite renderer affecting the next beam in the same weapon.
  * The native BeamAPI remains responsible for ALL collisions and damage.
  */
 public class DrakeAnimationScript implements EveryFrameWeaponEffectPlugin {
@@ -31,7 +35,6 @@ public class DrakeAnimationScript implements EveryFrameWeaponEffectPlugin {
         engine.addLayeredRenderingPlugin(new ZappyRenderer(weapon));
         rendererAdded = true;
     }
-
 
     private static final class ZappyRenderer extends BaseCombatLayeredRenderingPlugin {
         // Supplied zappy_beam.png is VERTICAL, 64 x 256 pixels.
@@ -82,7 +85,6 @@ public class DrakeAnimationScript implements EveryFrameWeaponEffectPlugin {
             }
             int frame = (int) ((weapon.getAnimation().getNumFrames() - 1) * (1f - (weapon.getCooldownRemaining() / weapon.getCooldown())));
             weapon.getAnimation().setFrame(frame);
-
             // The rendered effect occupies the weapon's vicinity plus its range.
             if (entity != null && weapon.getShip() != null) {
                 entity.getLocation().set(weapon.getLocation());
@@ -119,10 +121,9 @@ public class DrakeAnimationScript implements EveryFrameWeaponEffectPlugin {
                     | GL11.GL_TEXTURE_BIT | GL11.GL_CURRENT_BIT
                     | GL11.GL_LIGHTING_BIT);
             try {
-                GL11.glEnable(GL11.GL_TEXTURE_2D);
-                GL11.glEnable(GL11.GL_BLEND);
-                GL11.glBlendFunc(GL11.GL_SRC_ALPHA, GL11.GL_ONE);
-                GL11.glShadeModel(GL11.GL_SMOOTH); // interpolate vertex alpha
+                // PASS 1: draw every lightning strip before rendering ANY
+                // muzzle-flash SpriteAPI objects. SpriteAPI may change the
+                // shared OpenGL state, which could corrupt beam #2/#3.
                 for (BeamAPI beam : weapon.getBeams()) {
                     if (beam == null) continue;
                     float alpha = clamp01(beam.getBrightness()
@@ -150,8 +151,18 @@ public class DrakeAnimationScript implements EveryFrameWeaponEffectPlugin {
                             length * 0.5f);
                     final float fadeStart = length - fadeLength;
 
-                    // Rebind the beam texture for each beam because rendering
-                    // the muzzle flash binds a second sprite texture.
+                    // Re-establish explicit 2D additive rendering state before
+                    // EVERY beam, not just before the first one.
+                    // Disable alpha testing: per-vertex fade needs partial alpha.
+                    GL11.glEnable(GL11.GL_TEXTURE_2D);
+                    GL11.glEnable(GL11.GL_BLEND);
+                    GL11.glDisable(GL11.GL_ALPHA_TEST);
+                    GL11.glDisable(GL11.GL_DEPTH_TEST);
+                    GL11.glDisable(GL11.GL_LIGHTING);
+                    GL11.glBlendFunc(GL11.GL_SRC_ALPHA, GL11.GL_ONE);
+                    GL11.glShadeModel(GL11.GL_SMOOTH);
+                    GL11.glTexEnvi(GL11.GL_TEXTURE_ENV,
+                            GL11.GL_TEXTURE_ENV_MODE, GL11.GL_MODULATE);
                     sprite.bindTexture();
                     GL11.glBegin(GL11.GL_QUADS);
                     try {
@@ -192,7 +203,7 @@ public class DrakeAnimationScript implements EveryFrameWeaponEffectPlugin {
                                     drawn + segmentLength, length, fadeLength);
 
                             // Image's vertical axis maps onto the beam axis.
-                            GL11.glColor4f(1f, 0.44f, 0.37f, alpha);
+                            GL11.glColor4f(1f, 0.44f, 0.37f, startAlpha);
                             GL11.glTexCoord2f(u0, v0);
                             GL11.glVertex2f(startX - halfX, startY - halfY);
                             GL11.glTexCoord2f(u1, v0);
@@ -209,9 +220,28 @@ public class DrakeAnimationScript implements EveryFrameWeaponEffectPlugin {
                         GL11.glEnd();
                     }
 
-                    // Draw on top of the beam's first tile at its real origin.
-                    // No damage or collision logic is changed.
-                    renderMuzzleFlash(from, dirX, dirY, alpha);
+                }
+
+                // PASS 2: after all beam geometry is complete, render the
+                // muzzle flashes over the origins. SpriteAPI can now modify GL
+                // state without affecting any subsequent beam quads.
+                for (BeamAPI beam : weapon.getBeams()) {
+                    if (beam == null) continue;
+                    float alpha = clamp01(beam.getBrightness()
+                            * viewport.getAlphaMult());
+                    if (alpha <= 0f) continue;
+
+                    Vector2f from = beam.getFrom();
+                    Vector2f to = beam.getTo();
+                    if (from == null || to == null) continue;
+
+                    float dx = to.x - from.x;
+                    float dy = to.y - from.y;
+                    float length = (float) Math.sqrt(dx * dx + dy * dy);
+                    if (length < 1f) continue;
+
+                    // This passes the same origin and brightness as pass 1.
+                    renderMuzzleFlash(from, dx / length, dy / length, alpha);
                 }
             } finally {
                 GL11.glPopAttrib();

@@ -56,6 +56,8 @@ Heavy EMP Torpedo (Deprecated),tp_heavy_emp_torpedo_medium,0,,150,1200,,1140,250
 Hits to hull or armor cause 1 arc with full damage and 7 other arcs with one tenth damage each to chain into the weapons and engines of the hit ship.",,,,,,
 Blackout Torpedo Pod,tp_blackout_pod,0,,150,1200,,1140,2500,20,20,10,6,,,ENERGY,500,,0.15,14.25,1,,0,0,0,0,,340,340,5.91,700,,,"STRIKE,USE_LESS_VS_SHIELDS",,,,,Torpedo,Medium,None,,,"This weapon's torpedoes launch at their maximum velocity. 
 Hits to hull or armor cause 1 arc with full damage and 7 other arcs with one tenth damage each to chain into the weapons and engines of the hit ship.",,,,,,
+Blackout Torpedo,tp_blackout_torpedo,0,,150,1200,,1140,2500,20,20,2,1,,,ENERGY,500,,0.15,5,1,,0,0,0,0,,340,340,5.91,700,,,"STRIKE,USE_LESS_VS_SHIELDS",,,,,Torpedo,Medium,None,,,"This weapon's torpedoes launch at their maximum velocity. 
+Hits to hull or armor cause 1 arc with full damage and 7 other arcs with one tenth damage each to chain into the weapons and engines of the hit ship.",,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Chaser Interceptor (Deprecated),tp_chaser,0,,400,1600,,320,150,15,50,99,,,,ENERGY,240,,0,5,1,0.27,0,0,0,0,,740,50,6,150,,,"DO_NOT_AIM, DO_NOT_CONSERVE,SYSTEM",,,High Tech,,Anti Small Craft,Very Fast,Excellent,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,,,
 Sting MRM Launcher,tp_sting,0,,400,1600,,320,150,15,50,7,,,,ENERGY,240,,0,5,1,0.27,0,0,0,0,,740,50,6,150,,,"DO_NOT_AIM, DO_NOT_CONSERVE",,,High Tech,,Anti Small Craft,Very Fast,Excellent,,,"Deals %s damage to shields, despite not being a beam weapon.",soft flux,,,,,

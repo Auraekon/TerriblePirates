@@ -3,9 +3,9 @@
   "name": "Terrible Pirates", #Display Name
   "author": "Auraekon", 
   "utility": false,
-  "version": "1.26.2",
+  "version": "1.27.0",
   "description": "Yarrr!",
-  "gameVersion": "0.98a-RC8",
+  "gameVersion": "0.98.5a-RC7",
   "jars": [ "jars/TerriblePirates.jar" ],
   "modPlugin": "terriblepirates.TerriblePirates",
   "dependencies": [
