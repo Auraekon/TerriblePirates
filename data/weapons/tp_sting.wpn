@@ -10,7 +10,7 @@
 	"turretSprite":"graphics/weapons/launchers/tp_chaser_turret_base.png",
 	"hardpointSprite":"graphics/weapons/launchers/tp_chaser_hardpoint_base.png",	
 	"hardpointOffsets":[16, 0],
-	"turretOffsets":[6, 0],
+	"turretOffsets":[8, 0],
 	"hardpointAngleOffsets":[0],
 	"turretAngleOffsets":[0],
 	"renderHints":[RENDER_LOADED_MISSILES],

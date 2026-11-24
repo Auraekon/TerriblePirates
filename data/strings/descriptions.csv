@@ -58,8 +58,12 @@ tp_lrpdc,WEAPON,Hyper rapid fire point defense coilgun.,,,,,
 # Missiles,,,,,,,
 tp_ravager_medium,WEAPON,A mid- to long range torpedo launched by a dedicated catapult platform that accelerates it to a high velocity before release. Accurate and reliable.,,,,,
 tp_frag_emp,WEAPON,Short duration burst of lightning that deals mediocre fragmentation damage and low EMP damage.,,,,,
-tp_blackout_torpedo,WEAPON,Super heavy EMP torpedo capable of disabling half a capital ship in one shot. Very slow and typically requires a close range shot to land on target.,,,,,
-tp_blackout_pod,WEAPON,Super heavy EMP torpedo capable of disabling half a capital ship in one shot. Very slow and typically requires a close range shot to land on target.,,,,,
+tp_blackout_torpedo,WEAPON,"Super heavy EMP torpedo capable of disabling half a capital ship in one shot.
+
+Sharing much of its engineering heritage with the Reaper torpedo, this weapon carries an AM-driven electromagnetic flux compression warhead in place of a conventional high-yield nuclear device. The additional mass of the discharge assembly and its protective housing comes at considerable expense to the torpedo's acceleration.",,,,,
+tp_blackout_pod,WEAPON,"Super heavy EMP torpedo capable of disabling half a capital ship in one shot.
+
+Sharing much of its engineering heritage with the Reaper torpedo, this weapon carries an AM-driven electromagnetic flux compression warhead in place of a conventional high-yield nuclear device. The additional mass of the discharge assembly and its protective housing comes at considerable expense to the torpedo's acceleration.",,,,,
 tp_chaser,WEAPON,Hyper-agile interceptor pulsed-power energy missile.,,,,,
 tp_sting,WEAPON,Hyper-agile interceptor pulsed-power energy missile.,,,,,
 tp_shorthammer,WEAPON,"Cut down Hammer torpedo with shorter, more intense engine burn and smaller payload.",,,,,
