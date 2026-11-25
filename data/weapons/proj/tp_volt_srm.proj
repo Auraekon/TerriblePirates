@@ -3,7 +3,7 @@
 	"specClass":"missile",
 	"onHitEffect":"com.fs.starfarer.api.impl.combat.PilumOnHitEffect",
 	"missileType":"MISSILE",
-	"sprite":"graphics/missiles/tp_volt_srm.png",
+	"sprite":"graphics/tp/missiles/tp_volt_srm.png",
 	"size":[10,16],	
 	"center":[5,8],
 	"collisionRadius":15,

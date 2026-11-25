@@ -2,7 +2,7 @@
 	"id":"tp_shorthammer_torp",
 	"specClass":"missile",
 	"missileType":"ROCKET",
-	"sprite":"graphics/missiles/tp_shorthammer_torp.png",
+	"sprite":"graphics/tp/missiles/tp_shorthammer_torp.png",
 	"size":[10,16],	
 	"center":[5,8],
 	"collisionRadius":12,

@@ -167,7 +167,7 @@
         0
     ],
     "shieldRadius": 30.5,
-    "spriteName": "graphics/ships/fighters/tp_hatchet_torp.png",
+    "spriteName": "graphics/tp/ships/fighters/tp_hatchet_torp.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

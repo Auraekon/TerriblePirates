@@ -2,7 +2,7 @@
 	"id":"tp_chaser_srm",
 	"specClass":"missile",
 	"missileType":"MISSILE",
-	"sprite":"graphics/missiles/tp_chaser_srm.png",
+	"sprite":"graphics/tp/missiles/tp_chaser_srm.png",
 	#"size":[10,14],
 	#"center":[5,7],
 	"size":[8,20],	

@@ -241,7 +241,7 @@
         0
     ],
     "shieldRadius": 155,
-    "spriteName": "graphics/ships/tp_swoop/tp_swoop.png",
+    "spriteName": "graphics/tp/ships/tp_swoop/tp_swoop.png",
     "style": "MIDLINE",
     "viewOffset": 0,
     "weaponSlots": [

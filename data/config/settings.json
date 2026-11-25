@@ -11,18 +11,17 @@
 	# This section is where we can tell the game where to look for our custom rule commands.
 	# Rules from multiple packages CAN NOT share the same name	
 	"ruleCommandPackages":[
-	    "data.campaign.terriblepiratesrulecmd"
+	    "tp_data.campaign.terriblepiratesrulecmd"
 	],
-	
     # This section is where we can define images that can be referenced ingame using Global.getSettings().getSpriteName("category", "name");
 	"graphics":{
 		"fx":{ 
-			"laser_splash_flash":"graphics/fx/laser_splash_flash.png",
-			"tp_trail_zappy":"graphics/fx/trails/trails_zappy.png",
-			"tp_trail_contrail":"graphics/fx/trails/trails_contrail.png",
-			"tp_trail_spatter":"graphics/fx/trails/trails_spatter.png",
-			"tp_drake_beam":"graphics/fx/beams/drake_beam.png",
-			"tp_drake_muzzle_flash":"graphics/fx/drake_muzzle_flash.png"
+			"tp_laser_splash_flash":"graphics/tp/fx/tp_laser_splash_flash.png",
+			"tp_trail_zappy":"graphics/tp/fx/trails/trails_zappy.png",
+			"tp_trail_contrail":"graphics/tp/fx/trails/trails_contrail.png",
+			"tp_trail_spatter":"graphics/tp/fx/trails/trails_spatter.png",
+			"tp_drake_beam":"graphics/tp/fx/beams/drake_beam.png",
+			"tp_drake_muzzle_flash":"graphics/tp/fx/drake_muzzle_flash.png"
 		},
 		# does not support animations
 		"weaponSkinsPlayerAndNPC":{
@@ -34,7 +33,6 @@
 		},		
 	},
     "designTypeColors":{
-        "Forge-hack":[227,180,72,255],
         "Advanced P1rat3 MK.II":[190,10,0,255],
     },
 }

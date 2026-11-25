@@ -145,7 +145,7 @@
         0.11
     ],
     "shieldRadius": 95.5,
-    "spriteName": "graphics/ships/tp_rotflower/tp_rotflower.png",
+    "spriteName": "graphics/tp/ships/tp_rotflower/tp_rotflower.png",
     "style": "MIDLINE",
     "viewOffset": 0,
     "weaponSlots": [

@@ -17,5 +17,5 @@
 	#"glowRadius":15,
 	"textureScrollSpeed":64.0,
 	"pixelsPerTexel":5.0,
-	"bulletSprite":"graphics/missiles/tp_canister_shot_swarm.png"
+	"bulletSprite":"graphics/tp/missiles/tp_canister_shot_swarm.png"
 }

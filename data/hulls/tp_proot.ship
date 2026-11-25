@@ -87,7 +87,7 @@
         0
     ],
     "shieldRadius": 0,
-    "spriteName": "graphics/ships/tp_proot/tp_proot.png",
+    "spriteName": "graphics/tp/ships/tp_proot/tp_proot.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

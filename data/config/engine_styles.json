@@ -1,7 +1,7 @@
 {
-		"RED_LANCE":{
-		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
-		#"glowShape":"graphics/fx/engineflame32.png",
+		"TP_RED_LANCE":{
+		#"glowSprite":"graphics/tp/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/tp/fx/engineflame32.png",
 		"engineColor":[255,45,90,255],
 		"engineCampaignColor":[255,45,90,255],
 		"contrailParticleSizeMult":2,
@@ -14,24 +14,9 @@
 		#"contrailCampaignColor":[120,50,50,50],
 		"type":"GLOW" # GLOW or SMOKE
 	},
-		"GREEN_LANCE":{
-		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
-		#"glowShape":"graphics/fx/engineflame32.png",
-		"engineColor":[45,255,90,255],
-		"engineCampaignColor":[45,255,90,255],
-		"contrailParticleSizeMult":2,
-		"contrailParticleDuration":3,
-		"contrailParticleFinalSizeMult":2.5,
-		"contrailMaxSpeedMult":0.5,
-		"contrailAngularVelocityMult":0.5,
-		"contrailColor":[100,255,100,25],
-		"contrailCampaignColor":[90,200,70,75],
-		#"contrailCampaignColor":[120,50,50,50],
-		"type":"GLOW" # GLOW or SMOKE
-	},
 		"TP_OVERDRIVEN_ENGINE":{
-		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
-		#"glowShape":"graphics/fx/engineflame32.png",
+		#"glowSprite":"graphics/tp/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/tp/fx/engineflame32.png",
 		"engineColor":[255,85,85,255],
 		"engineCampaignColor":[255,85,85,255],
 		"contrailParticleSizeMult":2,
@@ -45,8 +30,8 @@
 		"type":"SMOKE" # GLOW or SMOKE
 	},
 		"TP_OVERDRIVEN_ENGINE_PURPLE":{
-		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
-		#"glowShape":"graphics/fx/engineflame32.png",
+		#"glowSprite":"graphics/tp/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/tp/fx/engineflame32.png",
 		"engineColor":[85,120,255,255],
 		"engineCampaignColor":[85,120,255,255],
 		"contrailParticleSizeMult":2,
@@ -60,8 +45,8 @@
 		"type":"SMOKE" # GLOW or SMOKE
 	},
 		"TP_BLOOD_RED":{
-		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
-		#"glowShape":"graphics/fx/engineflame32.png",
+		#"glowSprite":"graphics/tp/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/tp/fx/engineflame32.png",
 		"engineColor":[255,31,18,255],
 		"engineCampaignColor":[255,31,18,255],
 		"contrailParticleSizeMult":2,
@@ -75,8 +60,8 @@
 		"type":"SMOKE" # GLOW or SMOKE
 	},
 		"TP_BLOOD_RED_SMOKELESS":{
-		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
-		#"glowShape":"graphics/fx/engineflame32.png",
+		#"glowSprite":"graphics/tp/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/tp/fx/engineflame32.png",
 		"engineColor":[255,31,18,255],
 		"engineCampaignColor":[255,31,18,255],
 		"contrailParticleSizeMult":2,
@@ -90,8 +75,8 @@
 		"type":"GLOW" # GLOW or SMOKE
 	},
 		"TP_DEEP_RED_GLOW":{
-		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
-		#"glowShape":"graphics/fx/engineflame32.png",
+		#"glowSprite":"graphics/tp/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/tp/fx/engineflame32.png",
 		"engineColor":[253,6,0,255],
 		"engineCampaignColor":[255,31,18,255],
 		"contrailParticleSizeMult":0,
@@ -104,35 +89,9 @@
 		#"contrailCampaignColor":[120,50,50,50],
 		"type":"GLOW" # GLOW or SMOKE
 	},
-	"TP_BLOOD_RED_LONG_TRAIL":{
-		"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
-		"contrailDuration":1.5,
-		"contrailWidthMult":0.67,
-		"contrailWidthAddedFractionAtEnd":-1f,  # can be negative. makes trail spread out/narrow at the end
-		"contrailMinSeg":5, # min segment length, in pixels
-		"contrailMaxSpeedMult":1f,
-		"contrailAngularVelocityMult":0f,
-		"contrailColor":[253,6,0,255],
-		"type":"GLOW", # GLOW or SMOKE; additive or regular blend mode
-						
-		"glowSprite":"graphics/fx/engineglow32b.png",
-		"glowOutline":"graphics/fx/engineflame32b.png",
-		"omegaMode":true,
-		"glowSizeMult":1,
-		"glowAlternateColor":[150,6,0,255],
-		"engineColor":[253,6,0,255],
-		#"contrailParticleSizeMult":4,
-		#"contrailParticleDuration":1,
-		#"contrailParticleFinalSizeMult":2.5,
-		#"contrailMaxSpeedMult":0.5f,
-		#"contrailAngularVelocityMult":0f,
-		#"contrailColor":[100,165,255,25],
-		#"contrailCampaignColor":[100,165,255,75],
-		#"type":"GLOW" # GLOW or SMOKE
-	},	
 	"TP_REDDISH_LOW_TECH":{
-		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
-		#"glowShape":"graphics/fx/engineflame32.png",
+		#"glowSprite":"graphics/tp/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/tp/fx/engineflame32.png",
 		"engineColor":[255,102,25,255],
 		"engineCampaignColor":[200,90,70,255],
 		"contrailParticleSizeMult":2,
@@ -146,8 +105,8 @@
 		"type":"SMOKE" # GLOW or SMOKE
 	},
 	"TP_RAPACIOUS_EXHAUST":{
-		#"glowSprite":"graphics/fx/engineglow32.png", # not implemented
-		#"glowShape":"graphics/fx/engineflame32.png",
+		#"glowSprite":"graphics/tp/fx/engineglow32.png", # not implemented
+		#"glowShape":"graphics/tp/fx/engineflame32.png",
 		"engineColor":[255,102,25,255],
 		"engineCampaignColor":[200,90,70,255],
 		"contrailParticleSizeMult":2,

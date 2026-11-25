@@ -1,4 +1,4 @@
-package data.scripts.weapons.proj;
+package tp_data.scripts.weapons.proj;
 
 import java.util.Iterator;
 

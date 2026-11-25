@@ -15,5 +15,5 @@
 	"glowRadius":4,
 	"textureScrollSpeed":64.0,
 	"pixelsPerTexel":5.0,
-	"bulletSprite":"graphics/missiles/tp_shell_small_silver.png",
+	"bulletSprite":"graphics/tp/missiles/tp_shell_small_silver.png",
 }

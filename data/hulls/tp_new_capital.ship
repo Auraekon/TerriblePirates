@@ -235,7 +235,7 @@
         0
     ],
     "shieldRadius": 0,
-    "spriteName": "graphics/ships/new_capital/new_capital.png",
+    "spriteName": "graphics/tp/ships/new_capital/new_capital.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

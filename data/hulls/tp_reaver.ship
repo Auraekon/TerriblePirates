@@ -105,7 +105,7 @@
         0
     ],
     "shieldRadius": 75.5,
-    "spriteName": "graphics/ships/tp_reaver/tp_reaver.png",
+    "spriteName": "graphics/tp/ships/tp_reaver/tp_reaver.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

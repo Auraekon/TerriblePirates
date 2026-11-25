@@ -166,7 +166,7 @@
                 -184.97,
                 0.05
             ],
-            "style": "RED_LANCE",
+            "style": "TP_RED_LANCE",
             "width": 33
         },
         {
@@ -177,7 +177,7 @@
                 -160.48,
                 0.11
             ],
-            "style": "RED_LANCE",
+            "style": "TP_RED_LANCE",
             "width": 100
         },
         {
@@ -188,7 +188,7 @@
                 -190.36,
                 -0.06
             ],
-            "style": "RED_LANCE",
+            "style": "TP_RED_LANCE",
             "width": 33
         }
     ],
@@ -201,7 +201,7 @@
         -0.02
     ],
     "shieldRadius": 200,
-    "spriteName": "graphics/ships/tp_rapacious/tp_rapacious.png",
+    "spriteName": "graphics/tp/ships/tp_rapacious/tp_rapacious.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

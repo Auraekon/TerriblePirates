@@ -1,6 +1,6 @@
 {
 	"id":"tp_frag_shock_repeater_shot",
-	"onFireEffect":"data.scripts.weapons.proj.FragShockRepeaterOnFireEffect",
+	"onFireEffect":"tp_data.scripts.weapons.proj.FragShockRepeaterOnFireEffect",
 	"specClass":"projectile",
 	"spawnType":"BALLISTIC",
 	"collisionClass":"NONE",

@@ -112,7 +112,7 @@
         0.02
     ],
     "shieldRadius": 90,
-    "spriteName": "graphics/ships/tp_rook/tp_rook.png",
+    "spriteName": "graphics/tp/ships/tp_rook/tp_rook.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

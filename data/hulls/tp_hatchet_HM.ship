@@ -191,7 +191,7 @@
         -0.11
     ],
     "shieldRadius": 57,
-    "spriteName": "graphics/ships/fighters/tp_hatchet_HM.png",
+    "spriteName": "graphics/tp/ships/fighters/tp_hatchet_HM.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

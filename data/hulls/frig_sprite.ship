@@ -105,7 +105,7 @@
         0
     ],
     "shieldRadius": 75.5,
-    "spriteName": "graphics/ships/frig_sprite/frig_sprite.png",
+    "spriteName": "graphics/tp/ships/frig_sprite/frig_sprite.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

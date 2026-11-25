@@ -114,7 +114,7 @@
         0.07
     ],
     "shieldRadius": 90,
-    "spriteName": "graphics/ships/tp_stormcrow/tp_stormcrow.png",
+    "spriteName": "graphics/tp/ships/tp_stormcrow/tp_stormcrow.png",
     "style": "LOW_TECH",
     "viewOffset": 0,
     "weaponSlots": [

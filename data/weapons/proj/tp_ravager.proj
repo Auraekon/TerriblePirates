@@ -3,7 +3,7 @@
 	"specClass":"missile",
 	"missileType":"ROCKET",
 	#"onHitEffect":"com.fs.starfarer.api.impl.combat.BreachOnHitEffect",
-	"sprite":"graphics/missiles/tp_anniside_rocket.png",
+	"sprite":"graphics/tp/missiles/tp_anniside_rocket.png",
 	"size":[6,12],
 	"center":[3,6],
 	"collisionRadius":8,

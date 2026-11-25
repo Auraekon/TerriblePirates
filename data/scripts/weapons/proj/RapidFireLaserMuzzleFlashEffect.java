@@ -1,4 +1,4 @@
-package data.scripts.weapons.proj;
+package tp_data.scripts.weapons.proj;
 
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.combat.*;
@@ -57,7 +57,7 @@ public class RapidFireLaserMuzzleFlashEffect implements OnFireEffectPlugin {
 
         public LockedMuzzleFlashRenderer(WeaponAPI weapon) {
             this.weapon = weapon;
-            this.sprite = Global.getSettings().getSprite("fx", "laser_splash_flash");
+            this.sprite = Global.getSettings().getSprite("fx", "tp_laser_splash_flash");
         }
 
         @Override

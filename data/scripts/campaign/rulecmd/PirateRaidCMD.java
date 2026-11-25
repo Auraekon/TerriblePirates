@@ -1,4 +1,4 @@
-package data.campaign.rulecmd;
+package tp_data.campaign.rulecmd;
 
 import java.util.List;
 import java.util.Map;
